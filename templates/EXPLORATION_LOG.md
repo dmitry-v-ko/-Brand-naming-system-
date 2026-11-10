@@ -6,16 +6,17 @@ Template only. Copy for a new session outside the checkout; never overwrite an e
 
 - session_id:
 - session_directory: (absolute path outside library)
+- received_through: latest actually received user turn ID; no future fixture access
 - brand_brief: offer; audience; voice; exclusions; pronunciation; assumptions
 - current_stage: BRIEF
 - active_branch: none
 - active_method: none
 - active_universe: none
-- latest_user_decision: exact quote or clearly marked paraphrase; date/turn
-- delegated_choices: scope, provisional selection, reason
-- candidate_pool_summary: total; by branch/form/evidence; saved count; not a favorite list
+- latest_user_decision: received turn ID; original-language exact quote; separately labeled summary if useful
+- delegated_choices: received consent turn ID and scope; agent's provisional selection and reason
+- candidate_pool_summary: unique IDs; total = conforming (retained + rejected) + diagnostics; by branch/form/evidence; saved subset
 - favorites: candidate IDs; shortlist is authoritative for saved details
-- rejected_directions: direction, reason, user versus agent assessment
+- rejected_directions: direction, reason, user turn ID or explicitly agent assessment
 - unexplored_ideas: concrete pending leads, not previously executed claims
 - next_options: deepen; new universe; switch; combine; revisit; shortlist; stop
 
@@ -40,7 +41,9 @@ Reuse an existing ID if exactly the same candidate returns; add branch reference
 
 ## Decision and write journal
 
-| Turn/date | User feedback or instruction | Agent action / state delta | Save/remove consent | Write result / unresolved contradiction |
+| Received turn ID/date | Original-language exact quote; summary separately labeled | Agent action / state delta | Save/remove consent with received turn ID | Write result / unresolved contradiction |
 |---|---|---|---|---|
 
 Update after meaningful research, branching, feedback and selection. Confirm a write only after it succeeds. Never erase parked paths or candidates merely because they were rejected for the current brief.
+
+Before confirming persistence, check both files against received turns only. For audited trials, preserve immutable snapshots after meaningful writes; append corrections without overwriting failed snapshots. See the session contract for the input boundary and fresh-context resume requirements. Keep this audit guidance internal to the session memory.

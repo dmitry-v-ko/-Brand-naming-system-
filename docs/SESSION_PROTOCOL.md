@@ -6,6 +6,8 @@ Resolve a session directory outside the library checkout, such as a sibling `nam
 
 On resume, read both records, summarize the active branch and latest decision, and continue from recorded preferences. Missing state is unknown, not permission to invent previous decisions. Ask one focused question if contradictory feedback affects the next action.
 
+For review evidence, distinguish a same-agent read-back from a fresh-context resume. A fresh reader receives only library instructions and the two current session files, without the executor's transcript, future scenario or expected answers. Record the actual input boundary and reader output outside the library; a disk read by an already informed agent does not demonstrate context isolation.
+
 ## States and transitions
 
 | State | Action | Exit condition |
@@ -41,3 +43,15 @@ Export includes name, method, universe (or not applicable), origin, form, eviden
 When switching, write the former branch as parked and create a child (derivation) or sibling (new direction). Preserve IDs across revisits. An unchanged candidate reused in a new branch keeps its original candidate ID and gains a branch reference. Reconcile favorites in both files after each consent event; if only one file was written, record the incomplete write and repair before claiming persistence. Never copy templates over a resumed session.
 
 No write tools: emit the same fields in chat under “state” and “shortlist,” and state that no file was saved. On a failed write preserve the last confirmed state and provide exportable text. A resume summary names exact favorites, active branch, parked opportunities, rejected directions and the latest actual instruction; unknown prior feedback stays unknown.
+
+## Received-evidence boundary (internal memory and audit)
+
+Assign received user turns stable IDs (`T01`, `T02`, …), including synthetic turns. Record `received_through` in both session files and cite the originating received turn for decisions, delegation scope, rejection and shortlist consent/comments. These are internal references, not extra questions or forms for the naming user. Agent hypotheses, provisional choices and pending questions stay explicitly labeled; they are not user preferences.
+
+Keep exact quotes in their original language and spelling. Put translations or summaries in a separate labeled field; never present them as exact comments. Repeated selection retains the candidate ID and the prior consent/comment history with its turn IDs.
+
+In sequential trials, the executor and any writing helper may access only the received transcript prefix. Do not read future fixture turns, expected preferences, expected comments or answer keys, even when available on disk. The trial controller supplies one turn at a time and keeps future material outside the executor's accessible context; an instruction alone is not evidence that this boundary held.
+
+After each meaningful write, reconcile both files against that received prefix: latest decision, delegated choices, rejected directions, favorites and exact comments. Check that every asserted user fact cites a received turn and no field anticipates a later instruction. Normal session files evolve forward. For audited trials, retain immutable copies of both records at each meaningful write, labeled by received-through turn and write sequence. Append a correction event and create a later snapshot if repair is needed; never replace failed historical checkpoints or retroactively validate them using later feedback. Record final-state reconciliation and historical consistency separately.
+
+Use unique candidate IDs as the counting unit. Report `total records = conforming candidates + out-of-operator diagnostics`; divide conforming candidates into retained and rejected for the current brief. A mechanically valid but rejected candidate remains conforming; an invalid construction remains a diagnostic even if discussed. Shortlisted count is a separate subset of conforming candidates, not an additional total. Keep branch references from double-counting reused IDs and state any other counting unit explicitly.
