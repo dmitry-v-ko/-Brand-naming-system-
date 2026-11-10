@@ -1,0 +1,59 @@
+# Historical roadmap migration
+
+Every original number and slug is retained below. This is a disposition audit, not acceptance of all proposed techniques. Domain tags remain available in the universe index. Deferred narrow sound operations are explicitly preserved; shared family membership does not erase them. New core lexical-research and double-meaning have no original numbered skill equivalent.
+
+| Old number | Old ID | Current disposition |
+|---|---|---|
+| 01 | `word-blending` | Split into fragment-blending and overlap-telescoping; legacy router retained |
+| 02 | `compound-contrast` | intact-word-compounding; contrast is one pairing parameter |
+| 03 | `affix-reframing` | Split into prefix-attachment and suffix-attachment |
+| 04 | `clipping` | clipping |
+| 05 | `back-formation` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 06 | `reduplication` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 07 | `letter-rearrangement` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 08 | `syllable-splicing` | syllable-recombination |
+| 09 | `semantic-compression` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 10 | `spelling-mutation` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 11 | `phonetic-invention` | phonetic-invention |
+| 12 | `sound-symbolism` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 13 | `stress-patterns` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 14 | `alliterative-echo` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 15 | `vowel-harmony` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 16 | `consonant-skeleton` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 17 | `phonetic-minimal-pairs` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 18 | `metaphor-mining` | metaphor-mining |
+| 19 | `analogy-mapping` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 20 | `archetype-mining` | Source/semantic parameter; preserve research lead, no independent active skill claimed |
+| 21 | `opposition-reconciliation` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 22 | `effect-before-cause` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 23 | `material-symbolism` | Source/semantic parameter; preserve research lead, no independent active skill claimed |
+| 24 | `verb-reinterpretation` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 25 | `scale-shifting` | Source/semantic parameter; preserve research lead, no independent active skill claimed |
+| 26 | `cross-language-mining` | cross-language-mining |
+| 27 | `etymological-archaeology` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 28 | `obsolete-english-mining` | lexical-research with historical/archaic universe; historical access not yet demonstrated |
+| 29 | `untranslatable-concepts` | Source/semantic parameter; preserve research lead, no independent active skill claimed |
+| 30 | `loanword-migration` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 31 | `cognate-constellations` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 32 | `toponymic-patterns` | Source/semantic parameter; preserve research lead, no independent active skill claimed |
+| 33 | `false-friends` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 34 | `sci-fi-lexicon-mining` | SCI_FI_PATTERN_RECIPE, reclassified source recipe |
+| 35 | `poetry-image-mining` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 36 | `folklore-object-taxonomy` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 37 | `forgotten-craft-glossaries` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 38 | `historical-stagecraft` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 39 | `music-notation-vocabulary` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 40 | `wine-and-perfume-lexicon` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 41 | `mineralogical-taxonomy` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 42 | `cloud-and-weather-taxonomy` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 43 | `marine-biological-structures` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 44 | `astronomical-instruments` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 45 | `mathematical-topology` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 46 | `botanical-morphology` | Universe parameter in UNIVERSES; use lexical-research/metaphor-mining, not a separate operator |
+| 47 | `corpus-contrast` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 48 | `semantic-distance-jumps` | Deferred research/selection recipe; no execution evidence; not an active skill |
+| 49 | `random-entry-serendipity` | Deferred research/selection recipe; no execution evidence; not an active skill |
+| 50 | `constraint-inversion` | Deferred narrow operator; potential distinctness retained, not implemented or collapsed into an umbrella |
+| 51 | `object-biography` | Deferred research/selection recipe; no execution evidence; not an active skill |
+| 52 | `cross-taxonomy-collision` | Deferred research/selection recipe; no execution evidence; not an active skill |
+| 53 | `archive-time-slice` | Deferred research/selection recipe; no execution evidence; not an active skill |

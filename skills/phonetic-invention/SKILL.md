@@ -1,45 +1,65 @@
----
-id: phonetic-invention
-family: phonetic
-status: draft
-requires: research-optional
-outputs: english-brand-name-candidates
----
+# Phonetic Invention
 
-# Sound-First Neologism Design
+- id: `phonetic-invention`
+- family: sound construction
+- status: draft
+- implementation: complete editorial procedure; independent acceptance pending
+- requires: research-optional
+- outputs: candidate ledger, method artifact, feedback/state delta
 
-## Purpose
-Invent words by sound contour and pronounceability rather than semantic roots. Differentiate from word blending by starting with a desired auditory profile.
+## Mechanism and boundary
 
-## When to use
-Choose this when its mechanism yields a meaningfully different creative search direction from the branches explored so far. Avoid when the user has explicitly rejected the required sound, imagery or lexical source style.
+Construct spoken forms from onset, nucleus and coda constraints, then choose spelling. There are no semantic roots. Unlike `syllable-recombination`, components inside each syllable are generated; unlike sound-symbolic claims, no universal personality is assigned to letters.
 
-## Inputs
-Use the current brand brief: offer, target audience, desired character, exclusions and user taste. Infer provisional constraints when not provided. User can communicate in any language; names must be in English-compatible Latin script.
+## Use, avoid and inputs
+
+Use for meaning-free names with deliberate rhythm and an audience pronunciation target. Avoid when the brand requires an origin story based on real vocabulary, or the user needs validated consumer impressions rather than exploratory sound hypotheses.
+
+Required: audience pronunciation assumptions, desired syllable count and exclusions. Default: broad English-compatible two syllables, initial stress, no three-consonant clusters. Optional: a preferred spoken candidate, spelling simplicity or one sound contrast to test. IPA may be supplemented by plain cues; pronunciations are proposals.
 
 ## Procedure
-1. Translate the brief into acoustic attributes: soft/hard onset, open/closed vowels, 2–4 syllables, stress placement, allowed clusters, preferred final sounds.
-2. Generate 4 distinct phonetic palettes with example nonce syllables; ask the user which feels closest.
-3. For each chosen palette, construct 30–50 pronounceable new forms using English-like onset–nucleus–coda combinations and stress templates.
-4. Alternate consonant and vowel sequences; avoid near-identical endings in the final list. Read each aloud conceptually; provide approximate pronunciation or IPA when confident.
-5. Note possible accidental English words or strong obvious negative associations, without making multilingual legal claims.
-6. Present 10–15 varied candidates, organized by auditory personality, and ask what to retain or mutate next.
 
-## Research plan and provenance
-Web search is optional: use pronunciation dictionaries for analogous sound patterns and common phonotactic constraints. Names themselves are inventions unless separately sourced.
+1. Set C1/V1/C2/V2 constraints, optional final coda, stress and forbidden sequences. Write permitted phonemes before letters.
+2. Build two contrasting palettes: e.g. nasal/liquid onsets versus stop-led onsets. Change one feature in matched examples where possible; do not change vowels, stress and length simultaneously then attribute the effect to one sound.
+3. Fill a small component grid manually, creating eight spoken forms. Reject violations, accidental clusters and ambiguous syllable counts.
+4. Spell six survivors using a consistent sound-to-letter mapping. Compare predicted readings; keep spelling variants attached to the same spoken-form record until selected.
+5. Ask for actual user impressions in identical product introductions. Retain the preferred contrast and generate four near-neighbors, changing one component at a time.
 
-## Interaction and navigation
-Offer preview directions before conducting costly deep research. After generating a cluster, ask whether to (a) dig deeper into it, (b) explore another source territory, (c) combine this with another method, (d) return to the method menu or (e) shortlist selected candidates. The user decides when to stop.
+## Selection and recovery
 
-## Output contract
-For each shortlisted-for-discussion suggestion include: `candidate`, `creative tone`, `derivation`, `lexical status` (`verified attested`, `unverified attested`, `adapted`, `invented`), `source reference if research-derived`, and `spoken/pronunciation note when helpful`. Keep claims proportionate to source evidence.
+Check compliance before aesthetic ranking. Compare pronounceability proposals, family diversity and fit to actual feedback. An association such as “lighter” is a hypothesis, not a test result. If spelling is unstable, choose a clearer mapping or ask one pronunciation preference. If the palette is bland, alter a single dimension (coda or stress), not random extra letters.
 
-## Example (synthetic; not research-verified)
-Synthetic illustrations: `Veluno`, `Tavrix`, `Orelia` (invented here for demonstration only; no uniqueness or availability implied).
+## Research and evidence
 
-## Failure modes
-- Do not claim that a source, dictionary entry or etymology was checked without actually checking it.
-- Do not label a word as original, legally available or trademark-safe.
-- Avoid presenting dozens of orthographic variants as conceptually diverse work.
-- Keep the user's rejected directions visible in the session log, and do not silently reintroduce them.
-- For culturally located vocabulary, preserve nuance and flag likely sensitive material.
+No lexical research is required: form invented, evidence not applicable, sources none. Source S11 is not a table of universal vowel meanings. If a candidate resembles a real word, record the observation as an unverified lead and research only the specific lexical claim. Do not imply an exhaustive language or conflict screen.
+
+Source basis: S19–S20 support sound-direction practice, not a disclosed proprietary algorithm; S11 supports context-dependent sound comparisons only. See [research bibliography](../../docs/research/BRANDING_METHODS_RESEARCH.md). Steps and worked fixtures below are editorial adaptations, not attributed algorithms or efficacy evidence.
+
+## Candidate record and interaction
+
+Use the [session protocol](../../docs/SESSION_PROTOCOL.md) and [source contract](../../docs/SOURCES_AND_RESEARCH.md). Every displayed batch has stable branch/candidate IDs; English spelling; proposed pronunciation/stress where uncertain; exact lineage; separate `form` and `evidence`; source IDs or `none`; useful association and main drawback. Keep intermediate tables in the exploration log or session-owned research notes. Do not put real sessions in this library.
+
+Show two or three contrasting previews before expanding, unless the user already delegated or specified the operation. Ask which property to preserve, not merely which name is “best.” After feedback record the actual words, changed constraints, rejected/parked paths and next options. Praise does not save a name. Add only explicit selections; repeated selection updates the same candidate. A six-name batch is a pause for navigation, never an automatic export.
+
+## Ordered combinations
+
+`phonetic-invention` → `syllable-recombination`: freeze accepted syllables as new units for future family generation. `fragment-blending` → `phonetic-invention`: repair an awkward blend sound with retained source map and an explicit added/deleted phoneme. `phonetic-invention` → `intact-word-compounding`: attach a familiar descriptor as another operation.
+
+## Complete synthetic worked trace
+
+All brand briefs, candidate judgments and user turns below are fixtures, not consumer findings. Source facts are separately identified. IDs are local to this trace.
+
+Brief: precise, welcoming inventory tool; no invented etymology. B01 previews: fluid **Nelo**, stop-led **Telo**, closed **Telok**. User fixture: “Telo feels more precise; avoid a harsh last stop.”
+
+Constraint artifact: two syllables; /ˈCɛ.Coʊ/ where the second nucleus is /oʊ/; first onset ∈ {/n/,/t/}, second onset ∈ {/l/,/m/}; optional final /k/ only in the closed contrast. Stress first. Map /ɛ/→e, /oʊ/→o. There is no claim that n or t inherently means anything.
+
+| ID | Assembly | Output / proposed sound | Assessment |
+|---|---|---|---|
+| B01-C01 | n + ɛ; l + oʊ | Nelo /ˈnɛ.loʊ/ | fluid baseline |
+| B01-C02 | t + ɛ; l + oʊ | Telo /ˈtɛ.loʊ/ | matched initial-onset contrast |
+| B01-C03 | n + ɛ; m + oʊ | Nemo /ˈnɛ.moʊ/ | recognizable fictional resemblance; park, no clearance inference |
+| B01-C04 | t + ɛ; m + oʊ | Temo /ˈtɛ.moʊ/ | useful second-onset contrast |
+| B01-C05 | t + ɛ; l + oʊ + k | Telok /ˈtɛ.loʊk/ | final stop rejected by user |
+| B01-C06 | t + ɛ; l + oʊ + sk | Telosk | reject before presentation: /sk/ coda not permitted |
+
+Repair C06 by removing unauthorized /s/ gives Telok (C05), still disfavored. Remove optional /k/ gives Telo (C02), favored. Refine C02 by changing only second onset /l/→/m/ gives Temo (C04), rather than generating an unrelated name. All invented / not applicable, source none. User fixture: “Save Telo; Temo is less clear to me.” State: favorites=[B01-C02]; constraint=no final stop; rejection=C04 is an actual fixture response, not universal clarity evidence; active B01 REFINE; next=single-vowel contrasts or semantic method. No automatic export.

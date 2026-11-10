@@ -387,3 +387,8 @@ All opened 2026-11-10. The first sixteen entries remain unchanged.
 | S18 | Nucleus, [Brand naming: acronyms – is there advantage in abbreviation?](https://www.nucleus.co.uk/opinion/brand-naming-initial-instincts) | Agency opinion and reported BGTS project; advantages and disadvantages of shortening. Historical cases and percentages not independently checked or relied on. |
 | S19 | Appella, [Our Process](https://www.appella.net/our-process) | Public account of keyword-led compilation, tagged word resources, blending, and meaning-free generated forms. Proprietary software is unavailable; no reconstruction or dependency on it is proposed. |
 | S20 | Tiepograph, [Brand naming agency](https://www.tiepograph.com/) | Public process sections on defining sound direction and constructing neologisms from linguistic elements. Supports practice context only; proprietary resources and performance claims are not independently validated. |
+
+
+## Cycle 01 operational follow-up
+
+The earlier access limits above describe the method-research pass, not all later library work. [Lexical access evidence](LEXICAL_ACCESS_EVIDENCE.md) now records actually opened NWS Virga, Académie élan, SFE Ansible and Collins draft entries, plus one insufficient WMO legacy page and alternate route. Those entries support the new worked lexical trails; they do not retroactively verify every dictionary, corpus or agency tool linked in this research. Current implementations and deferred proposals are distinguished in [the active catalog](../METHOD_CATALOG.md).

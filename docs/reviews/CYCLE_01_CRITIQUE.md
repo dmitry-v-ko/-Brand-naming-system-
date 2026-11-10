@@ -111,3 +111,7 @@ The plan says published-source research “has not yet been performed,” despit
 4. Reconcile the roadmap and distribution instructions with the accepted files. Expand only where an additional operator creates a useful creative route.
 
 A high score should follow demonstrated quality of this loop, not the size of the catalog or the polish of plans. The current repository provides good intentions and governance, but most operational capability remains to be built and shown.
+
+## Arithmetic erratum
+
+The weighted total is **4.05 / 10**: `3 × 0.35 + 4 × 0.20 + 6 × 0.20 + 6 × 0.15 + 1 × 0.10 = 4.05`. The original 4.00 total above is an arithmetic error retained as part of the historical review. The dimension judgments, findings, and fixed rubric are unchanged.

@@ -18,3 +18,8 @@ The owner's “Brand Naming Skills — Project Handoff” is the requirements au
 ## Initial audit
 
 The archive contains 14 Markdown files, five skills, and a 53-entry roadmap. The five starter skills are now `draft`: they need fuller worked examples, method-specific assessment, recovery procedures, and demonstrated distinctness. Several roadmap entries describe universes rather than independent operators. The final method list is under discussion; there is no minimum method count.
+
+
+## Cycle 01 implementation update
+
+The current active inventory is 12 individually documented editorial procedures, pending independent acceptance. The original five-file scaffold and 53-entry roadmap remain historical context, not current capability counts. See METHOD_CATALOG.md and the unchanged review history. The detailed narrow construction techniques are preserved separately; science-fiction material is retained as a universe/pattern recipe. Source retrieval evidence and simulated user feedback are explicitly separate.

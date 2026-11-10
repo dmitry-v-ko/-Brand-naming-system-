@@ -1,22 +1,24 @@
 # Implementation milestones
 
-## 1. Foundation and acceptance contract — in progress
+## Completed in the first improvement cycle
 
-Imported the starter, recorded accepted architecture, corrected maturity claims, and defined state, branch, provenance, and shortlist rules. Next validate these rules with synthetic walkthroughs and align examples and templates fully.
+- Replaced the primary roadmap with a 12-technique operational catalog and closest-neighbor audit; preserved all 53 historical IDs and dispositions.
+- Wrote separate construction, sound, research and semantic procedures with method-specific artifacts, cuts/joins, sources, recovery and synthetic feedback/state changes.
+- Preserved speculative-fiction exploration as a source/pattern recipe, not a domain-only method.
+- Aligned conductor, state/shortlist templates and populated fixtures with stable IDs, parent branches, ordered methods, separate form/evidence, exact consent and standalone export.
+- Method research S01–S20 was already performed; added actually opened lexical trails L01–L04 and insufficient-source F01 fallback. No dictionary access is claimed for unresearched universe previews.
+- Added a complete synthetic walkthrough, manual self-inspection and local Markdown link/consistency checks. See [improvement record](reviews/CYCLE_01_IMPROVEMENTS.md).
 
-## 2. Distinctness audit and five reference skills
+## Acceptance now pending
 
-- Audit all 53 entries by input, operator, intermediate artifact, and output; compare each with its closest neighbor.
-- Move domain-only distinctions into lexical universes. Preserve useful research recipes without counting them as independent methods.
-- Rewrite the initial five skills against the acceptance gates. Demonstrate complete runs and method-specific recovery, not just final names.
-- Consult published English-language sources and relevant open-source repositories. Record actual access and distinguish borrowed frameworks from editorial invention. This research has not yet been performed.
+Independent fresh-context reader execution and rescoring against the unchanged [review protocol](reviews/REVIEW_PROTOCOL.md). Current status is draft despite completed editorial implementation. Do not equate self-inspection, a source being accessible, or heading coverage with independent acceptance. Record findings and repairs before promoting individual skills.
 
-Acceptance: five independently usable skills passing every gate, an honest inventory, and no numerical quota; the owner removed the minimum of 50 methods.
+## Deliberately deferred
 
-## 3. Expand accepted coverage
+Phrase extraction/substitution, rhyme, alliteration, repetition, metonymy, explicit historical etymological tracing and other narrow operators remain useful research/authoring opportunities in [method research](research/BRANDING_METHODS_RESEARCH.md) and [migration](archive/ROADMAP_MIGRATION.md). They are not implemented menu options. Extend only when the new procedure adds a meaningful operation and matches the depth of the core; do not impose a count target.
 
-Develop small batches across construction, sound, semantics, historical and cross-language research, and experimental discovery. Compare neighboring methods before accepting additions. Enrich universe cards with character, illustrative terminology, research routes, and applicable operators; discover worlds beyond the starter list.
+Native-speaker/context review, consumer studies and commercial naming outcomes have not been performed. They are not prerequisites for a Markdown operational library but must never be claimed. Research recipes have limited demonstrated source coverage; deeper historical corpora and non-English sources remain future work.
 
-## 4. Distribution
+## Distribution
 
-Validate local links, maturity consistency, source provenance, session scenarios, and English repository content. Document GitHub and Codex Desktop usage. Select an open-source license with the owner before claiming licensed distribution. Deliver a ZIP and Git history; remote publication requires an identified authorized destination.
+Local/Codex usage is documented in [README](../README.md). No application, mandatory API or runtime is planned. License choice and remote publication remain owner decisions; no remote work or publication is part of this cycle.

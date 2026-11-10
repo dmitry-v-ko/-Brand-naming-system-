@@ -32,3 +32,12 @@ Update the exploration log after meaningful research, feedback, branching, or se
 Save only explicitly selected candidates to the shortlist. Praise alone is not a save instruction. Clarify ambiguous selections. Preserve exact spelling and user comments. Removal and substantive replacement require user approval. Repeated selection updates an existing entry rather than duplicating it. Around 20–25 entries offer voluntary review without blocking additions.
 
 Export includes name, method, universe (or not applicable), origin, form, evidence, source references, and user comments when available. Keep unresolved claims labeled. State once that clearance has not been performed. Never claim a file was saved unless the write succeeded.
+
+
+## Concrete evidence and reconciliation rules
+
+`verified` applies to an ingredient/sense actually inspected, not to effectiveness, availability or the complete invented string. A supplied ordinary-English fixture ingredient may use `not applicable` when no external research claim is made. Mixed-source candidates list evidence per source; any unresolved asserted meaning makes overall lineage evidence `unverified`. Source IDs are scoped to a session; bibliography IDs must be explicitly labeled as such.
+
+When switching, write the former branch as parked and create a child (derivation) or sibling (new direction). Preserve IDs across revisits. An unchanged candidate reused in a new branch keeps its original candidate ID and gains a branch reference. Reconcile favorites in both files after each consent event; if only one file was written, record the incomplete write and repair before claiming persistence. Never copy templates over a resumed session.
+
+No write tools: emit the same fields in chat under “state” and “shortlist,” and state that no file was saved. On a failed write preserve the last confirmed state and provide exportable text. A resume summary names exact favorites, active branch, parked opportunities, rejected directions and the latest actual instruction; unknown prior feedback stays unknown.

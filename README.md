@@ -1,48 +1,34 @@
 # Brand Naming Skills — Creative Research Library
 
-A portable, English-language instruction library for research-enabled LLM agents creating **English brand names** while conversing with users in **any language**.
+A Markdown-only instruction library for agents creating **English brand names** while conversing in the user's language. It combines specific construction and sound procedures with real lexical research, nonlinear exploration and user-owned favorites.
 
-## Status
+## Current scope
 
-**Starter scaffold, not a completed method collection.** This release contains 5 draft skills and an indexed roadmap of 53 candidate entries requiring a distinctness audit. The other 48 entries are research and authoring targets. None of the five drafts has passed the revised acceptance standard yet.
+[12 narrow procedures](docs/METHOD_CATALOG.md) now include intact compounding, fragment blending, genuine overlap, clipping, separate prefix/suffix attachment, syllable recombination, phonetic invention, lexical research, cross-language search, metaphor and double meaning. Every procedure has a worked synthetic trace, intermediate artifacts and recovery. Status remains **draft pending independent acceptance**, not commercially validated. The old 53-entry list is [historical](docs/archive/INITIAL_53_ENTRY_ROADMAP.md), not the active inventory. There is no numerical minimum.
 
-## Quick start
+## Local / Codex Desktop start
 
-1. Give an LLM agent access to this repository and its `AGENTS.md` instructions (or paste `AGENTS.md` into its project/system instructions).
-2. Tell it what needs naming, in any language.
-3. The agent builds a concise brief, suggests distinct creative paths, and asks which path to explore.
-4. Work recursively: select a method, select a lexical universe, research sources, explore candidates, dig deeper, switch universe, or return to methods.
-5. The agent updates session-owned `EXPLORATION_LOG.md` and `SHORTLIST.md` separately from this repository, where file tools are available.
-6. The user decides when to stop; export `SHORTLIST.md` for later work.
+1. Open this checkout as the project in Codex Desktop (for example `/workspace/brand-naming`). Have the agent read [AGENTS.md](AGENTS.md), then the active catalog and selected skill. No package install, runtime, API key or build is required.
+2. Start a naming session with a directory outside the checkout, for example `/workspace/naming-sessions/studio-01/`. Tell the agent: “Use this library to name my creative draft workspace. Converse in my language; names in English. Keep actual session records in that sibling directory. Read existing records before resuming.” The example path is a proposal, not a claim that it was created.
+3. For a new session the agent creates that directory and copies the two [templates](templates/EXPLORATION_LOG.md), [shortlist](templates/SHORTLIST.md). For an existing one it reads both without overwriting. With no write capability it uses equivalent in-chat records and says no file was saved.
+4. Choose a direction, or explicitly delegate the choice. The agent offers actual operator previews and surprising [universes](lexical-universes/UNIVERSES.md), researches the selected branch, shows a focused batch, and lets you deepen, switch, combine, revisit or pause.
+5. Select favorites by exact spelling or stable ID. “I like it” does not save it. Ask for an export when wanted; exploration never auto-finishes because a quota is met.
 
-## Repository map
+Read the [integrated fixture](examples/DEMO.md) and its populated [state](examples/fixtures/EXPLORATION_LOG.md)/[shortlist](examples/fixtures/SHORTLIST.md) to see source failure, hybridization, sound refinement, switching, resuming and exact export. They are synthetic examples, not real user records or independent usability studies.
 
-- `AGENTS.md` — session conductor / master instructions
-- `skills/*/SKILL.md` — five draft creative research skills
-- `docs/METHOD_CATALOG.md` — 53-method roadmap and maturity labels
-- `docs/SKILL_SPEC.md` — required skill authoring standard
-- `lexical-universes/UNIVERSES.md` — reusable research territories to propose to the user
-- `templates/EXPLORATION_LOG.md` and `templates/SHORTLIST.md` — **templates only**; real files live in the user's session/workspace
-- `examples/DEMO.md` — fictional user flow illustrating state transitions
+## Repository map and evidence
 
-## Scope and safety
+- [Conductor](AGENTS.md) and [session protocol](docs/SESSION_PROTOCOL.md): navigation, consent and portable memory.
+- [Catalog](docs/METHOD_CATALOG.md) and `skills/*/SKILL.md`: exact operators, neighbors and procedures.
+- [Method research](docs/research/BRANDING_METHODS_RESEARCH.md): attributed practice evidence; editorial algorithms distinguished.
+- [Lexical access evidence](docs/research/LEXICAL_ACCESS_EVIDENCE.md): actually opened source entries and one insufficient-source fallback.
+- [Universe cards](lexical-universes/UNIVERSES.md) and [SF pattern recipe](lexical-universes/SCI_FI_PATTERN_RECIPE.md): source parameters, not inflated method counts.
+- [Cycle improvement record](docs/reviews/CYCLE_01_IMPROVEMENTS.md) and [manual validation](docs/reviews/CYCLE_01_MANUAL_VALIDATION.md): changes, limits and acceptance still needed.
 
-- In scope: discovery, invention, creative adaptation, source citations, preferences, shortlist curation.
-- Out of scope: trademark clearance, patent analysis, domain availability, legal opinions and assertions of uniqueness.
-- Never represent fictional, invented, or unverified words as attested dictionary terms. Distinguish direct citations/attested lexical items from adaptations and inventions.
-- Do not reproduce lengthy passages from copyrighted books; extract only brief terms and cite bibliographic details when available.
-- Cultural context matters: do not present sacred, restricted or culturally sensitive terms as neutral brand assets.
+## Boundaries and distribution
 
-## Portability
+Form (`attested`, `adapted`, `invented`) is separate from evidence (`verified`, `unverified`, `not applicable`). A verified ingredient does not make a newly constructed name an attested word. Pronunciations and audience impressions remain proposals unless actually supported.
 
-The library is plain Markdown. An agent needs file-reading and preferably web research capabilities. With no file-write capability, it can maintain the two session documents inline and offer exports. Tools are optional, not assumed.
+No trademark, patent, domain availability, registration or legal clearance is included. Export is for a separate future workflow. Do not claim uniqueness, reproduce extended fiction passages or invent cultural provenance. Real sessions live outside this library.
 
-## Development status
-
-See [project context](docs/context.md), [implementation milestone](docs/IMPLEMENTATION_PLAN.md), and [session state contract](docs/SESSION_PROTOCOL.md). This is a Markdown-only library; no runtime or API dependency is required.
-
-The owner has removed the minimum of 50 methods. Final coverage is determined by operational depth, distinctness, and creative usefulness; the roadmap is being reconsidered.
-
-## Applied-method research
-
-[Branding methods research](docs/research/BRANDING_METHODS_RESEARCH.md) reviews practitioner sources and proposes narrow agent procedures. It is research input for catalog revision, not a collection of accepted skills.
+The project is portable to GitHub and Codex Desktop, but no remote destination or open-source license is configured. Local review needs neither. See [context](docs/context.md) and [milestones](docs/IMPLEMENTATION_PLAN.md).

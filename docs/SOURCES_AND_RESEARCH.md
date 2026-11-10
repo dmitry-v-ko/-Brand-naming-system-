@@ -1,19 +1,25 @@
-# Research source checklist
+# Research and provenance contract
 
-This file is **a research plan**, not a claim that every source has been visited or verified during scaffold creation.
+Read [method research](research/BRANDING_METHODS_RESEARCH.md) for attributed practice evidence and [actual lexical retrieval](research/LEXICAL_ACCESS_EVIDENCE.md) for tested source paths. A source index is a starting point, not proof every linked item was read.
 
-Useful source classes: official taxonomy standards, historical dictionaries, dictionaries of science-fiction terms, museum and public-library glossaries, scientific abstracts, licensed or public-domain text corpora, wine-tasting and perfumery classification vocabularies, linguistics papers on word formation and brand phonetics.
+## Source record
 
-For each source-derived item record:
+Assign stable `S01` etc. within a session; library L01–L03 references may be copied with their URLs and access date. Do not confuse session source IDs with bibliography S01–S20.
 
-| Field | Requirement |
+| Field | Required content |
 |---|---|
-| Term | Exact short word or term |
-| Source | URL or bibliographic citation actually consulted |
-| Language / date | Only if supported |
-| Definition | Concise and source-faithful |
-| Status | Verified attested / unverified / inferred / invented |
-| Transformation | Steps taken from term to proposed brand name |
-| Caveat | Cultural sensitivity, uncertain pronunciation, distinctive fictional IP, etc. |
+| ID / access | Stable ID, retrieval date, tool or manual access; success, insufficient, unavailable or unverified lead |
+| Citation / locator | URL and publisher; exact entry, numbered sense, page or section actually inspected |
+| Ingredient | Exact spelling and original script; language only when supported |
+| Supported sense | Faithful short paraphrase and important exclusions; distinguish observation from inference |
+| Evidence | `verified`, `unverified`, or `not applicable`; what precisely is verified |
+| Candidate lineage | Candidate ID, ordered operations, retained/deleted/added units |
+| Limit | Pronunciation proposal, uncertain translation, borrowed fictional salience, contextual/cultural uncertainty |
 
-Never fabricate access to an inaccessible work. Don't claim legal clearance.
+Form belongs to the candidate: `attested` = unchanged observed lexical form; `adapted` = modified single-source form; `invented` = assembled/new form. Evidence belongs to claimed lexical lineage: a new compound can be `invented / verified` when every claimed sourced ingredient is supported. That never verifies the compound as a word, brand or commercial asset. Use `unverified` if any semantic source claim remains unsupported; `not applicable` for meaning-free invention or supplied fixture vocabulary without research claims. Record per-source evidence when mixed.
+
+## Bounded search and fallback
+
+Start with two or three queries: exact concept + official glossary/dictionary; headword + reference domain; adjacent concept + reference. Open up to two useful entries per direction before expanding. Search snippets, machine translation and an agent's memory are leads. Verify the relevant sense in an opened page; record failed access too. After two failed routes, offer verified adjacent material or an explicitly unverified research branch. Do not manufacture a definition to keep generation moving.
+
+For cross-language material retain original script, specific sense, literal gloss, transliteration separately from English-facing adaptation, and unverified pronunciation notes. Do not call an arbitrary string an ancient root. For fiction record edition/work or the actual secondary reference; extract general patterns without copying a distinctive franchise name. No legal, patent, trademark or domain checks are part of these procedures.

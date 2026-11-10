@@ -1,22 +1,13 @@
-# Creative Naming Shortlist — SESSION FILE (template)
+# Shortlist — session template
 
-> Names in this file are **creative candidates only**. No trademark, patent, domain or other clearance has been performed. Copy into a session workspace; keep separate from the skills repository.
+Template only. Actual session file belongs outside the checkout. Empty means no explicit selections yet. Praise is not consent. Preserve exact spelling and candidate ID; repeated selection updates comments on the existing row. Only the user may authorize removal or substantive replacement. At about 20–25 entries offer voluntary grouping/pruning; continue additions if desired.
 
-## Brand brief snapshot
-- Product / audience:
-- Desired personality:
-- Exclusions:
+- session_id:
+- session_directory:
+- last_updated:
+- clearance: Not performed; all entries require a separate future workflow.
 
-## User-selected candidates
-| # | Name | Status (liked / strong favorite / hold) | Method | Lexical origin and source | Form (attested / adapted / invented) | User note | Next creative variation |
-|---|---|---|---|---|---|---|---|
+| Candidate ID | Exact name | Proposed pronunciation | Ordered method IDs | Universe or not applicable | Origin / source term and supported sense | Exact transformations | Form | Evidence of claimed lineage | Source references | User selection / comments |
+|---|---|---|---|---|---|---|---|---|---|---|
 
-## Preferences emerging from selections
-- 
-
-## Export handoff
-- Date:
-- Owner:
-- Clearance status: **NOT STARTED**
-
-> On reaching around 20–25 entries, ask whether the user wants a review; never delete or downgrade a favorite without consent.
+Keep source citations sufficient for standalone export: URL, exact entry/section, access date and uncertainty, not bare IDs pointing to inaccessible memory. A verified ingredient never makes an invented name an attested word. Export only these explicitly selected rows and preserve every field.
