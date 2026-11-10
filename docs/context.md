@@ -26,4 +26,10 @@ The first improvement cycle produced 12 individually documented editorial proced
 
 ## Subsequent owner scope decision
 
-The owner removed double meaning as a standalone method. The active inventory is now 11. The former procedure is archived, not offered in menus. Multiple meanings may be recorded as a candidate property; no new generation route or mandatory transformation follows from them. Verified rare words may be proposed unchanged. The independent 9.03/10 review describes the prior twelve-procedure snapshot and is preserved without retrospective rescoring.
+The owner removed double meaning as a standalone method. This scope change left 11 active methods before the subsequent expansion. The former procedure is archived, not offered in menus. Multiple meanings may be recorded as a candidate property; no new generation route or mandatory transformation follows from them. Verified rare words may be proposed unchanged. The independent 9.03/10 review describes the prior twelve-procedure snapshot and is preserved without retrospective rescoring.
+
+## Approved seven-method expansion
+
+The owner approved adding historical lexical archaeology, etymological research, literary word-formation transfer, corpus contrast, onomatopoeic naming, reduplication/echo forms, and pronunciation-conscious respelling. All seven files and catalog entries have now been created, giving 18 active methods. Independent review of the expanded collection is pending. Each remains a separately detailed narrow procedure. Historical vocabulary can be used unchanged; transformation is optional. Double meaning remains retired.
+
+After implementation, run a new independent critique/improvement cycle against the unchanged review rubric until the unrounded weighted score is at least 9/10 and no unresolved critical defect contradicts it. Previous reviews apply to their historical snapshots and must not be presented as acceptance of this expansion.

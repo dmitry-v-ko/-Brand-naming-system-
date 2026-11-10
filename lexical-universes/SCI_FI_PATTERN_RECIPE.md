@@ -1,10 +1,10 @@
 # Speculative-fiction pattern research recipe
 
-Type: universe research recipe, not an independent generation-method count. Editorial implementation; actual source L03 is recorded in [lexical evidence](../docs/research/LEXICAL_ACCESS_EVIDENCE.md).
+Type: universe entry point for [literary-word-formation](../skills/literary-word-formation/SKILL.md), not an additional generation-method count. Editorial implementation; actual source L03 is recorded in [lexical evidence](../docs/research/LEXICAL_ACCESS_EVIDENCE.md).
 
 ## When and what to collect
 
-Use for future nostalgia, imagined instruments and technology with human qualities. Avoid if recognizable franchise vocabulary dominates or if the product needs literal scientific claims. Required: brand promise, acceptable strangeness, and selected existing operator. Default: two reference entries, two general patterns, three unrelated original constructions. An accessible secondary entry is enough to study a pattern, not enough to claim direct reading of its cited novel.
+Use for future nostalgia, imagined instruments and technology with human qualities. Avoid if recognizable franchise vocabulary dominates or if the product needs literal scientific claims. Required: brand promise, acceptable strangeness, and selected underlying construction operator. Follow the literary-word-formation procedure for the observed-pattern analysis and transfer; this page supplies the SF-specific source route. Default: two reference entries, two general patterns, three unrelated original constructions. An accessible secondary entry is enough to study a pattern, not enough to claim direct reading of its cited novel.
 
 ## Retrieval and extraction
 

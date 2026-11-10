@@ -11,14 +11,18 @@
 
 ## Current acceptance
 
-Independent fresh-context execution and rescoring reached 9.03/10 under the unchanged [review protocol](reviews/REVIEW_PROTOCOL.md); see the [final critique](reviews/CYCLE_03_CRITIQUE.md). Acceptance covers the bounded library and demonstrated session behavior. Individual skills remain draft pending per-skill acceptance; not every procedure has been independently executed end to end. The review covered twelve procedures; a subsequent owner decision retired double meaning, leaving eleven active procedures.
+Independent fresh-context execution and rescoring reached 9.03/10 under the unchanged [review protocol](reviews/REVIEW_PROTOCOL.md); see the [final critique](reviews/CYCLE_03_CRITIQUE.md). Acceptance covers the bounded library and demonstrated session behavior. Individual skills remain draft pending per-skill acceptance; not every procedure has been independently executed end to end. The review covered twelve procedures; a subsequent owner decision retired double meaning, leaving eleven at that stage. The subsequent seven-method expansion brings the active inventory to eighteen; it requires its own independent review.
 
 ## Deliberately deferred
 
-Phrase extraction/substitution, rhyme, alliteration, repetition, metonymy, explicit historical etymological tracing and other narrow operators remain useful research/authoring opportunities in [method research](research/BRANDING_METHODS_RESEARCH.md) and [migration](archive/ROADMAP_MIGRATION.md). They are not implemented menu options. Extend only when the new procedure adds a meaningful operation and matches the depth of the core; do not impose a count target.
+Phrase extraction/substitution, rhyme, alliteration, metonymy and other unimplemented narrow operators remain useful research/authoring opportunities in [method research](research/BRANDING_METHODS_RESEARCH.md) and [migration](archive/ROADMAP_MIGRATION.md). They are not implemented menu options. Extend only when the new procedure adds a meaningful operation and matches the depth of the core; do not impose a count target.
 
 Native-speaker/context review, consumer studies and commercial naming outcomes have not been performed. They are not prerequisites for a Markdown operational library but must never be claimed. Research recipes have limited demonstrated source coverage; deeper historical corpora and non-English sources remain future work.
 
 ## Distribution
 
 Local/Codex usage is documented in [README](../README.md). No application, mandatory API or runtime is planned. The owner selected [the GitHub repository](https://github.com/dmitry-v-ko/-Brand-naming-system-) for publication. Preserve the MIT License and initial history already present there. GitHub distribution publishes these Markdown instructions; no application runtime is deployed.
+
+## Seven-method expansion
+
+Added separately detailed historical lexical archaeology, etymological tracing, literary word-formation transfer, corpus contrast, onomatopoeic naming, reduplication and respelling. Their [source evidence](research/EXPANSION_EVIDENCE.md) separates inspected facts from editorial procedures. Active catalog: eighteen. Next: independent fresh-context critique, targeted improvements and reassessment under the unchanged rubric until the unrounded result is at least nine with no critical defect. Preserve old reviews as snapshots.

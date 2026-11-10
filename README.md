@@ -4,9 +4,9 @@ A Markdown-only instruction library for agents creating **English brand names** 
 
 ## Current scope
 
-[11 narrow procedures](docs/METHOD_CATALOG.md) now include intact compounding, fragment blending, genuine overlap, clipping, separate prefix/suffix attachment, syllable recombination, phonetic invention, lexical research, cross-language search and metaphor. Every procedure has a worked synthetic trace, intermediate artifacts and recovery. Skills remain **draft pending per-skill acceptance**, not commercially validated. The old 53-entry list is [historical](docs/archive/INITIAL_53_ENTRY_ROADMAP.md), not the active inventory. There is no numerical minimum.
+[18 narrow procedures](docs/METHOD_CATALOG.md) now include intact compounding, fragment blending, genuine overlap, clipping, separate prefix/suffix attachment, syllable recombination, phonetic invention, lexical research, cross-language search and metaphor. Seven additions cover historical lexical archaeology, etymology, literary pattern transfer, corpus contrast, onomatopoeia, reduplication and respelling. Every procedure has a worked synthetic trace, intermediate artifacts and recovery. Skills remain **draft pending per-skill acceptance**, not commercially validated. The old 53-entry list is [historical](docs/archive/INITIAL_53_ENTRY_ROADMAP.md), not the active inventory. There is no numerical minimum.
 
-The [independent improvement cycle](docs/reviews/README.md) reached **9.03/10** on 2026-11-10 under a fixed rubric. Acceptance covers the bounded library and demonstrated conductor/session behavior; it does not establish independent execution of every procedure or commercial effectiveness. That review covered the earlier twelve-procedure inventory; the owner subsequently removed double meaning as a standalone method, leaving eleven.
+The [independent improvement cycle](docs/reviews/README.md) reached **9.03/10** on 2026-11-10 under a fixed rubric. Acceptance covers the bounded library and demonstrated conductor/session behavior; it does not establish independent execution of every procedure or commercial effectiveness. That review covered the earlier twelve-procedure inventory; the owner subsequently removed double meaning as a standalone method, leaving eleven at that stage. The subsequent seven-method expansion has a new review cycle; the earlier score is not acceptance of the eighteen-method inventory.
 
 ## Local / Codex Desktop start
 
@@ -23,6 +23,7 @@ Read the [integrated fixture](examples/DEMO.md) and its populated [state](exampl
 - [Conductor](AGENTS.md) and [session protocol](docs/SESSION_PROTOCOL.md): navigation, consent and portable memory.
 - [Catalog](docs/METHOD_CATALOG.md) and `skills/*/SKILL.md`: exact operators, neighbors and procedures.
 - [Method research](docs/research/BRANDING_METHODS_RESEARCH.md): attributed practice evidence; editorial algorithms distinguished.
+- [Expansion evidence](docs/research/EXPANSION_EVIDENCE.md): actual historical/literary sources, bounded corpus counts, sound and spelling references.
 - [Lexical access evidence](docs/research/LEXICAL_ACCESS_EVIDENCE.md): actually opened source entries and one insufficient-source fallback.
 - [Universe cards](lexical-universes/UNIVERSES.md) and [SF pattern recipe](lexical-universes/SCI_FI_PATTERN_RECIPE.md): source parameters, not inflated method counts.
 - [Review history and current acceptance](docs/reviews/README.md): independent critiques, improvements, actual trials, and remaining limits.

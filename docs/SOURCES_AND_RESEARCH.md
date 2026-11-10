@@ -23,3 +23,7 @@ Form belongs to the candidate: `attested` = unchanged observed lexical form; `ad
 Start with two or three queries: exact concept + official glossary/dictionary; headword + reference domain; adjacent concept + reference. Open up to two useful entries per direction before expanding. Search snippets, machine translation and an agent's memory are leads. Verify the relevant sense in an opened page; record failed access too. After two failed routes, offer verified adjacent material or an explicitly unverified research branch. Do not manufacture a definition to keep generation moving.
 
 For cross-language material retain original script, specific sense, literal gloss, transliteration separately from English-facing adaptation, and unverified pronunciation notes. Do not call an arbitrary string an ancient root. For fiction record edition/work or the actual secondary reference; extract general patterns without copying a distinctive franchise name. No legal, patent, trademark or domain checks are part of these procedures.
+
+## Seven-method expansion evidence
+
+Use the [expansion evidence index](research/EXPANSION_EVIDENCE.md) for dated historical senses, typed etymological relationships, inspected literary mechanisms, bounded corpus counts and sound/spelling source claims. Library bibliography IDs must be mapped to session-scoped IDs; a verified source observation does not make a generated spelling attested or its branding effect verified.
