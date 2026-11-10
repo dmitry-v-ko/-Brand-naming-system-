@@ -42,3 +42,7 @@ The library is plain Markdown. An agent needs file-reading and preferably web re
 See [project context](docs/context.md), [implementation milestone](docs/IMPLEMENTATION_PLAN.md), and [session state contract](docs/SESSION_PROTOCOL.md). This is a Markdown-only library; no runtime or API dependency is required.
 
 The owner has removed the minimum of 50 methods. Final coverage is determined by operational depth, distinctness, and creative usefulness; the roadmap is being reconsidered.
+
+## Applied-method research
+
+[Branding methods research](docs/research/BRANDING_METHODS_RESEARCH.md) reviews practitioner sources and proposes narrow agent procedures. It is research input for catalog revision, not a collection of accepted skills.
