@@ -4,7 +4,9 @@ A Markdown-only instruction library for agents creating **English brand names** 
 
 ## Current scope
 
-[12 narrow procedures](docs/METHOD_CATALOG.md) now include intact compounding, fragment blending, genuine overlap, clipping, separate prefix/suffix attachment, syllable recombination, phonetic invention, lexical research, cross-language search, metaphor and double meaning. Every procedure has a worked synthetic trace, intermediate artifacts and recovery. Status remains **draft pending independent acceptance**, not commercially validated. The old 53-entry list is [historical](docs/archive/INITIAL_53_ENTRY_ROADMAP.md), not the active inventory. There is no numerical minimum.
+[12 narrow procedures](docs/METHOD_CATALOG.md) now include intact compounding, fragment blending, genuine overlap, clipping, separate prefix/suffix attachment, syllable recombination, phonetic invention, lexical research, cross-language search, metaphor and double meaning. Every procedure has a worked synthetic trace, intermediate artifacts and recovery. Skills remain **draft pending per-skill acceptance**, not commercially validated. The old 53-entry list is [historical](docs/archive/INITIAL_53_ENTRY_ROADMAP.md), not the active inventory. There is no numerical minimum.
+
+The [independent improvement cycle](docs/reviews/README.md) reached **9.03/10** on 2026-11-10 under a fixed rubric. Acceptance covers the bounded library and demonstrated conductor/session behavior; it does not establish independent execution of every procedure or commercial effectiveness.
 
 ## Local / Codex Desktop start
 
@@ -23,7 +25,7 @@ Read the [integrated fixture](examples/DEMO.md) and its populated [state](exampl
 - [Method research](docs/research/BRANDING_METHODS_RESEARCH.md): attributed practice evidence; editorial algorithms distinguished.
 - [Lexical access evidence](docs/research/LEXICAL_ACCESS_EVIDENCE.md): actually opened source entries and one insufficient-source fallback.
 - [Universe cards](lexical-universes/UNIVERSES.md) and [SF pattern recipe](lexical-universes/SCI_FI_PATTERN_RECIPE.md): source parameters, not inflated method counts.
-- [Cycle improvement record](docs/reviews/CYCLE_01_IMPROVEMENTS.md) and [manual validation](docs/reviews/CYCLE_01_MANUAL_VALIDATION.md): changes, limits and acceptance still needed.
+- [Review history and current acceptance](docs/reviews/README.md): independent critiques, improvements, actual trials, and remaining limits.
 
 ## Boundaries and distribution
 
