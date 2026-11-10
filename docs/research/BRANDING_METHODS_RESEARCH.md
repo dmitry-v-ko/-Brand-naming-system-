@@ -2,6 +2,8 @@
 
 Research date: 2026-11-10. Status: research and editorial recommendations, not accepted skills.
 
+Subsequent owner decision: double meaning is excluded as a standalone method from the active catalog. Its discussion below remains historical research, not an instruction to offer or reintroduce it. Multiple meanings can be candidate notes in lexical research.
+
 ## Scope and evidence
 
 This review prioritizes techniques actually discussed in brand-naming practice and amenable to explicit agent operations. It does not establish a numerical target, prove commercial effectiveness, or perform clearance. The owner prefers narrow techniques with detailed instructions even when several belong to one family.

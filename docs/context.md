@@ -22,4 +22,8 @@ The archive contains 14 Markdown files, five skills, and a 53-entry roadmap. The
 
 ## Cycle 01 implementation update
 
-The current active inventory is 12 individually documented editorial procedures, pending independent acceptance. The original five-file scaffold and 53-entry roadmap remain historical context, not current capability counts. See METHOD_CATALOG.md and the unchanged review history. The detailed narrow construction techniques are preserved separately; science-fiction material is retained as a universe/pattern recipe. Source retrieval evidence and simulated user feedback are explicitly separate.
+The first improvement cycle produced 12 individually documented editorial procedures; that inventory describes a historical stage. The original five-file scaffold and 53-entry roadmap remain historical context, not current capability counts. See METHOD_CATALOG.md and the unchanged review history. The detailed narrow construction techniques are preserved separately; science-fiction material is retained as a universe/pattern recipe. Source retrieval evidence and simulated user feedback are explicitly separate.
+
+## Subsequent owner scope decision
+
+The owner removed double meaning as a standalone method. The active inventory is now 11. The former procedure is archived, not offered in menus. Multiple meanings may be recorded as a candidate property; no new generation route or mandatory transformation follows from them. Verified rare words may be proposed unchanged. The independent 9.03/10 review describes the prior twelve-procedure snapshot and is preserved without retrospective rescoring.

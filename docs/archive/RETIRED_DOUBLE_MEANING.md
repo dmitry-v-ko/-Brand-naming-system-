@@ -1,8 +1,10 @@
-# Double Meaning
+# Double Meaning — retired procedure
+
+> Historical procedure, retired at the owner's request on 2026-11-10. Not an active skill or menu option. Multiple meanings may be noted as a candidate property during lexical research; they are not a separate generation route. See the [current catalog](../METHOD_CATALOG.md).
 
 - id: `double-meaning`
 - family: semantic intersection
-- status: draft
+- status: retired
 - implementation: complete editorial procedure; independent acceptance pending
 - requires: research-required for attested senses
 - outputs: candidate ledger, method artifact, feedback/state delta
@@ -31,13 +33,13 @@ Select supported dual relevance, effortless reading and tolerable ambiguity. A v
 
 ## Research and evidence
 
-[L04](../../docs/research/LEXICAL_ACCESS_EVIDENCE.md) is an actually opened Collins entry for draft. Its COBUILD senses 1 and 3 support early written version and unwanted airflow, with US/UK regional distinction. Other leads in the fixture remain unverified. If access fails, show the two proposed sentences as hypotheses, request/propose a dictionary route and do not claim attested dual meaning.
+[L04](../research/LEXICAL_ACCESS_EVIDENCE.md) is an actually opened Collins entry for draft. Its COBUILD senses 1 and 3 support early written version and unwanted airflow, with US/UK regional distinction. Other leads in the fixture remain unverified. If access fails, show the two proposed sentences as hypotheses, request/propose a dictionary route and do not claim attested dual meaning.
 
-Source basis: S04 multiple applicable meanings; S12 lexical wordplay; lexical trail L04. See [research bibliography](../../docs/research/BRANDING_METHODS_RESEARCH.md). Steps and worked fixtures below are editorial adaptations, not attributed algorithms or efficacy evidence.
+Source basis: S04 multiple applicable meanings; S12 lexical wordplay; lexical trail L04. See [research bibliography](../research/BRANDING_METHODS_RESEARCH.md). Steps and worked fixtures below are editorial adaptations, not attributed algorithms or efficacy evidence.
 
 ## Candidate record and interaction
 
-Use the [session protocol](../../docs/SESSION_PROTOCOL.md) and [source contract](../../docs/SOURCES_AND_RESEARCH.md). Every displayed batch has stable branch/candidate IDs; English spelling; proposed pronunciation/stress where uncertain; exact lineage; separate `form` and `evidence`; source IDs or `none`; useful association and main drawback. Keep intermediate tables in the exploration log or session-owned research notes. Do not put real sessions in this library.
+Use the [session protocol](../SESSION_PROTOCOL.md) and [source contract](../SOURCES_AND_RESEARCH.md). Every displayed batch has stable branch/candidate IDs; English spelling; proposed pronunciation/stress where uncertain; exact lineage; separate `form` and `evidence`; source IDs or `none`; useful association and main drawback. Keep intermediate tables in the exploration log or session-owned research notes. Do not put real sessions in this library.
 
 Show two or three contrasting previews before expanding, unless the user already delegated or specified the operation. Ask which property to preserve, not merely which name is “best.” After feedback record the actual words, changed constraints, rejected/parked paths and next options. Praise does not save a name. Add only explicit selections; repeated selection updates the same candidate. A six-name batch is a pause for navigation, never an automatic export.
 

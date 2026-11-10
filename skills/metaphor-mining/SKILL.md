@@ -9,7 +9,7 @@
 
 ## Mechanism and boundary
 
-Map a property from another domain onto the brand promise, then select its name-bearing object/process. The artifact pairs useful and misleading transfers. Unlike `lexical-research`, retrieval is not enough; unlike `double-meaning`, the target relation need not be an established lexical sense.
+Map a property from another domain onto the brand promise, then select its name-bearing object/process. The artifact pairs useful and misleading transfers. Unlike `lexical-research`, retrieval is not enough: the target relation is an explicit analogy and need not be an established lexical sense.
 
 ## Use, avoid and inputs
 

@@ -22,3 +22,7 @@ The review accepts the useful bounded library and demonstrated conductor/session
 Remaining maintenance: make current audit summaries more compact and unambiguous; identify or update older synthetic fixtures that predate the received-turn schema; extend independent operator trials incrementally. These do not require continuing the requested loop after its threshold is met. External run paths in reports are supplementary local audit evidence, not dependencies for using the library.
 
 The owner subsequently authorized publication to [dmitry-v-ko/-Brand-naming-system-](https://github.com/dmitry-v-ko/-Brand-naming-system-). Its existing MIT License and initial commit are preserved. Historical review statements about local-only work describe their review dates, not the current distribution destination.
+
+## Subsequent scope change
+
+After the reviewed twelve-procedure snapshot, the owner removed double meaning as a standalone method. The current catalog has eleven procedures. The former [double-meaning procedure](../archive/RETIRED_DOUBLE_MEANING.md) is retained only as historical material; review scores and execution claims above are not retrospectively changed.

@@ -11,7 +11,7 @@
 
 ## Current acceptance
 
-Independent fresh-context execution and rescoring reached 9.03/10 under the unchanged [review protocol](reviews/REVIEW_PROTOCOL.md); see the [final critique](reviews/CYCLE_03_CRITIQUE.md). Acceptance covers the bounded library and demonstrated session behavior. Individual skills remain draft pending per-skill acceptance; not all twelve have been independently executed end to end.
+Independent fresh-context execution and rescoring reached 9.03/10 under the unchanged [review protocol](reviews/REVIEW_PROTOCOL.md); see the [final critique](reviews/CYCLE_03_CRITIQUE.md). Acceptance covers the bounded library and demonstrated session behavior. Individual skills remain draft pending per-skill acceptance; not every procedure has been independently executed end to end. The review covered twelve procedures; a subsequent owner decision retired double meaning, leaving eleven active procedures.
 
 ## Deliberately deferred
 

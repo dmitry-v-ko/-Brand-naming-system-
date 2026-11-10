@@ -4,9 +4,9 @@ A Markdown-only instruction library for agents creating **English brand names** 
 
 ## Current scope
 
-[12 narrow procedures](docs/METHOD_CATALOG.md) now include intact compounding, fragment blending, genuine overlap, clipping, separate prefix/suffix attachment, syllable recombination, phonetic invention, lexical research, cross-language search, metaphor and double meaning. Every procedure has a worked synthetic trace, intermediate artifacts and recovery. Skills remain **draft pending per-skill acceptance**, not commercially validated. The old 53-entry list is [historical](docs/archive/INITIAL_53_ENTRY_ROADMAP.md), not the active inventory. There is no numerical minimum.
+[11 narrow procedures](docs/METHOD_CATALOG.md) now include intact compounding, fragment blending, genuine overlap, clipping, separate prefix/suffix attachment, syllable recombination, phonetic invention, lexical research, cross-language search and metaphor. Every procedure has a worked synthetic trace, intermediate artifacts and recovery. Skills remain **draft pending per-skill acceptance**, not commercially validated. The old 53-entry list is [historical](docs/archive/INITIAL_53_ENTRY_ROADMAP.md), not the active inventory. There is no numerical minimum.
 
-The [independent improvement cycle](docs/reviews/README.md) reached **9.03/10** on 2026-11-10 under a fixed rubric. Acceptance covers the bounded library and demonstrated conductor/session behavior; it does not establish independent execution of every procedure or commercial effectiveness.
+The [independent improvement cycle](docs/reviews/README.md) reached **9.03/10** on 2026-11-10 under a fixed rubric. Acceptance covers the bounded library and demonstrated conductor/session behavior; it does not establish independent execution of every procedure or commercial effectiveness. That review covered the earlier twelve-procedure inventory; the owner subsequently removed double meaning as a standalone method, leaving eleven.
 
 ## Local / Codex Desktop start
 

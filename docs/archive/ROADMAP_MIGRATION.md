@@ -1,6 +1,6 @@
 # Historical roadmap migration
 
-Every original number and slug is retained below. This is a disposition audit, not acceptance of all proposed techniques. Domain tags remain available in the universe index. Deferred narrow sound operations are explicitly preserved; shared family membership does not erase them. New core lexical-research and double-meaning have no original numbered skill equivalent.
+Every original number and slug is retained below. This is a disposition audit, not acceptance of all proposed techniques. Domain tags remain available in the universe index. Deferred narrow sound operations are explicitly preserved; shared family membership does not erase them. Lexical-research and the subsequently retired double-meaning procedure have no original numbered skill equivalent. Double meaning is no longer an active method; see RETIRED_DOUBLE_MEANING.md.
 
 | Old number | Old ID | Current disposition |
 |---|---|---|
