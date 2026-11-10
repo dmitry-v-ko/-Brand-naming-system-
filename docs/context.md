@@ -13,7 +13,7 @@ The owner's “Brand Naming Skills — Project Handoff” is the requirements au
 - Real session logs and shortlists live outside the repository. Save names only on explicit user selection. Offer voluntary review around 20–25 names; never delete without approval.
 - Preserve source origins, transformations, lexical status, feedback, rejected paths, and unexplored opportunities.
 - Exclude trademark, patent, domain availability, registration, and legal conflict checks. Export for a separate clearance workflow without availability claims.
-- Package for GitHub and Codex Desktop. No remote destination or open-source license is configured yet.
+- Package for GitHub and Codex Desktop. The owner selected https://github.com/dmitry-v-ko/-Brand-naming-system- as the remote destination. Preserve its existing MIT License and initial history.
 
 ## Initial audit
 

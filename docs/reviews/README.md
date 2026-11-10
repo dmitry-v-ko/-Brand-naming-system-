@@ -21,4 +21,4 @@ The review accepts the useful bounded library and demonstrated conductor/session
 
 Remaining maintenance: make current audit summaries more compact and unambiguous; identify or update older synthetic fixtures that predate the received-turn schema; extend independent operator trials incrementally. These do not require continuing the requested loop after its threshold is met. External run paths in reports are supplementary local audit evidence, not dependencies for using the library.
 
-Remote publication is deferred at the owner's instruction while GitHub CLI authentication is unavailable. The repository is local; no remote creation or push is claimed.
+The owner subsequently authorized publication to [dmitry-v-ko/-Brand-naming-system-](https://github.com/dmitry-v-ko/-Brand-naming-system-). Its existing MIT License and initial commit are preserved. Historical review statements about local-only work describe their review dates, not the current distribution destination.

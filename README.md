@@ -33,4 +33,4 @@ Form (`attested`, `adapted`, `invented`) is separate from evidence (`verified`, 
 
 No trademark, patent, domain availability, registration or legal clearance is included. Export is for a separate future workflow. Do not claim uniqueness, reproduce extended fiction passages or invent cultural provenance. Real sessions live outside this library.
 
-The project is portable to GitHub and Codex Desktop, but no remote destination or open-source license is configured. Local review needs neither. See [context](docs/context.md) and [milestones](docs/IMPLEMENTATION_PLAN.md).
+Repository: [dmitry-v-ko/-Brand-naming-system-](https://github.com/dmitry-v-ko/-Brand-naming-system-), default branch `main`. Licensed under the [MIT License](LICENSE) supplied in the owner-created GitHub repository. The library is plain Markdown; using it requires no hosted application. See [context](docs/context.md) and [milestones](docs/IMPLEMENTATION_PLAN.md).
