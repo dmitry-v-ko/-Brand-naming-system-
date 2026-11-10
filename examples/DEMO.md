@@ -1,5 +1,10 @@
 # Integrated naming walkthrough — synthetic fixture
 
+**Schema vintage: cycle-01 illustrative fixture.** This predates the current received-turn boundary and exact-original-language comment schema. Translated/simulated turns and old counting labels below are historical examples, not a complete current audit. Use [current session contract](../docs/SESSION_PROTOCOL.md) and the [current log template](../templates/EXPLORATION_LOG.md) for new or resumed real sessions. Do not infer missing original quotes or retrofit old fixture events as received evidence.
+
+Current fixture end-state summary: EXPORT was explicitly requested; B01 remains available, B02/B03 parked; saved IDs are B02-C01 Virga Desk, B03-C01 Telo and B01-C01 Virga. Baste stays unverified; Temo stays unsaved. This summary describes the fixture only.
+
+
 This is a manually constructed fixture, not a real session, independent agent trial, native-speaker study or consumer test. Source retrieval L01/F01 is real and recorded separately. User turns are English translations of a simulated Russian conversation; all candidate spellings remain English-facing. Full resulting records are [exploration fixture](fixtures/EXPLORATION_LOG.md) and [shortlist fixture](fixtures/SHORTLIST.md). Real sessions belong outside the checkout.
 
 ## 1. Delegated entry and contrasting previews

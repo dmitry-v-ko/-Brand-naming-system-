@@ -1,5 +1,10 @@
 # Shortlist — populated synthetic fixture and export
 
+**Schema vintage: cycle-01 illustrative fixture.** This predates the current received-turn boundary and exact-original-language comment schema. Translated/simulated turns and old counting labels below are historical examples, not a complete current audit. Use [current session contract](../../docs/SESSION_PROTOCOL.md) and the [current log template](../../templates/EXPLORATION_LOG.md) for new or resumed real sessions. Do not infer missing original quotes or retrofit old fixture events as received evidence.
+
+Current fixture end-state summary: EXPORT was explicitly requested; B01 remains available, B02/B03 parked; saved IDs are B02-C01 Virga Desk, B03-C01 Telo and B01-C01 Virga. Baste stays unverified; Temo stays unsaved. This summary describes the fixture only.
+
+
 Fixture only. Session `fixture-ephemeral-studio`; no real session directory created. Selection order below, three unique IDs; repeated selection updated a comment. Source L01/S01 was actually verified on 2026-11-10; all decisions are simulated. Clearance has not been performed.
 
 | Candidate ID | Exact name | Proposed pronunciation | Ordered method IDs | Universe | Origin / supported sense | Exact transformation | Form | Evidence of claimed lineage | Standalone source reference | User selection / comments |

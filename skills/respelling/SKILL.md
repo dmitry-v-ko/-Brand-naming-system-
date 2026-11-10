@@ -25,11 +25,23 @@ Required: exact anchor spelling, intended pronunciation with stress, audience as
 1. Create anchor A1: supplied spelling, target phonemes, cue, syllable/stress map, provenance and any sense actually claimed. An invented anchor needs no invented etymology. For real lexical meanings retrieve the relevant sense rather than relying on resemblance.
 2. Mark candidate edit sites as exact letter spans with positions or unambiguous before/after context. Record kept prefix/suffix and replacement. Deletion must identify the removed letters; “shortened” is insufficient.
 3. Fill distinct edit families: consonant grapheme substitution, vowel grapheme substitution, and silent/doubled-letter change. Do not force a family when it changes the intended reading. Produce six private alternatives across at least three anchors or two truly different sites in one anchor.
-4. For each candidate write the frozen target plus one plausible competing reading. These are editorial predictions until real user feedback. Reject variants whose most straightforward proposed reading changes a phoneme; retain them only as labeled diagnostics or new sound-edit branches.
-5. Present three to six contrasts with anchor and exact edit visible. Use a fixed spoken introduction and a fixed written introduction. Ask which spelling they actually read as intended and how much explanation they tolerate; do not report a reading test that did not occur.
+4. Apply the classification rule below. Keep the frozen target and assess whether the spelling plausibly supports it; write a credible competing reading only when one is established editorially. Do not invent alternatives to fill a field. These are predictions until actual received reading feedback; declaring a target alone never establishes conformance.
+5. Ordinarily present 2–3 contrasts with a short anchor/edit explanation and concrete reading risk; keep detailed maps internal. Fixed spoken/written introductions may help editorial comparison, but do not claim a listener test. Invite actual reading feedback when useful; no feedback is required to offer provisional proposals.
 6. Refine one site while holding pronunciation fixed. If two repairs need pronunciation coaching, restore a conventional grapheme, use an unchanged anchor, or switch methods. The unchanged anchor is a control, not a respelling candidate.
 
 The six-name default is a navigation pause. Never force increasingly strange spellings to fill a quota. Balance edits across families; distinguish visual novelty from readability and preserve actual user feedback rather than an invented score.
+
+## Editorial classification and counting
+
+Apply mechanics first, then plausible reading, then fit. These are separate axes:
+
+- **Provisional conforming proposal, ordinary target mapping:** edit controls pass and the spelling convention plausibly supports the frozen target. Kove from cove (c→k, /koʊv/) is an editorial example; no decoding result is claimed.
+- **Provisional conforming proposal, ambiguous:** edit controls pass and the target remains credible, but a specific competing reading is also credible. Melow permits an anchor-like /ˈmɛ.loʊ/ as well as /ˈmi.loʊ/; fit/risk may justify rejection without calling the map invalid. Fase (/feɪz/ versus /feɪs/) belongs here if the target is judged credible. State that judgment and its uncertainty.
+- **Likely target-breaking diagnostic:** the ordinary spelling cue strongly points away from the frozen target and a target reading would require unusual coaching. Cove → Covie cues an extra syllable; cove → Cave (o→a, one site) cues /keɪv/, not target /koʊv/. Do not rescue these by simply restating the target. Riple for /ˈrɪ.pəl/ should conservatively be parked as likely target-breaking because the single-consonant + le pattern cues /ˈraɪ.pəl/; unlike Melow, familiar short-vowel doubled-consonant support has been removed in that pattern. This is a revisable editorial judgment, not listener evidence.
+- **Control diagnostic:** the edit limit or other declared constraint fails, irrespective of target plausibility; e.g. Beekon changes two sites under a one-site control.
+- **Actual received reading:** record exactly who reported what at which received turn. A reported reading can confirm/fail the target for that respondent and change current selection; it never proves all readers decode alike. Preserve earlier provisional judgments rather than rewriting them as tests.
+
+Use unique candidate IDs internally. Counts labeled “conforming” here mean **provisional target-plausible, edit-conforming proposals**, split into retained/rejected for fit or risk, plus separately counted diagnostics. They do not count established decoding successes. If target plausibility is unresolved, park the row outside the conforming total pending a clearer mapping or feedback. Never silently change phonemes to make a row pass.
 
 ## Candidate and research contract
 
@@ -48,15 +60,15 @@ Anchor grid: A1 cove, /koʊv/, one syllable; A2 gleam, /ɡlim/, one syllable; A3
 | B01-C01 Kove | A1 c→k at position 1; retain ove | /koʊv/; target plausible, but requires learning k spelling | conspicuous initial edit |
 | B01-C02 Covie | A1 retain cov, replace final e→ie | target /koʊv/; /ˈkoʊ.vi/ likely | diagnostic: added-syllable risk defeats ordinary-reading brief |
 | B01-C03 Gleem | A2 retain gl,m; ea→ee | /ɡlim/; target plausible, but familiar spelling lost | long-vowel alternative |
-| B01-C04 Gleame | A2 retain gleam; insert final e | /ɡlim/; /ɡliˈæ.mi/ less likely but possible | silent-ending hypothesis; extra letter without clear benefit |
+| B01-C04 Gleame | A2 retain gleam; insert final e | /ɡlim/ plausible; no specific alternative established, extra final e may cause spelling hesitation | silent-ending hypothesis; extra letter without clear benefit |
 | B01-C05 Melow | A3 retain me and ow; ll→l | /ˈmɛ.loʊ/; /ˈmi.loʊ/ possible | compact but vowel reading less stable |
 | B01-C06 Melloh | A3 retain mell; ow→oh | /ˈmɛ.loʊ/; final /ɒ/ or spelling hesitation possible | explicit vowel cue; appearance may feel mannered |
 
-C01, C03–C06 are conforming target-preserving proposals with flagged risk; C02 is an out-of-operator diagnostic for this brief, not a successful respelling. No dictionary attestation of the altered strings is claimed. A risk is not proof that every reader uses the competing pronunciation.
+C01, C03–C06 are provisional target-plausible, edit-conforming proposals with flagged fit/reading risk; C02 is an out-of-operator diagnostic for this brief, not a successful respelling. No dictionary attestation of the altered strings is claimed. A risk is not proof that every reader uses the competing pronunciation.
 
 T02: “Kove reads correctly to me. Melow makes me say mee-low. I like a shorter mellow spelling, but keep the short e.” C05 is the weak case with actual fixture reading failure. Repair its decision: restore ll to cue the anchor's short vowel, then change final ow→o. B01-C07 **Mello**, /ˈmɛ.loʊ/: from A3 retain mell, delete w from final ow. The repair is one anchor deletion, not a hidden sound change; compared with C05, restore l and remove w. Drawback: still departs from the familiar word spelling. Classification adapted/not applicable, source none.
 
-T03: “Save Kove and Mello. Note on Mello: ‘short e matters’. Leave Gleem for later.” Final state: received_through=T03; favorites=[B01-C01,B01-C07]; C07 exact comment from T03; active=B01/REFINE/A3; parked=A2; rejected=C05 reading and C02 diagnostic. Seven records = six conforming candidates plus one diagnostic; shortlisted two. Reconcile both session records; no save was inferred from “like” at T02. Resume with /ˈmɛ.loʊ/ and retained ll, preserve other variants in history. Next options: another final-vowel mapping, revisit Gleem, change spoken form in a child, or explicit export.
+T03: “Save Kove and Mello. Note on Mello: ‘short e matters’. Leave Gleem for later.” Final state: received_through=T03; favorites=[B01-C01,B01-C07]; C07 exact comment from T03; active=B01/REFINE/A3; parked=A2; rejected=C05 reading and C02 diagnostic. Seven records = six provisional target/edit-conforming proposals (C05 rejected after received fixture reading failure) plus one diagnostic; shortlisted two. This is not six confirmed decoding successes; only T02 supplies a respondent reading for C01/C05, and it is synthetic. Reconcile both session records; no save was inferred from “like” at T02. Resume with /ˈmɛ.loʊ/ and retained ll, preserve other variants in history. Next options: another final-vowel mapping, revisit Gleem, change spoken form in a child, or explicit export.
 
 ## Ordered combinations
 

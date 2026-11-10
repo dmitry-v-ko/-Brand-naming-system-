@@ -13,7 +13,8 @@ Template only. Copy for a new session outside the checkout; never overwrite an e
 - active_method: none
 - active_universe: none
 - latest_user_decision: received turn ID; original-language exact quote; separately labeled summary if useful
-- delegated_choices: received consent turn ID and scope; agent's provisional selection and reason
+- delegated_choices: received delegation turn ID and scope, if any; unknown/none is valid
+- agent_provisional_choices: inferred branch/method/universe, reason and assumptions; never label as user preference or delegation
 - candidate_pool_summary: unique IDs; total = conforming (retained + rejected) + diagnostics; by branch/form/evidence; saved subset
 - favorites: candidate IDs; shortlist is authoritative for saved details
 - rejected_directions: direction, reason, user turn ID or explicitly agent assessment

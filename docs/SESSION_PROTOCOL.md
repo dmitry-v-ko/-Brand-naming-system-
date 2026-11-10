@@ -13,13 +13,13 @@ For review evidence, distinguish a same-agent read-back from a fresh-context res
 | State | Action | Exit condition |
 |---|---|---|
 | BRIEF | Establish offer, audience, character, exclusions; ask only questions affecting direction | Enough information for contrasting previews; mark assumptions |
-| METHOD_MENU | Offer 3–6 different operators with examples and maturity labels | User selects a method or requests more |
-| UNIVERSE_MENU | Offer 6–12 evocative worlds including distant domains, with evidence labels | User chooses; skip for methods without source research |
+| METHOD_MENU (optional) | Offer a broader 3–6-operator menu when requested or real uncertainty warrants it | Direction clarified |
+| UNIVERSE_MENU (optional) | Ordinarily infer two distant worlds; expand to 6–12 on request or useful uncertainty | Develop a provisional branch or user choice |
 | DEEP_EXPLORE | Follow the skill, preserve sources, generate diverse clusters | Useful batch or research dead end |
 | REFINE / NAVIGATE | Deepen, switch, combine, revisit, shortlist, review research, or stop | User selects next action |
 | EXPORT | Return only explicitly saved names with origins and notes | User stops or returns to exploration |
 
-States are navigation aids, not compulsory gates. Honor direct instructions from any state without requiring repeated confirmation. Menus invite creative choices; they are not permission checks for every research step. If the user delegates direction selection, record the provisional choice and proceed. Never auto-complete because a batch or count is reached.
+States are navigation aids, not compulsory gates. A sufficiently specified ordinary brief can move directly from BRIEF to useful exploration: state concise assumptions, show 2–3 contrasting directions/names and recommend one. This is an agent provisional choice, not invented user delegation. Preserve other possibilities for later navigation. Honor direct instructions from any state without requiring repeated confirmation. Menus invite creative choices; they are not permission checks for every research step. If the user delegates direction selection, record the provisional choice and proceed. Never auto-complete because a batch or count is reached.
 
 ## Branch and candidate identity
 
@@ -42,7 +42,7 @@ Export includes name, method, universe (or not applicable), origin, form, eviden
 
 When switching, write the former branch as parked and create a child (derivation) or sibling (new direction). Preserve IDs across revisits. An unchanged candidate reused in a new branch keeps its original candidate ID and gains a branch reference. Reconcile favorites in both files after each consent event; if only one file was written, record the incomplete write and repair before claiming persistence. Never copy templates over a resumed session.
 
-No write tools: emit the same fields in chat under “state” and “shortlist,” and state that no file was saved. On a failed write preserve the last confirmed state and provide exportable text. A resume summary names exact favorites, active branch, parked opportunities, rejected directions and the latest actual instruction; unknown prior feedback stays unknown.
+No write tools: retain equivalent state in chat; normally show a compact summary and state that no file was saved. Provide complete portable “state” and “shortlist” fields on request or handoff, rather than repeating every field each turn. On a failed write preserve the last confirmed state and provide exportable text. A resume summary names exact favorites, active branch, parked opportunities, rejected directions and the latest actual instruction; unknown prior feedback stays unknown.
 
 ## Received-evidence boundary (internal memory and audit)
 
@@ -54,4 +54,8 @@ In sequential trials, the executor and any writing helper may access only the re
 
 After each meaningful write, reconcile both files against that received prefix: latest decision, delegated choices, rejected directions, favorites and exact comments. Check that every asserted user fact cites a received turn and no field anticipates a later instruction. Normal session files evolve forward. For audited trials, retain immutable copies of both records at each meaningful write, labeled by received-through turn and write sequence. Append a correction event and create a later snapshot if repair is needed; never replace failed historical checkpoints or retroactively validate them using later feedback. Record final-state reconciliation and historical consistency separately.
 
-Use unique candidate IDs as the counting unit. Report `total records = conforming candidates + out-of-operator diagnostics`; divide conforming candidates into retained and rejected for the current brief. A mechanically valid but rejected candidate remains conforming; an invalid construction remains a diagnostic even if discussed. Shortlisted count is a separate subset of conforming candidates, not an additional total. Keep branch references from double-counting reused IDs and state any other counting unit explicitly.
+For internal reconciliation and requested audit reports, use unique candidate IDs as the counting unit. Report `total records = conforming candidates + out-of-operator diagnostics`; divide conforming candidates into retained and rejected for the current brief. A mechanically valid but rejected candidate remains conforming; an invalid construction remains a diagnostic even if discussed. Shortlisted count is a separate subset of conforming candidates, not an additional total. Keep branch references from double-counting reused IDs and state any other counting unit explicitly.
+
+## Ordinary presentation and internal work
+
+Keep stable IDs, source status, exact maps, consent turns and compact reconciliation internally. Normally show only 2–3 meaningful contrasts, why each fits, a concrete drawback and a proposed reading where needed. Say “invented,” “adapted from a checked sense,” or “unverified lead” tersely; never hide a material uncertainty for brevity. Full ledgers, typed graphs, corpus arithmetic and detailed maps are available when requested or necessary to explain a material limit. All skill grids and batch sizes are private defaults; useful smaller batches are valid. Audit checkpoints, immutable snapshots, hash checks and full historical reconciliation are trial/maintenance work only, never ordinary naming-session gates or user-facing forms. Portable memory and explicit shortlist consent still apply.

@@ -23,7 +23,7 @@ Required: concept cluster and English-facing pronunciation constraints. Default:
 2. Search concept + language dictionary. Open the exact headword; distinguish homonyms and numbered senses. Capture original spelling and source gloss before generating names.
 3. Build a term/sense/adaptation ledger. Separate direct source form, script transliteration, accent removal, spelling change and additional construction.
 4. Compare one direct form, one minimally adapted form and one declared hybrid. Propose English pronunciation without presenting it as authentic native pronunciation.
-5. Review semantic range and uncertain cultural associations. Return 3–6 forms from supported ingredients; if only one term is verified, show a small honest batch rather than padding with guessed roots.
+5. Review semantic range and uncertain cultural associations. Ordinarily return 2–3 contrasting forms from supported ingredients; if only one term is verified, show a small honest batch rather than padding with guessed roots.
 
 ## Selection and recovery
 
@@ -37,9 +37,9 @@ Source basis: S01 translation-based exploration, S16 reference discovery; lexica
 
 ## Candidate record and interaction
 
-Use the [session protocol](../../docs/SESSION_PROTOCOL.md) and [source contract](../../docs/SOURCES_AND_RESEARCH.md). Every displayed batch has stable branch/candidate IDs; English spelling; proposed pronunciation/stress where uncertain; exact lineage; separate `form` and `evidence`; source IDs or `none`; useful association and main drawback. Keep intermediate tables in the exploration log or session-owned research notes. Do not put real sessions in this library.
+Use the [session protocol](../../docs/SESSION_PROTOCOL.md) and [source contract](../../docs/SOURCES_AND_RESEARCH.md). Every internal candidate record has stable branch/candidate IDs; English spelling; proposed pronunciation/stress where uncertain; exact lineage; separate `form` and `evidence`; source IDs or `none`; useful association and main drawback. Ordinary responses show 2–3 contrasts with a brief reason, relevant reading/risk and terse evidence status; IDs and detailed tables stay in the exploration log or session-owned research notes unless requested. Batch/grid sizes are private defaults, not user-facing quotas. Do not put real sessions in this library.
 
-Show two or three contrasting previews before expanding, unless the user already delegated or specified the operation. Ask which property to preserve, not merely which name is “best.” After feedback record the actual words, changed constraints, rejected/parked paths and next options. Praise does not save a name. Add only explicit selections; repeated selection updates the same candidate. A six-name batch is a pause for navigation, never an automatic export.
+For a sufficiently specified brief, proceed with two or three useful contrasts and a recommendation; no separate preview gate is required. Expand menus when requested or real uncertainty changes direction. Record inferred choices as agent judgments, never as user delegation. Ask which property to preserve, not merely which name is “best.” After feedback record the actual words, changed constraints, rejected/parked paths and next options. Praise does not save a name. Add only explicit selections; repeated selection updates the same candidate. A six-name batch is a pause for navigation, never an automatic export.
 
 ## Ordered combinations
 

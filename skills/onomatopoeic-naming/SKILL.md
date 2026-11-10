@@ -18,7 +18,7 @@ SIL's onomatopoeia definition supports resemblance between word sound and event/
 
 Use for products with a characteristic action, sensory experiences, or a name whose spoken texture can carry an event cue. Avoid when no relevant event can be named, an imitation would trivialize a solemn offer, or silence is central and literal noises would contradict the brief. Do not invent claims about what a real product sounds like.
 
-Required: offer, audience, tone exclusions and one event description with evidence type. If absent, propose three explicitly imagined events and proceed on a provisional branch when direction is delegated. Default to one or two syllables, one event per candidate and ordinary Latin letters. Optional controls: sound duration, repetition, permissible consonant clusters, referent visibility and desired distance from familiar sound words. Default pronunciation target is a stated broad English proposal, not a global standard.
+Required: offer, audience, tone exclusions and one event description with evidence type. If absent, propose two or three explicitly imagined events and proceed on an agent provisional branch for a sufficiently specified brief; do not invent user delegation. Default to one or two syllables, one event per candidate and ordinary Latin letters. Optional controls: sound duration, repetition, permissible consonant clusters, referent visibility and desired distance from familiar sound words. Default pronunciation target is a stated broad English proposal, not a global standard.
 
 ## Reproducible procedure
 
@@ -26,7 +26,7 @@ Required: offer, audience, tone exclusions and one event description with eviden
 2. Translate each card into features: abrupt or gradual onset; transient or sustained body; damped or resonant tail; single or repeated rhythm. Mark these as reported, observed, or imagined. Do not fabricate measured frequencies or timings.
 3. For each card propose two phoneme strings. Write the proposed mapping explicitly, for example abrupt onset→/t/, fading resonance→/ɪŋ/. This is an imitation choice, not a physical equivalence.
 4. Spell each string, retaining an alternate spelling only as an orthographic variant of the same spoken proposal. Record added/deleted letters if adjusting it. Keep three event families rather than six variants of one impact.
-5. Compare three to six names in the same offer sentence. Ask which event relationship and reading the user wants to retain. Readable imitation, fit to the actual offer, and distance between families take priority over decorative length.
+5. Compare two or three presented names in the same offer sentence. Ask which event relationship and reading the user wants to retain. Readable imitation, fit to the actual offer, and distance between families take priority over decorative length.
 6. Refine only the selected feature: damp the tail, shorten the sustain, or change one onset. If a repair abandons the event, open a `phonetic-invention` child instead of relabeling it onomatopoeia.
 
 Private default: six raw proposals, three presented contrasts. Pause when two repairs lose event recognizability, all candidates converge on one familiar noise, or an essential recording cannot be inspected. Offer another imagined/reported event, a different method, or later audio review; never auto-export.

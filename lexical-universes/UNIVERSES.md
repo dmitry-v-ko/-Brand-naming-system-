@@ -43,10 +43,10 @@ These are **source worlds**, not separate methods. Agents should proactively off
 ## Universe menu protocol
 
 1. Infer the emotional and functional tension from the brief.
-2. Generate 8–12 disparate worlds, at least half outside the brand’s sector.
+2. Ordinarily infer two distant worlds and develop 2–3 useful contrasts. Offer 6–12 disparate worlds when the user requests breadth or real uncertainty warrants it; include worlds outside the brand’s sector.
 3. Offer vivid *preview words or naming patterns* and why each may yield interesting candidates. Mark unsourced previews as illustrative.
-4. Let the user pick or request more; do not pretend all worlds were researched already.
-5. Explore only selected worlds in depth, record research paths in the session log.
+4. Recommend a provisional branch and let the user redirect or request more; no invented delegation or mandatory selection gate. Do not pretend all worlds were researched already.
+5. Explore the provisionally chosen or user-selected world in depth; record agent choices separately from user preferences in the session log.
 6. When a world stalls, propose adjacent and maximally distant alternatives, and preserve the parked branch.
 
 ## Research integrity
@@ -56,7 +56,7 @@ Do not assume terms from fictional universes are unencumbered. Cite attested ter
 
 ## Operational starter cards
 
-Only the entries explicitly marked verified below were opened. Other previews are research leads or invented patterns; evocative spelling is not evidence. Choose worlds according to the brief's properties, not the product category. Queries are starting instructions, not claims that results were inspected. Offer six to twelve cards in a menu, then research the selected one.
+Only the entries explicitly marked verified below were opened. Other previews are research leads or invented patterns; evocative spelling is not evidence. Choose worlds according to the brief's properties, not the product category. Queries are starting instructions, not claims that results were inspected. Use two distant cards for an ordinary brief; offer a full six-to-twelve-card menu on request or useful uncertainty, then research the provisional or user-selected branch.
 
 | World / property | Candidate-flavored preview and evidence | Concrete entry point and query | Enabled existing operators | Predictable dead end / recovery |
 |---|---|---|---|---|

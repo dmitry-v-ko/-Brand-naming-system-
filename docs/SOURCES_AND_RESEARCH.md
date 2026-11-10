@@ -27,3 +27,7 @@ For cross-language material retain original script, specific sense, literal glos
 ## Seven-method expansion evidence
 
 Use the [expansion evidence index](research/EXPANSION_EVIDENCE.md) for dated historical senses, typed etymological relationships, inspected literary mechanisms, bounded corpus counts and sound/spelling source claims. Library bibliography IDs must be mapped to session-scoped IDs; a verified source observation does not make a generated spelling attested or its branding effect verified.
+
+## Presentation boundary
+
+The source table is an internal record, not a mandatory response layout. Ordinary responses give a concise source story and visible material uncertainty (“checked dictionary sense; reading proposed” or “unverified lead”). Preserve exact failed-access status and locators internally; provide complete citations and maps on request or export. Brevity never upgrades an unverified claim. Follow the session short path rather than displaying every ID/status field.
