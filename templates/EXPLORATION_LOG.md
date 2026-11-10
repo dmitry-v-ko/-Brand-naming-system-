@@ -48,3 +48,17 @@ Reuse an existing ID if exactly the same candidate returns; add branch reference
 Update after meaningful research, branching, feedback and selection. Confirm a write only after it succeeds. Never erase parked paths or candidates merely because they were rejected for the current brief.
 
 Before confirming persistence, check both files against received turns only. For audited trials, preserve immutable snapshots after meaningful writes; append corrections without overwriting failed snapshots. See the session contract for the input boundary and fresh-context resume requirements. Keep this audit guidance internal to the session memory.
+
+## Expanded exploration (only when used)
+
+- run_id / brief_revision / received_through:
+- brief_snapshot: audience; problem; promise; difference; voice; exclusions; countries/languages; assumptions
+- category_descriptor / shared_comparison_contexts:
+- namescape: sample date, source URLs, observations and hypotheses; or not performed
+- mode: three / all / explicitly agreed sequential fallback
+- expected_method_ids (scoped to run_id + brief_revision):
+
+| Method ID | Worker reference | Brief revision | Status | Result/source references | Failure, stale or no-yield reason |
+|---|---|---|---|---|---|
+
+Record exact-name duplicate mappings and conflicting lineages in the candidate pool. Keep participant observations separate from agent predictions. Native-speaker review: not performed unless supported by actual feedback. Never infer shortlist consent from worker output.

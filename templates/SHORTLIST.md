@@ -14,3 +14,5 @@ Template only. Actual session file belongs outside the checkout. Empty means no 
 Keep source citations sufficient for standalone export: URL, exact entry/section, access date and uncertainty, not bare IDs pointing to inaccessible memory. A verified ingredient never makes an invented name an attested word. Export only these explicitly selected rows and preserve every field.
 
 Preserve prior consent/comments on repeated selection. Label any translation or summary separately from exact quotes. Reconcile with the log against received turns only; future fixture comments are unavailable evidence. Audit snapshots and corrections follow the session contract, without adding user-facing steps.
+
+When an exact spelling has multiple derivations, preserve each alternative lineage with its own ordered methods, origin, form, evidence and sources in the row or a linked export section. Never merge incompatible evidence into a single verified story.

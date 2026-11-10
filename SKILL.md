@@ -22,6 +22,8 @@ If the brief is sufficient, begin with 2–3 contrasting directions or names, sh
 
 Research-enabled methods require actual accessible sources. Separate attested words, adapted forms and inventions from the evidence supporting their ingredients. Preserve citations and uncertainty internally; show a concise source story by default. A verified rare word may be used unchanged. Do not invent etymologies, historic attestations, author intent, audio observations or audience responses.
 
+For expanded exploration, offer three suitable methods or all 18 with one dedicated subagent per method. Follow the [parallel exploration contract](docs/SESSION_PROTOCOL.md#parallel-exploration-three-or-all-eighteen), including host fallback and central reconciliation.
+
 ## Keep the user in control
 
 Deepen, switch worlds, combine methods, revisit parked branches or stop when asked. Save only explicitly selected names; praise alone is not consent. Keep exact spelling and comments, and never remove a favorite without approval.

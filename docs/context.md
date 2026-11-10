@@ -45,3 +45,7 @@ The renewed cycle scored 8.78, received a separate improvement pass, and reached
 ## Claude distribution and presentation
 
 The owner requested clearer repository presentation, visible method examples and Claude installation. The portable root SKILL.md routes to the existing eighteen methods; it is not an additional method. CLAUDE.md imports the shared conductor. Provide a complete ZIP for Claude's custom-skill upload and Git installation instructions for Claude Code, with a document-only Projects alternative. Preserve English repository content, draft maturity and explicit limits of local packaging verification versus actual Claude activation.
+
+## Approved process improvements
+
+On 2026-11-10 the owner approved research-informed framing, contextual comparison and a choice between three suitable methods and all eighteen, with one subagent per method. SESSION_PROTOCOL.md owns execution, central reconciliation, coverage and fallback rules. These are conductor capabilities, not additional naming techniques; existing maturity and clearance boundaries remain unchanged.

@@ -74,6 +74,12 @@ For research, the agent proposes worlds such as bookbinding, cloud forms, old na
 
 Session records live in your working space, outside the library. If file writing is unavailable, use in-chat records and Markdown exports.
 
+## Choose exploration breadth
+
+After the brief, choose **three suitable methods** for a focused comparison or **all 18 methods** for a broad sweep. Each assigned method gets its own subagent and the same brief; the conductor combines results and shows useful contrasts. Limited concurrency runs the workers in a queue. Hosts without subagents can offer an explicitly labeled sequential alternative. You can also continue exploring one direction.
+
+Names are compared with the same plain category descriptor and use context. Actual audience feedback and native-speaker review remain distinct from agent predictions. Broader exploration does not guarantee better names; methods retain their draft status.
+
 ## Inside the library
 
 <details>
