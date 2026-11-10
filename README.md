@@ -4,7 +4,7 @@ A portable, English-language instruction library for research-enabled LLM agents
 
 ## Status
 
-**Starter scaffold, not a completed 50-skill collection.** This release contains 5 draft skills and an indexed roadmap of 53 candidate entries requiring a distinctness audit. The other 48 entries are research and authoring targets. None of the five drafts has passed the revised acceptance standard yet.
+**Starter scaffold, not a completed method collection.** This release contains 5 draft skills and an indexed roadmap of 53 candidate entries requiring a distinctness audit. The other 48 entries are research and authoring targets. None of the five drafts has passed the revised acceptance standard yet.
 
 ## Quick start
 
@@ -40,3 +40,5 @@ The library is plain Markdown. An agent needs file-reading and preferably web re
 ## Development status
 
 See [project context](docs/context.md), [implementation milestone](docs/IMPLEMENTATION_PLAN.md), and [session state contract](docs/SESSION_PROTOCOL.md). This is a Markdown-only library; no runtime or API dependency is required.
+
+The owner has removed the minimum of 50 methods. Final coverage is determined by operational depth, distinctness, and creative usefulness; the roadmap is being reconsidered.

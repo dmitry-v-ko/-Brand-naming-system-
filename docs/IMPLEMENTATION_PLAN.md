@@ -11,7 +11,7 @@ Imported the starter, recorded accepted architecture, corrected maturity claims,
 - Rewrite the initial five skills against the acceptance gates. Demonstrate complete runs and method-specific recovery, not just final names.
 - Consult published English-language sources and relevant open-source repositories. Record actual access and distinguish borrowed frameworks from editorial invention. This research has not yet been performed.
 
-Acceptance: five independently usable skills passing every gate, an honest inventory, and no claim of 50 methods before acceptance.
+Acceptance: five independently usable skills passing every gate, an honest inventory, and no numerical quota; the owner removed the minimum of 50 methods.
 
 ## 3. Expand accepted coverage
 

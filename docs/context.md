@@ -5,7 +5,8 @@ The owner's “Brand Naming Skills — Project Handoff” is the requirements au
 ## Accepted architecture
 
 - Markdown-first library for research-enabled LLM agents; no executable application or mandatory API dependencies.
-- At least 50 substantial, operational, genuinely distinct naming methods in dedicated `SKILL.md` files. A source domain alone is not a method.
+- Substantial, operational, genuinely distinct naming methods in dedicated `SKILL.md` files. The owner explicitly removed the minimum of 50 methods; usefulness and distinctness determine the final count. A source domain alone is not a method.
+- The unit of documentation is a narrow creative technique, described in depth. Techniques may be grouped for navigation but must not disappear into broad umbrella skills. Related techniques may overlap if their individual operations and decisions are explicit.
 - Nonlinear, human-guided exploration: brief, method menu, universe menu where applicable, deep exploration, refinement/navigation, and export. Users decide when to stop.
 - Agents proactively propose unexpected universes with evocative previews and distinguish verified vocabulary from speculation and invention.
 - Communicate with the owner in Russian. Repository content is English. End users may converse in any language; names are English, normally in Latin characters.
@@ -16,4 +17,4 @@ The owner's “Brand Naming Skills — Project Handoff” is the requirements au
 
 ## Initial audit
 
-The archive contains 14 Markdown files, five skills, and a 53-entry roadmap. The five starter skills are now `draft`: they need fuller worked examples, method-specific assessment, recovery procedures, and demonstrated distinctness. Several roadmap entries describe universes rather than independent operators. The target of 50 accepted methods remains unmet.
+The archive contains 14 Markdown files, five skills, and a 53-entry roadmap. The five starter skills are now `draft`: they need fuller worked examples, method-specific assessment, recovery procedures, and demonstrated distinctness. Several roadmap entries describe universes rather than independent operators. The final method list is under discussion; there is no minimum method count.
