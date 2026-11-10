@@ -25,4 +25,8 @@ The owner subsequently authorized publication to [dmitry-v-ko/-Brand-naming-syst
 
 ## Subsequent scope change
 
-After the reviewed twelve-procedure snapshot, the owner removed double meaning as a standalone method. The current catalog has eleven procedures. The former [double-meaning procedure](../archive/RETIRED_DOUBLE_MEANING.md) is retained only as historical material; review scores and execution claims above are not retrospectively changed.
+After the reviewed twelve-procedure snapshot, the owner removed double meaning as a standalone method, leaving eleven procedures at that stage. The former [double-meaning procedure](../archive/RETIRED_DOUBLE_MEANING.md) is retained only as historical material; review scores and execution claims above are not retrospectively changed.
+
+## Renewed cycle: eighteen-method expansion
+
+The owner subsequently approved seven additional narrow methods. The current active catalog has eighteen procedures. Their [research evidence](../research/EXPANSION_EVIDENCE.md) is separate from independent execution and acceptance. A new fresh-context critique and targeted improvement cycle is in progress under the same fixed rubric; the historical 9.03 score is not acceptance of the expanded inventory.

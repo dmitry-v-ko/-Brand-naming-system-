@@ -33,3 +33,7 @@ The owner removed double meaning as a standalone method. This scope change left 
 The owner approved adding historical lexical archaeology, etymological research, literary word-formation transfer, corpus contrast, onomatopoeic naming, reduplication/echo forms, and pronunciation-conscious respelling. All seven files and catalog entries have now been created, giving 18 active methods. Independent review of the expanded collection is pending. Each remains a separately detailed narrow procedure. Historical vocabulary can be used unchanged; transformation is optional. Double meaning remains retired.
 
 After implementation, run a new independent critique/improvement cycle against the unchanged review rubric until the unrounded weighted score is at least 9/10 and no unresolved critical defect contradicts it. Previous reviews apply to their historical snapshots and must not be presented as acceptance of this expansion.
+
+## Simplicity requirement
+
+The owner additionally requested review of unnecessary process complexity. Assess this within agent usability under the existing rubric: avoid imposing large menus, repeated questions, full provenance tables or audit-only mechanics on ordinary naming conversations when they do not improve the creative result. Preserve necessary source evidence, explicit shortlist consent and recoverable state internally. Detailed research and wider exploration remain available when useful or requested. A specifically requested external review skill must be located and read before claiming it was applied.
