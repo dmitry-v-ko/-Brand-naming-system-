@@ -11,7 +11,7 @@
 
 ## Current acceptance
 
-Independent fresh-context execution and rescoring reached 9.03/10 under the unchanged [review protocol](reviews/REVIEW_PROTOCOL.md); see the [final critique](reviews/CYCLE_03_CRITIQUE.md). Acceptance covers the bounded library and demonstrated session behavior. Individual skills remain draft pending per-skill acceptance; not every procedure has been independently executed end to end. The review covered twelve procedures; a subsequent owner decision retired double meaning, leaving eleven at that stage. The subsequent seven-method expansion brings the active inventory to eighteen; it requires its own independent review.
+The initial bounded library reached 9.03/10; that score remains historical. The expanded eighteen-method collection subsequently reached **9.11/10** after an 8.78 critique and a separate targeted improvement pass. See [Cycle 05](reviews/CYCLE_05_CRITIQUE.md) and [repair execution evidence](reviews/EXPANSION_REPAIR_TRIAL.md). Acceptance covers the bounded documentation, repaired operations and ordinary/detail presentation; individual methods remain draft pending per-skill acceptance. Not all eighteen were independently executed end to end.
 
 ## Deliberately deferred
 
@@ -25,4 +25,4 @@ Local/Codex usage is documented in [README](../README.md). No application, manda
 
 ## Seven-method expansion
 
-Added separately detailed historical lexical archaeology, etymological tracing, literary word-formation transfer, corpus contrast, onomatopoeic naming, reduplication and respelling. Their [source evidence](research/EXPANSION_EVIDENCE.md) separates inspected facts from editorial procedures. Active catalog: eighteen. Next: independent fresh-context critique, targeted improvements and reassessment under the unchanged rubric until the unrounded result is at least nine with no critical defect. Preserve old reviews as snapshots.
+Added separately detailed historical lexical archaeology, etymological tracing, literary word-formation transfer, corpus contrast, onomatopoeic naming, reduplication and respelling. Their [source evidence](research/EXPANSION_EVIDENCE.md) separates inspected facts from editorial procedures. Active catalog: eighteen. Completed: independent fresh-context critique, targeted improvements and reassessment under the unchanged rubric. The exact final result is 9.110, with no critical defect in the recorded scope. Preserve old reviews and failed trials as snapshots.

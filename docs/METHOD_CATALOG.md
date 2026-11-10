@@ -1,6 +1,6 @@
 # Operational method catalog
 
-The active core has **18 separately documented techniques**: six structural, four sound, five source-discovery, one observed-pattern transfer, one semantic and one orthographic. All have complete editorial procedures and synthetic worked traces. Their maturity remains **draft pending independent acceptance**; use as labeled trials. A procedure is not accepted merely because headings exist. See [manual validation](reviews/CYCLE_01_MANUAL_VALIDATION.md), [authoring gates](SKILL_SPEC.md), and [source evidence](research/LEXICAL_ACCESS_EVIDENCE.md). No method-count quota applies.
+The active core has **18 separately documented techniques**: six structural, four sound, five source-discovery, one observed-pattern transfer, one semantic and one orthographic. All have complete editorial procedures and synthetic worked traces. Their maturity remains **draft pending per-skill acceptance**; use as labeled trials. A procedure is not accepted merely because headings exist. See [manual validation](reviews/CYCLE_01_MANUAL_VALIDATION.md), [authoring gates](SKILL_SPEC.md), and [source evidence](research/LEXICAL_ACCESS_EVIDENCE.md). No method-count quota applies.
 
 ## Operator and neighbor audit
 
@@ -57,4 +57,4 @@ Double meaning was removed as a standalone method on 2026-11-10. Its [former pro
 
 ## Approved expansion
 
-The owner approved the seven additional narrow procedures above. See [expansion evidence](research/EXPANSION_EVIDENCE.md) for actual sources and limits. Each remains draft pending independent acceptance; completed editorial instructions and synthetic examples are not independent execution. Double meaning remains retired. Corpus comparison, dated sense recovery, etymological graph tracing and observed literary pattern transfer are separate operations, not renamed source universes.
+The owner approved the seven additional narrow procedures above. See [expansion evidence](research/EXPANSION_EVIDENCE.md) for actual sources and limits. Each remains draft pending per-skill acceptance; completed editorial instructions and synthetic examples are not independent execution. Double meaning remains retired. Corpus comparison, dated sense recovery, etymological graph tracing and observed literary pattern transfer are separate operations, not renamed source universes.

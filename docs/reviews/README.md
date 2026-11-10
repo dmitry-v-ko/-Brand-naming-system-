@@ -1,12 +1,14 @@
 # Review history and current acceptance
 
-The owner requested independent critique followed by a separate improvement agent, repeated until the score reached at least nine. Critics started with fresh contexts and used the same [weighted rubric](REVIEW_PROTOCOL.md). Two improvement rounds and three independent critiques were completed.
+The owner requested independent critique followed by a separate improvement agent, repeated until the score reached at least nine. Critics started with fresh contexts and used the same [weighted rubric](REVIEW_PROTOCOL.md). The initial cycle completed two improvement rounds and three independent critiques. The approved seven-method expansion added a new critique, a separate improvement pass and a fresh reassessment.
 
 | Review | Result | Main finding / subsequent action |
 |---|---:|---|
 | [Cycle 01](CYCLE_01_CRITIQUE.md) | 4.05/10 | Thin draft procedures and incomplete demonstration. The report retains its original 4.00 calculation and a transparent arithmetic erratum. |
 | [Cycle 02](CYCLE_02_CRITIQUE.md) | 8.75/10 | Twelve detailed procedures; actual trial revealed future-feedback leakage in its writing helper. Correct final export did not validate the earlier history. |
 | [Cycle 03](CYCLE_03_CRITIQUE.md) | 9.03/10 | New sequential trial, isolated two-file resume and exact-only export inspected independently. Exact weighted result 9.025 exceeds the threshold. No unresolved critical defect. |
+| [Cycle 04](CYCLE_04_CRITIQUE.md) | 8.78/10 | Expanded eighteen-method snapshot; new probes exposed literary child-contract failures, etymological notation and process overhead. |
+| [Cycle 05](CYCLE_05_CRITIQUE.md) | 9.11/10 | Targeted fixes and fresh execution passed bounded gates; ordinary responses are short and research detail is available on request. |
 
 ## Changes and evidence
 
@@ -17,9 +19,9 @@ The owner requested independent critique followed by a separate improvement agen
 
 ## Acceptance limits
 
-The review accepts the useful bounded library and demonstrated conductor/session behavior, including the exercised lexical-research → intact-word-compounding path. All twelve procedures were inspected; not all twelve were independently executed end to end. Their draft labels are retained pending per-skill acceptance. No consumer, native-speaker, commercial-effectiveness or clearance validation is claimed.
+The review accepts the useful bounded library and demonstrated conductor/session behavior, including the exercised lexical-research → intact-word-compounding path. The latest review inspected all eighteen procedures; not all eighteen were independently executed end to end. Their draft labels are retained pending per-skill acceptance. No consumer, native-speaker, commercial-effectiveness or clearance validation is claimed.
 
-Remaining maintenance: make current audit summaries more compact and unambiguous; identify or update older synthetic fixtures that predate the received-turn schema; extend independent operator trials incrementally. These do not require continuing the requested loop after its threshold is met. External run paths in reports are supplementary local audit evidence, not dependencies for using the library.
+Remaining maintenance: reduce repeated shared instruction prose and dense internal templates; extend independent operator trials incrementally. Older fixtures now identify their schema vintage. These do not require continuing the requested loop after its threshold is met. External run paths in reports are supplementary local audit evidence, not dependencies for using the library.
 
 The owner subsequently authorized publication to [dmitry-v-ko/-Brand-naming-system-](https://github.com/dmitry-v-ko/-Brand-naming-system-). Its existing MIT License and initial commit are preserved. Historical review statements about local-only work describe their review dates, not the current distribution destination.
 
@@ -29,4 +31,11 @@ After the reviewed twelve-procedure snapshot, the owner removed double meaning a
 
 ## Renewed cycle: eighteen-method expansion
 
-The owner subsequently approved seven additional narrow methods. The current active catalog has eighteen procedures. Their [research evidence](../research/EXPANSION_EVIDENCE.md) is separate from independent execution and acceptance. A new fresh-context critique and targeted improvement cycle is in progress under the same fixed rubric; the historical 9.03 score is not acceptance of the expanded inventory.
+The owner subsequently approved seven additional narrow methods. The current active catalog has eighteen procedures. Their [research evidence](../research/EXPANSION_EVIDENCE.md) is separate from independent execution and acceptance. The renewed cycle completed at 9.11 under the same fixed rubric; the historical 9.03 score is not inherited as acceptance of the expanded inventory.
+
+- [Expansion operator trial](EXPANSION_OPERATOR_TRIAL.md): preserved original failures, accurate counts and source limits.
+- [Targeted improvements](CYCLE_04_IMPROVEMENTS.md): inherited child constraints, derivation edges, simpler menus and explicit respelling categories.
+- [Fresh repair execution](EXPANSION_REPAIR_TRIAL.md): conforming literary constructions, truthful corpus order, etymological formation and ordinary/detail responses.
+- [Final critique](CYCLE_05_CRITIQUE.md): exact weighted result 9.110, no unresolved critical blocker in the accepted scope.
+
+Simplicity was reviewed under the owner's direct criterion within the existing usability weight. The specifically requested ponytail skill was not found/read; its application is not claimed.

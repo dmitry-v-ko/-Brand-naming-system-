@@ -10,4 +10,4 @@ Date: 2026-11-10. The owner approved seven detailed additions, bringing the acti
 
 Sources support only their identified facts. Naming procedures, branching rules, matrices, synthetic briefs and candidate judgments are editorial adaptations. Direct use of verified rare words remains valid; transformations are optional. Legal/commercial availability and consumer response are outside this evidence.
 
-Previous critiques describe earlier inventories. The eighteen-method collection requires a new independent critique and improvement cycle under the existing rubric. The retired double-meaning procedure remains historical material and is not reintroduced by literary paired-attribute compression or any other addition.
+Previous critiques describe earlier inventories. The eighteen-method collection completed its own independent critique and improvement cycle under the existing rubric, reaching [9.11/10](../reviews/CYCLE_05_CRITIQUE.md) within a bounded documented scope; this does not promote every method to ready. The retired double-meaning procedure remains historical material and is not reintroduced by literary paired-attribute compression or any other addition.

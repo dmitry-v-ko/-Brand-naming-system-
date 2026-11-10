@@ -20,7 +20,7 @@ Required: one desired property plus at least one exclusion. Infer two distant un
 ## Procedure
 
 1. Translate the brief into searchable properties rather than category keywords: “quiet transformation,” “connection without rigidity.” Propose vivid universe previews, labeled unverified until opened.
-2. Select one world by user choice or delegated assumption. Search an official/reference glossary using property + glossary and exact candidate terms. Open entries and capture the precise sense/locator.
+2. Select one world by user choice, actual delegation, or a recorded agent provisional choice when the brief is sufficiently specified. Never describe that last case as user delegation. Search an official/reference glossary using property + glossary and exact candidate terms. Open entries and capture the precise sense/locator.
 3. Build a ledger: exact word, meaning, related-entry link, relevance, misleading implication, evidence. Follow at most two useful links; avoid uncontrolled thesaurus drift.
 4. Separate direct-name options from adaptation ingredients. For direct use retain exact spelling; for a changed form invoke a separate named skill.
 5. Ordinarily present 2–3 contrasting terms across useful functional, sensory or abstract directions, including one near miss and why it failed. Stop after two failed research routes or when additional entries repeat the same property.
