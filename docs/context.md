@@ -41,3 +41,7 @@ The owner additionally requested review of unnecessary process complexity. Asses
 ## Expanded review outcome
 
 The renewed cycle scored 8.78, received a separate improvement pass, and reached 9.11 under unchanged weights. The current eighteen-method snapshot has no unresolved critical defect within the recorded bounded acceptance. Ordinary well-specified briefs can start with 2–3 useful directions without mandatory menus; provenance remains internal and available on request. The requested ponytail skill was not located or supplied, so only the owner's direct simplicity criterion was applied; no use of that skill is claimed.
+
+## Claude distribution and presentation
+
+The owner requested clearer repository presentation, visible method examples and Claude installation. The portable root SKILL.md routes to the existing eighteen methods; it is not an additional method. CLAUDE.md imports the shared conductor. Provide a complete ZIP for Claude's custom-skill upload and Git installation instructions for Claude Code, with a document-only Projects alternative. Preserve English repository content, draft maturity and explicit limits of local packaging verification versus actual Claude activation.
