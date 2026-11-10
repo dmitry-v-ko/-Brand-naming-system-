@@ -108,7 +108,7 @@ Each procedure includes its mechanism, research strategy, intermediate artifacts
 
 ## Status and scope
 
-The collection contains **18 detailed draft methods**. The latest independent repository review scored **9.11/10** under its [documented rubric](docs/reviews/CYCLE_05_CRITIQUE.md); that is a bounded internal quality assessment, not evidence of commercial success or end-to-end acceptance of every method. The Claude adapter changes distribution, not method maturity.
+The collection contains **18 detailed draft methods**. The earlier Cycle 05 repository review scored **9.11/10** under its [documented rubric](docs/reviews/CYCLE_05_CRITIQUE.md); that is a bounded internal quality assessment, not evidence of commercial success or end-to-end acceptance of every method. The [live parallel-mode trial](docs/reviews/PARALLEL_LIVE_TRIAL.md) records newer execution evidence and scoped repairs without changing method maturity.
 
 The focus is creative discovery, invention and shortlisting. Trademark, patent, domain, registration and other clearance checks belong to a separate workflow. An unusual word or spelling does not establish availability.
 

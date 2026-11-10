@@ -15,7 +15,7 @@ Template only. Copy for a new session outside the checkout; never overwrite an e
 - latest_user_decision: received turn ID; original-language exact quote; separately labeled summary if useful
 - delegated_choices: received delegation turn ID and scope, if any; unknown/none is valid
 - agent_provisional_choices: inferred branch/method/universe, reason and assumptions; never label as user preference or delegation
-- candidate_pool_summary: unique IDs; total = conforming (retained + rejected) + diagnostics; by branch/form/evidence; saved subset
+- candidate_pool_summary: unique IDs; total = conforming (retained + parked + rejected) + diagnostics; by branch/form/evidence; label worker/conductor assessment layer; saved subset
 - favorites: candidate IDs; shortlist is authoritative for saved details
 - rejected_directions: direction, reason, user turn ID or explicitly agent assessment
 - unexplored_ideas: concrete pending leads, not previously executed claims
@@ -62,3 +62,7 @@ Before confirming persistence, check both files against received turns only. For
 |---|---|---|---|---|---|
 
 Record exact-name duplicate mappings and conflicting lineages in the candidate pool. Keep participant observations separate from agent predictions. Native-speaker review: not performed unless supported by actual feedback. Never infer shortlist consent from worker output.
+
+### Conductor comparison (only when combining results)
+
+Keep worker assessments in their original records. For each proposed presentation representative record candidate ID, direction/near-variant group, brief fit, reading risk, explanation burden, and conductor decision/reason (present / park / reject). A worker-retained candidate may be parked centrally; this does not erase its valid construction or create a user preference. No representative is owed to any method. Favorites remain governed by explicit user consent.

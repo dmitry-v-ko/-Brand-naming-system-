@@ -19,7 +19,7 @@ The owner requested independent critique followed by a separate improvement agen
 
 ## Acceptance limits
 
-The review accepts the useful bounded library and demonstrated conductor/session behavior, including the exercised lexical-research → intact-word-compounding path. The latest review inspected all eighteen procedures; not all eighteen were independently executed end to end. Their draft labels are retained pending per-skill acceptance. No consumer, native-speaker, commercial-effectiveness or clearance validation is claimed.
+The review accepts the useful bounded library and demonstrated conductor/session behavior, including the exercised lexical-research → intact-word-compounding path. Cycle 05 inspected all eighteen procedures; at that snapshot, not all eighteen had been independently executed end to end. Their draft labels are retained pending per-skill acceptance. No consumer, native-speaker, commercial-effectiveness or clearance validation is claimed.
 
 Remaining maintenance: reduce repeated shared instruction prose and dense internal templates; extend independent operator trials incrementally. Older fixtures now identify their schema vintage. These do not require continuing the requested loop after its threshold is met. External run paths in reports are supplementary local audit evidence, not dependencies for using the library.
 
@@ -39,3 +39,7 @@ The owner subsequently approved seven additional narrow methods. The current act
 - [Final critique](CYCLE_05_CRITIQUE.md): exact weighted result 9.110, no unresolved critical blocker in the accepted scope.
 
 Simplicity was reviewed under the owner's direct criterion within the existing usability weight. The specifically requested ponytail skill was not found/read; its application is not claimed.
+
+## Live parallel modes
+
+[Three-method and eighteen-method live trial](PARALLEL_LIVE_TRIAL.md) records 21 dedicated worker executions on one frozen private brief, aggregate counts, independent findings and targeted selection/reconciliation repairs. It adds bounded execution evidence without changing the historical scores or draft maturity. Real client session artifacts remain outside this library.

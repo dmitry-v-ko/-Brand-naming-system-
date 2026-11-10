@@ -27,7 +27,7 @@ Required: tone and syllable count; infer two syllables and first-syllable stress
 
 ## Selection and recovery
 
-Select for intact units, distinct rhythms and plausible English pronunciation. Repeated vowels may create a third syllable; mark that risk rather than assert two. Repair an awkward boundary by swapping a unit, not silently mutating phonemes. If all forms sound interchangeable, add a CVC unit or change stress in a separate comparison.
+Select for intact units, distinct rhythms and plausible English pronunciation. Assess spoken assembly and written reading separately: intact syllable cards establish a valid construction, not that readers will recover its syllables or stress. If ordinary spelling cues strongly favor a different syllable count, park or reject that spelling for presentation even when the assembly conforms. A credible alternative reading may remain an explicit uncertainty; do not invent a competing reading or claim listener evidence. Recover by swapping a whole unit for a clearer boundary, or declare a separate respelling step while preserving the sound target. Keep the original construction and rejection reason in the ledger. Repeated vowels may create a third syllable; mark that risk rather than assert two. Repair an awkward boundary by swapping a unit, not silently mutating phonemes. If all forms sound interchangeable, add a CVC unit or change stress in a separate comparison.
 
 ## Research and evidence
 
