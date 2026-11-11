@@ -10,13 +10,13 @@
 [![Format: Markdown](https://img.shields.io/badge/format-Markdown-3B5268?style=flat-square)](SKILL.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-8A633C?style=flat-square)](LICENSE)
 
-[**Install in Claude**](docs/INSTALL_CLAUDE.md) · [**Explore the methods**](docs/METHOD_CATALOG.md) · [**See examples**](examples/METHOD_SHOWCASE.md)
+[**Use in Claude Code, Codex or Pi**](docs/INSTALL.md) · [**Explore the methods**](docs/METHOD_CATALOG.md) · [**See examples**](examples/METHOD_SHOWCASE.md)
 
 </div>
 
 ---
 
-A creative naming library for Claude, Codex and other research-enabled agents. Discover an overlooked word, invent a new one, or follow an unexpected association. Explore the directions you like, revisit earlier branches, and build a shortlist with the origins intact.
+A creative naming library for Claude Code, Codex, Pi and other file-reading agents. Discover an overlooked word, invent a new one, or follow an unexpected association. Explore the directions you like, revisit earlier branches, and build a shortlist with the origins intact.
 
 **Converse in any language. Create English-language names.** Start with a few useful options; ask for deeper research when a direction deserves it. Verified rare words can be used unchanged.
 
@@ -33,7 +33,9 @@ A creative naming library for Claude, Codex and other research-enabled agents. D
 
 Constructed names and briefs are illustrative, with no availability claim. Gloaming's lexical basis is recorded in the [historical evidence](docs/research/HISTORICAL_METHODS_EVIDENCE.md). [See the exact transformations, drawbacks and next steps →](examples/METHOD_SHOWCASE.md)
 
-## Start in Claude
+## Start with a local client
+
+The complete Git checkout is the distribution: no archive, package install or build is needed for this library. Install and sign in to your chosen client separately; its model access and research tools remain host requirements.
 
 ### Claude Code
 
@@ -53,15 +55,48 @@ Start with three contrasting directions. Speak in my language; names in English.
 
 One installed entry point routes to all eighteen reference methods. No library API key, package install or build is required.
 
-### Claude in the browser
-
-[**Download the Claude skill ZIP**](https://github.com/dmitry-v-ko/-Brand-naming-system-/raw/refs/heads/main/downloads/brand-naming.zip), then open **Customize → Skills → Create skill → Upload a skill**, upload it and enable **brand-naming**. Claude's file-creation capability must be enabled.
-
-[Full installation guide, updates and Claude Projects alternative →](docs/INSTALL_CLAUDE.md)
+You can also open an ordinary checkout in Claude Code and ask for naming help; [CLAUDE.md](CLAUDE.md) imports the conductor. [Installation and updates →](docs/INSTALL.md#claude-code)
 
 ### Codex or another file-reading agent
 
-Clone/open the repository and have the agent read [AGENTS.md](AGENTS.md). Describe what needs naming. Claude Code users opening the checkout directly also get the shared conductor through [CLAUDE.md](CLAUDE.md).
+Clone the repository if you do not already have a checkout:
+
+```bash
+git clone https://github.com/dmitry-v-ko/-Brand-naming-system-.git brand-naming
+```
+
+Open the local `brand-naming` folder as your Codex project and start a chat in that project. Paste this prompt; replace the dinner-service sentence with your idea in any language:
+
+```text
+Read AGENTS.md in this repository and use Brand Naming System.
+I want to name a ready-made dinner delivery service. I do not know where to start.
+```
+
+This file-reading route needs no `/brand-naming` command, package installation or server. Expect a few relevant questions with examples when your brief is incomplete, then two or three contrasting names with reasons, drawbacks and a recommendation. The agent should respond in your language; customer-facing examples use the audience's language, which it will infer explicitly or clarify. If it gives a repository review instead, ask it to use AGENTS.md for an actual naming session.
+
+The agent creates session records outside this library and gives you a link or resolved path to `SHORTLIST.md`. A typical location is a sibling `naming-sessions/<session-id>/SHORTLIST.md`; the exact writable location depends on the host. Only names you explicitly select are saved. Ask “Show my shortlist and its file location” to find it. Without file-writing tools, ask for a Markdown export in chat.
+
+Claude Code users opening the checkout directly also get the shared conductor through [CLAUDE.md](CLAUDE.md).
+
+### Pi
+
+From the cloned `brand-naming` folder, run:
+
+```bash
+pi --skill ./SKILL.md
+```
+
+Then enter:
+
+```text
+/skill:brand-naming I want to name a ready-made dinner delivery service. I do not know where to start.
+```
+
+Pi reads the same conductor and methods. Stock Pi has no built-in subagents: wider exploration is offered sequentially in the same chat, with that limitation stated before you choose. Research depends on enabled tools; unavailable sources remain unverified. [Other skill-folder locations and client checks →](docs/INSTALL.md#pi)
+
+### Claude in the browser
+
+Claude web is a separate product from local Claude Code. These checkout commands do not give a browser chat access to your local files or install a web skill. A [manual Claude Projects workflow](docs/INSTALL.md#claude-web-and-projects) is available; this repository does not ship an upload archive.
 
 ## How exploration feels
 
@@ -70,15 +105,24 @@ Clone/open the repository and have the agent read [AGENTS.md](AGENTS.md). Descri
 3. **Follow your curiosity.** Deepen a method, discover another source world, combine techniques, or return to a parked branch.
 4. **Save your choices.** Only explicitly selected names enter the shortlist. Export when you are satisfied.
 
+Before a final recommendation, the agent performs a [preliminary name check](checks/name-screening/SKILL.md): language and brief fit, relevant market context, and scoped trademark searches where tools permit. You can request a check at any stage. Unchecked creative previews and requested exports remain clearly labeled; incomplete coverage is never a claim that a name is available. A [tenant profile](templates/TENANT_PROFILE.md) can supply your own filters and stricter check order, loaded only when you explicitly select it.
+
 For research, the agent proposes worlds such as bookbinding, cloud forms, old navigation, regional vocabulary and literary word formation. It distinguishes verified words from hypotheses and inventions. [Explore the universe cards →](lexical-universes/UNIVERSES.md)
 
 Session records live in your working space, outside the library. If file writing is unavailable, use in-chat records and Markdown exports.
 
 ## Choose exploration breadth
 
-After the brief, choose **three suitable methods** for a focused comparison or **all 18 methods** for a broad sweep. Each assigned method gets its own subagent and the same brief; the conductor combines results and shows useful contrasts. Limited concurrency runs the workers in a queue. Hosts without subagents can offer an explicitly labeled sequential alternative. You can also continue exploring one direction.
+After the brief, ask for **three different directions** for a focused comparison, or **a broad search** for more varied possibilities. The broader search takes longer and uses more work; it does not guarantee a stronger name. The agent selects the techniques and shows useful contrasts. You can also keep developing a direction you already like, without choosing a search mode.
 
-Names are compared with the same plain category descriptor and use context. Actual audience feedback and native-speaker review remain distinct from agent predictions. Broader exploration does not guarantee better names; methods retain their draft status.
+Names are compared with the same plain category descriptor and use context in the intended customer language, even when you chat in another language. Actual audience feedback and native-speaker review remain distinct from agent predictions. Methods retain their draft status.
+
+<details>
+<summary>How the wider search works</summary>
+
+The focused option uses three suitable methods; broad search covers all 18. Each assigned method gets a dedicated subagent and the same brief; limited concurrency queues workers. Hosts without subagents can offer an explicitly labeled sequential alternative. You can request particular methods or execution details. The [session contract](docs/SESSION_PROTOCOL.md#parallel-exploration-three-or-all-eighteen) defines coverage and comparison.
+
+</details>
 
 ## Inside the library
 
@@ -110,6 +154,6 @@ Each procedure includes its mechanism, research strategy, intermediate artifacts
 
 The collection contains **18 detailed draft methods**. The earlier Cycle 05 repository review scored **9.11/10** under its [documented rubric](docs/reviews/CYCLE_05_CRITIQUE.md); that is a bounded internal quality assessment, not evidence of commercial success or end-to-end acceptance of every method. The [live parallel-mode trial](docs/reviews/PARALLEL_LIVE_TRIAL.md) records newer execution evidence and scoped repairs without changing method maturity.
 
-The focus is creative discovery, invention and shortlisting. Trademark, patent, domain, registration and other clearance checks belong to a separate workflow. An unusual word or spelling does not establish availability.
+The library combines creative discovery and shortlisting with a separate preliminary screening stage. The eighteen generation methods are unchanged; screening is not a nineteenth generator or a legal opinion. Registration, filing, payments and domain purchases are outside scope. An unusual word, empty search page or completed limited search does not establish legal availability.
 
 [MIT License](LICENSE) · [Project decisions](docs/context.md) · [Contributing a method](docs/SKILL_SPEC.md)

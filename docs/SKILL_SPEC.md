@@ -1,6 +1,6 @@
 # Skill authoring and acceptance specification
 
-An active skill lives at `skills/<id>/SKILL.md`; its stable ID equals the directory. Use `draft` until an independent reader can perform and review the supplied procedure. `ready` means operationally accepted, not commercially effective or legally cleared. `deprecated` routers and universe recipes do not count as active skills.
+An active generation skill lives at `skills/<id>/SKILL.md`; its stable ID equals the directory. Use `draft` until an independent reader can perform and review the supplied procedure. `ready` means operationally accepted, not commercially effective or legally cleared. `deprecated` routers and universe recipes do not count as active skills. Auxiliary review workflows under `checks/` are outside the generation-method count and need their own bounded execution evidence.
 
 ## Required executable substance
 

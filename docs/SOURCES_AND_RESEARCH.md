@@ -22,7 +22,7 @@ Form belongs to the candidate: `attested` = unchanged observed lexical form; `ad
 
 Start with two or three queries: exact concept + official glossary/dictionary; headword + reference domain; adjacent concept + reference. Open up to two useful entries per direction before expanding. Search snippets, machine translation and an agent's memory are leads. Verify the relevant sense in an opened page; record failed access too. After two failed routes, offer verified adjacent material or an explicitly unverified research branch. Do not manufacture a definition to keep generation moving.
 
-For cross-language material retain original script, specific sense, literal gloss, transliteration separately from English-facing adaptation, and unverified pronunciation notes. Do not call an arbitrary string an ancient root. For fiction record edition/work or the actual secondary reference; extract general patterns without copying a distinctive franchise name. No legal, patent, trademark or domain checks are part of these procedures.
+For cross-language material retain original script, specific sense, literal gloss, transliteration separately from English-facing adaptation, and unverified pronunciation notes. Do not call an arbitrary string an ancient root. For fiction record edition/work or the actual secondary reference; extract general patterns without copying a distinctive franchise name. These generation procedures do not perform legal screening; use the separate [preliminary name check](../checks/name-screening/SKILL.md) for candidate/shortlist review. Its query-completeness and primary-registry requirements are not replaced by the bounded lexical lookup above.
 
 ## Seven-method expansion evidence
 

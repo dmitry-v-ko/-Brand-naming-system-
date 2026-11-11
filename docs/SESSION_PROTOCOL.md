@@ -2,7 +2,7 @@
 
 ## Initialize and resume
 
-Resolve a session directory outside the library checkout, such as a sibling `naming-sessions/<session-id>/`. Separate users and brands. Copy templates only for a new session; never overwrite existing records. Without write tools, keep equivalent state in chat and offer portable Markdown.
+Resolve a session directory outside the library checkout, such as a sibling `naming-sessions/<session-id>/`. Separate users and brands. Copy templates only for a new session; never overwrite existing records. Once files are written, give the user a clickable link or resolved path to the shortlist. Without write tools, keep equivalent state in chat and offer portable Markdown.
 
 On resume, read both records, summarize the active branch and latest decision, and continue from recorded preferences. Missing state is unknown, not permission to invent previous decisions. Ask one focused question if contradictory feedback affects the next action.
 
@@ -13,13 +13,20 @@ For review evidence, distinguish a same-agent read-back from a fresh-context res
 | State | Action | Exit condition |
 |---|---|---|
 | BRIEF | Establish offer, audience, character, exclusions; ask only questions affecting direction | Enough information for contrasting previews; mark assumptions |
-| METHOD_MENU (optional) | Offer a broader 3–6-operator menu when requested or real uncertainty warrants it | Direction clarified |
+| METHOD_MENU (optional) | Explain 3–6 operators when the user explicitly asks about methods; ordinary breadth/uncertainty uses outcome-based choices | Technical question answered |
 | UNIVERSE_MENU (optional) | Ordinarily infer two distant worlds; expand to 6–12 on request or useful uncertainty | Develop a provisional branch or user choice |
 | DEEP_EXPLORE | Follow the skill, preserve sources, generate diverse clusters | Useful batch or research dead end |
 | REFINE / NAVIGATE | Deepen, switch, combine, revisit, shortlist, review research, or stop | User selects next action |
-| EXPORT | Return only explicitly saved names with origins and notes | User stops or returns to exploration |
+| SCREEN | Run preliminary screening for selected names/scope on request or before final recommendation | Dated bounded report, including any incomplete/unperformed checks |
+| EXPORT | Return only explicitly saved names with origins, notes and preliminary status/scope | User stops or returns to exploration |
 
 States are navigation aids, not compulsory gates. A sufficiently specified ordinary brief can move directly from BRIEF to useful exploration: state concise assumptions, show 2–3 contrasting directions/names and recommend one. This is an agent provisional choice, not invented user delegation. Preserve other possibilities for later navigation. Honor direct instructions from any state without requiring repeated confirmation. Menus invite creative choices; they are not permission checks for every research step. If the user delegates direction selection, record the provisional choice and proceed. Never auto-complete because a batch or count is reached.
+
+## Conversation and customer languages
+
+Record `conversation_language` for the dialogue and report narrative, `customer_language` for customer-facing copy, and `language_basis` (received user turn or explicitly provisional assumption) in both session files. Resolve customer language from the audience/market brief, not the language of the chat or the name's script. For a mixed international audience, English can be a stated provisional common language; invite correction without blocking a useful preview. When plausible language choices would materially change the examples and the brief does not resolve them, ask one short question. On resume, preserve the recorded choice; missing fields in older records are unknown, not a reason to overwrite the session.
+
+Use `customer_language` for the shared `category_descriptor`, package text, customer messages and materials proposed for audience testing. Keep the same descriptor and sentence frame across names. Explain the comparison in `conversation_language`. Preserve these choices in expanded brief snapshots and worker inputs. In the final document, state the intended customer language and retain customer-facing examples in that language, even when the surrounding report is in the conversation language. Label local-language drafts requiring native-speaker review, including Serbian; proposed translations are not validated local copy. Exact user quotes stay in their original language.
 
 ## Branch and candidate identity
 
@@ -33,7 +40,15 @@ Update the exploration log after meaningful research, feedback, branching, or se
 
 Save only explicitly selected candidates to the shortlist. Praise alone is not a save instruction. Clarify ambiguous selections. Preserve exact spelling and user comments. Removal and substantive replacement require user approval. Repeated selection updates an existing entry rather than duplicating it. Around 20–25 entries offer voluntary review without blocking additions.
 
-Export includes name, method, universe (or not applicable), origin, form, evidence, source references, and user comments when available. Keep unresolved claims labeled. State once that clearance has not been performed. Never claim a file was saved unless the write succeeded.
+Export includes name, method, universe (or not applicable), origin, form, lexical evidence, source references and user comments when available, plus the preliminary screening status/date/scope/report link beside each name. Keep unresolved claims and unperformed checks labeled; no status is legal clearance. Never claim a file was saved unless the write succeeded.
+
+## Preliminary screening and tenant scope
+
+The [name-screening skill](../checks/name-screening/SKILL.md) is a review stage outside the eighteen-method catalog. It can be entered from any state on request and is required before a final recommendation. Ordinary creative previews may be unchecked and labeled; a final creative working choice or directly requested unchecked export must explicitly retain incomplete/unperformed checks and cannot be presented as ready for launch. Preserve user control and explicit shortlist consent.
+
+Record `active_tenant_profile` as path/revision/selection turn, or none. Load only the explicitly selected profile and its decision history; do not scan for other tenants. A stricter selected profile can require registry-before-preview/acceptance and local document-change conventions. These are not global defaults. No default territories, Nice classes, reference names or sound filters are inherited.
+
+Keep session-owned check reports using [NAME_CHECK.md](../templates/NAME_CHECK.md); `name_checks` maps candidate IDs to check ID, scope revision, status, date and report path. Search keys never replace the exact display name. Changing the name, goods/services, territory, language or material profile rule marks the old conclusion stale for the new scope; preserve the old report, create a revision and state required rechecks. Decision records keep date, reason, source, decision type and any new argument or correction. Do not re-propose a rejected variant without a new argument or explicit request, and do not remove a favorite automatically because a check raises a concern.
 
 
 ## Concrete evidence and reconciliation rules
@@ -62,15 +77,19 @@ Keep stable IDs, source status, exact maps, consent turns and compact reconcilia
 
 ## Research framing and contextual comparison
 
-For an expanded search, freeze a concise brief: audience, problem, credible promise, difference from alternatives, voice, pronunciation target, unwanted associations, target countries/languages and assumptions. Keep a plain category descriptor (usually 2–4 words) separate from the name. Infer missing nonessential fields explicitly; ask only when the answer changes direction.
+For an expanded search, freeze a concise brief: audience, problem, credible promise, difference from alternatives, voice, pronunciation target, unwanted associations, target countries, conversation/customer languages and their basis, and assumptions. Keep a plain category descriptor (usually 2–4 words) in the customer language separate from the name. Infer missing nonessential fields explicitly; ask only when the answer changes direction.
 
 When differentiation matters, inspect a small dated sample of competitor names on their own sites. Record URLs, recurring structures, imagery and tone, then propose departures as hypotheses. This is a creative namescape, not a conflict or availability search; a small sample cannot establish market-wide uniqueness. Reuse the map across methods.
 
-Compare promising names in the same plain introduction, descriptor and realistic use context. Separate name fit, message comprehension and personal liking. Record actual feedback separately from predicted reactions. If real participants are available, ask what they think the offer is, how they would pronounce/write the name, and which associations it evokes; do not substitute simulated respondents. Before final selection, recommend native-speaker review in relevant countries for pronunciation, slang and cultural associations. Unperformed checks remain unknown; all legal/domain clearance stays in the separate future workflow. See [research basis](research/PROCESS_RESEARCH.md).
+Compare promising names in the same plain introduction, descriptor and realistic use context. Separate name fit, message comprehension and personal liking. Record actual feedback separately from predicted reactions. If real participants are available, ask what they think the offer is, how they would pronounce/write the name, and which associations it evokes; do not substitute simulated respondents. Before final selection, recommend native-speaker review in relevant countries for pronunciation, slang and cultural associations. The screening stage records preliminary evidence and gaps; legal approval and registration remain outside this workflow. See [research basis](research/PROCESS_RESEARCH.md).
 
 ## Parallel exploration: three or all eighteen
 
-Offer once when the brief supports exploration, alongside useful initial contrasts: “Explore three suitable methods, or all 18 with one subagent per method?” Recommend three distinct operations suited to the brief; the user may choose all, specify methods, or continue the ordinary single-branch conversation. Do not repeat the choice or require it before a useful preview. An explicit selection authorizes that run; no second confirmation is needed. Full exploration adds breadth and work, not guaranteed quality. All current methods remain draft trials.
+Offer once when the brief supports exploration, alongside useful initial contrasts. Use outcome-based choices in the conversation language: **three different directions** for a focused comparison, or **a broad search** for more varied possibilities that takes longer and uses more work. Recommend the focused option when appropriate; continuing the current direction is also available. For example: “I suggest comparing three different directions next. We can also explore more broadly; that takes longer and does not guarantee a stronger name. Or we can develop the direction you already like.” The user chooses the result, without needing to select professional method names or understand subagents. Technical detail is available on request. Do not repeat the choice or require it before a useful preview.
+
+Internally, the focused choice maps to three distinct suitable methods, and broad search maps to all 18 active methods, one dedicated subagent per method. Preserve explicit requests for named methods or worker arrangements. An explicit selection of either plain-language option authorizes its mapped run; no second confirmation is needed. All current methods remain draft trials. Follow the existing coverage and fallback rules below.
+
+Check the actual available worker tools rather than assuming a client supports delegation. When none are available (for example, stock Pi), offer the same comparison **one direction at a time in this chat**, explicitly as sequential work, before the user selects it. That selection authorizes the sequential run with the same method coverage ledger; record the conductor as executor instead of fictitious worker IDs. If the user explicitly requested separate workers, obtain their choice before substituting sequential work. Ordinary single-direction exploration remains available without worker tools. Research access is a separate capability; unavailable source evidence stays unverified.
 
 1. **Plan.** Read the active catalog. Freeze a run ID, brief revision, received-through turn, selected method IDs and common comparison contexts. For three, prefer different families and explain fit. For all, assign every active method exactly once (currently 18); exclude deprecated routers and archived entries. Record the expected set before dispatch.
 2. **Dispatch.** Create one dedicated subagent per assigned method; record the host-returned worker reference against that assignment. Give each the same brief snapshot, its method file, source contract, shared namescape if any, relevant evidence files and any explicitly required child method. A child operation does not count as completing another assignment. Workers may infer method-specific parameters but must label them. Queue dedicated workers when concurrency is limited; do not give several assignments to one worker and call that one-subagent-per-method. If the host lacks subagents, explain this and offer sequential exploration of the same selected method set with the same coverage ledger and reconciliation. Obtain the user's choice before substituting it for an explicitly requested subagent run; never claim parallel execution occurred.

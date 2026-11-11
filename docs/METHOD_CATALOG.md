@@ -4,6 +4,8 @@ The active core has **18 separately documented techniques**: six structural, fou
 
 ## Operator and neighbor audit
 
+[Preliminary name screening](../checks/name-screening/SKILL.md) is a separate review stage with [tenant](../templates/TENANT_PROFILE.md) and [report](../templates/NAME_CHECK.md) templates. It does not change the eighteen generation techniques or their maturity.
+
 | ID / instructions | Method-specific input | Primary operator → intermediate artifact → output | Closest neighbor / distinguishing decision |
 |---|---|---|---|
 | [intact-word-compounding](../skills/intact-word-compounding/SKILL.md) | anchors + complementary word roles | join complete words → relationship matrix → compound | fragment-blending: deletes nothing |

@@ -12,7 +12,7 @@ The owner's “Brand Naming Skills — Project Handoff” is the requirements au
 - Communicate with the owner in Russian. Repository content is English. End users may converse in any language; names are English, normally in Latin characters.
 - Real session logs and shortlists live outside the repository. Save names only on explicit user selection. Offer voluntary review around 20–25 names; never delete without approval.
 - Preserve source origins, transformations, lexical status, feedback, rejected paths, and unexplored opportunities.
-- Exclude trademark, patent, domain availability, registration, and legal conflict checks. Export for a separate clearance workflow without availability claims.
+- Include scoped preliminary name screening as a separate review stage, with evidence limits and explicitly selected external tenant profiles. Legal opinions, filings, registration, payments and domain purchases remain outside scope; never claim absolute availability.
 - Package for GitHub and Codex Desktop. The owner selected https://github.com/dmitry-v-ko/-Brand-naming-system- as the remote destination. Preserve its existing MIT License and initial history.
 
 ## Initial audit
@@ -44,8 +44,14 @@ The renewed cycle scored 8.78, received a separate improvement pass, and reached
 
 ## Claude distribution and presentation
 
-The owner requested clearer repository presentation, visible method examples and Claude installation. The portable root SKILL.md routes to the existing eighteen methods; it is not an additional method. CLAUDE.md imports the shared conductor. Provide a complete ZIP for Claude's custom-skill upload and Git installation instructions for Claude Code, with a document-only Projects alternative. Preserve English repository content, draft maturity and explicit limits of local packaging verification versus actual Claude activation.
+The owner initially requested clearer repository presentation, visible method examples and Claude installation, including a custom-skill archive. That historical distribution decision is superseded by the Git-only decision below. The portable root SKILL.md routes to the existing eighteen methods; it is not an additional method. CLAUDE.md imports the shared conductor. Preserve English repository content, draft maturity and explicit limits of file verification versus actual client activation.
 
 ## Approved process improvements
 
 On 2026-11-10 the owner approved research-informed framing, contextual comparison and a choice between three suitable methods and all eighteen, with one subagent per method. SESSION_PROTOCOL.md owns execution, central reconciliation, coverage and fallback rules. These are conductor capabilities, not additional naming techniques; existing maturity and clearance boundaries remain unchanged.
+
+On 2026-11-11 the owner approved a bounded onboarding update: present exploration choices through outcomes and relative effort, preserve conversation and customer languages separately through examples/state/export, and provide a copyable Codex start prompt with expected behavior and shortlist location guidance. The internal three/all-eighteen mapping is unchanged. Candidate-quality changes, new methods and a new completion mechanism are outside this update.
+
+The owner then explicitly requested commit/push publication and removal of the generated skill archive. The complete Git checkout or skill folder is now the distribution for Claude Code, Codex and Pi. Keep Claude web separate as a manual document workflow. Do not assume Pi has subagents: disclose the sequential comparison when delegation tools are absent. No generated archive, packaging manifest, client dependency or Pi extension is required by this library.
+
+The owner additionally approved a preliminary linguistic/brief/market/trademark screening stage, accessible from any state and before final recommendations, with truthful unchecked exports when requested. It replaces the former blanket exclusion of registry checks, not the exclusion of legal opinions, filings or purchases. Keep real tenant profiles, source documents, candidate histories and migration evidence outside the public repository; no tenant's classes, markets, reference names or filters become universal defaults. Preserve source meaning through an independent source-fidelity review before publication.

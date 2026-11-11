@@ -8,6 +8,12 @@ Template only. Copy for a new session outside the checkout; never overwrite an e
 - session_directory: (absolute path outside library)
 - received_through: latest actually received user turn ID; no future fixture access
 - brand_brief: offer; audience; voice; exclusions; pronunciation; assumptions
+- conversation_language:
+- customer_language:
+- language_basis: received user turn or provisional assumption; unresolved choices remain unknown
+- category_descriptor: shared customer-language descriptor; see the session language contract
+- active_tenant_profile: none unless explicitly selected; path / revision / selection turn
+- name_checks: candidate ID → check ID / scope revision / preliminary status / date / report path; unknown is not cleared
 - current_stage: BRIEF
 - active_branch: none
 - active_method: none
@@ -45,14 +51,14 @@ Reuse an existing ID if exactly the same candidate returns; add branch reference
 | Received turn ID/date | Original-language exact quote; summary separately labeled | Agent action / state delta | Save/remove consent with received turn ID | Write result / unresolved contradiction |
 |---|---|---|---|---|
 
-Update after meaningful research, branching, feedback and selection. Confirm a write only after it succeeds. Never erase parked paths or candidates merely because they were rejected for the current brief.
+Update after meaningful research, branching, feedback and selection. Confirm a write only after it succeeds. Never erase parked paths or candidates merely because they were rejected for the current brief. For name decisions include reason, decision type (taste / brief / reported registry concern), source/date and new argument or correction. Screening reports preserve query coverage and previous scope revisions; a scope change marks the prior conclusion stale, never silently current.
 
 Before confirming persistence, check both files against received turns only. For audited trials, preserve immutable snapshots after meaningful writes; append corrections without overwriting failed snapshots. See the session contract for the input boundary and fresh-context resume requirements. Keep this audit guidance internal to the session memory.
 
 ## Expanded exploration (only when used)
 
 - run_id / brief_revision / received_through:
-- brief_snapshot: audience; problem; promise; difference; voice; exclusions; countries/languages; assumptions
+- brief_snapshot: audience; problem; promise; difference; voice; exclusions; countries; conversation_language; customer_language; language_basis; assumptions
 - category_descriptor / shared_comparison_contexts:
 - namescape: sample date, source URLs, observations and hypotheses; or not performed
 - mode: three / all / explicitly agreed sequential fallback
