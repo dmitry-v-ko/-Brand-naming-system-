@@ -13,6 +13,16 @@ Template only. Actual records belong outside this library. This is a dated scree
 - overall_preliminary_status: not performed / incomplete / potential conflict / no material match found in checked scope
 - coverage_complete: yes / no, with scope-specific gaps
 - lexical_lineage_status: separate from screening status
+- coverage_ledger_path / validator_result / validation_mode: automated or manual; see [coverage contract](../checks/name-screening/COVERAGE.md)
+- recommended_next_action / owner / completion_condition:
+
+## Most important finding and next action
+
+- Finding: exact mark, office/number, current status, primary link (or explicitly unverified lead).
+- Why it matters: concrete similarity and actual goods/services relationship.
+- Unknown: the missing fact most likely to change the assessment.
+- Next action: one recommended action, its owner and completion condition; no unauthorized third-party contact.
+- Coverage: completed work and remaining scope, separate from risk status.
 
 ## Meaning and brief fit
 
@@ -21,10 +31,12 @@ Template only. Actual records belong outside this library. This is a dated scree
 
 ## Query and coverage ledger
 
-| Query ID | Date / tool / source / actual tab URL | Exact query and variants | Effective status, territory, class and other filters | Displayed count / unique rows inspected / pages | Outcome and completeness gap |
+| Query ID | Date / tool / source / actual tab URL | Executed mode, exact query and variants | Effective status, territory, class and other filters | Displayed count / raw rows / unique office+application IDs / pages | Settled? / state / gap and resume action |
 |---|---|---|---|---|---|
 
 ## Significant records and neighbors
+
+Plan IDs before browsing and retain unfinished queries. Use the [registry recipes](../checks/name-screening/REGISTRY_RECIPES.md); detailed page IDs/counts live in the session JSON ledger. A new run does not silently re-date old evidence.
 
 | Office / number / primary URL | Exact mark / word or figurative type | Filed / registered / status observed at | Classes and actual goods/services | Territory / designations | Owner type with evidence (no private name) | Relevance / discrepancy / unresolved detail |
 |---|---|---|---|---|---|---|

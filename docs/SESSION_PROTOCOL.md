@@ -53,6 +53,8 @@ Keep session-owned check reports using [NAME_CHECK.md](../templates/NAME_CHECK.m
 
 ## Concrete evidence and reconciliation rules
 
+Screening uses the [registry recipes](../checks/name-screening/REGISTRY_RECIPES.md) and [coverage ledger](../checks/name-screening/COVERAGE.md). Store the ledger beside the report, record automated/manual validation and put one recommended next action beside a material finding. A repeat run receives a new check ID; unchanged scope can keep its revision, but inherited evidence retains its original observation date.
+
 `verified` applies to an ingredient/sense actually inspected, not to effectiveness, availability or the complete invented string. A supplied ordinary-English fixture ingredient may use `not applicable` when no external research claim is made. Mixed-source candidates list evidence per source; any unresolved asserted meaning makes overall lineage evidence `unverified`. Source IDs are scoped to a session; bibliography IDs must be explicitly labeled as such.
 
 When switching, write the former branch as parked and create a child (derivation) or sibling (new direction). Preserve IDs across revisits. An unchanged candidate reused in a new branch keeps its original candidate ID and gains a branch reference. Reconcile favorites in both files after each consent event; if only one file was written, record the incomplete write and repair before claiming persistence. Never copy templates over a resumed session.

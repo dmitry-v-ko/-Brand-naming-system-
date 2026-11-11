@@ -4,6 +4,8 @@ Keep the complete source folder: `SKILL.md` routes to `AGENTS.md`, the catalog, 
 
 ## Open a checkout
 
+Screening includes an optional Python 3 [coverage validator](../checks/name-screening/COVERAGE.md), with no dependencies. Without Python, the agent performs and labels the same checks manually. Live registry access still depends on the host's research/browser tools; the validator checks recorded evidence, not websites or legal availability.
+
 ```bash
 git clone https://github.com/dmitry-v-ko/-Brand-naming-system-.git brand-naming
 cd brand-naming

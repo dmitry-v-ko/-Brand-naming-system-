@@ -30,6 +30,8 @@ Give a concise explanation of strengths when supported and what breaks the brief
 
 ## 3. Search the selected territories
 
+Before opening registries, read [registry recipes](REGISTRY_RECIPES.md) and create the session's planned query IDs using [coverage ledger](COVERAGE.md). The recipes own interface-specific modes and syntax; the ledger owns counts and execution state. Use only recipes for the selected scope. Confirm current controls, then record the executed query rather than an intended query. Reuse known brief facts and ask about missing actual operations, not class numbers.
+
 Use live accessible registry tools/browser evidence. Search snippets, memory, old client catalogs and generated fixtures are leads, not current results. If access is unavailable, record **not performed** or **incomplete** with a next-query plan; do not manufacture records or a negative result. Use permitted routes and request host access if necessary; no bypass of access controls.
 
 Use [TMview](https://www.tmdn.org/tmview/) as an overview, then verify significant records in the relevant primary offices. For an EU scope, include EUIPO rights/applications, relevant national rights and international registrations designating the applicable territories. For UK, use the [direct UKIPO search](https://www.gov.uk/search-for-trademark); EU and UK are separate. For US, use [USPTO search](https://www.uspto.gov/trademarks/search) and record related market/common-law search coverage separately. For other territories, select their competent offices and relevant international designations. US is not required if it is outside the chosen scope.
@@ -42,6 +44,8 @@ Also flag evidence of a well-known or reputed mark even when the ordinary goods/
 
 ## 4. Inspect significant records
 
+After the first material finding, use the [finding card and next-action table](REGISTRY_RECIPES.md#completion-and-the-next-action): finding → relevance → unknown → one recommended next action with owner/completion condition → coverage. Verify the primary record before offering a legal-risk interpretation; an unverified aggregate lead stays explicit. Continue already authorized bounded research, preserving gaps if reporting early. Do not ask the user to choose registry syntax or interpret raw hit counts.
+
 Open exact matches in target goods/services and material similar/compound neighbors. Record office and application/registration number, mark/type, filing and registration dates, current status and observation date, classes and the actual substance of goods/services, territories/designations, primary source and unresolved discrepancies. TMview is an official aggregation service, not a substitute for the issuing office's record. Keep both observations when sources disagree; do not silently select the convenient status.
 
 Do not name private individual owners in user-facing notes: use “private individual” and the record number. Report an owner's type only with evidence; do not guess that a holder is a naming agency from its name or portfolio. Unknown is valid.
@@ -49,6 +53,8 @@ Do not name private individual owners in user-facing notes: use “private indiv
 Age or possible non-use is a **question for counsel**, not automatic availability, cancellation or freedom to use. Some jurisdictions have five-year non-use rules, but conditions and the starting event differ; do not calculate a universal deadline from a filing/registration date. If a date is requested, verify the current official rule and relevant starting event before any qualified calculation, retain exceptions, and state that actual use has not been investigated. For example, [UKIPO non-use guidance](https://www.gov.uk/government/publications/trade-marks-revocation/revocation-non-use-proceedings) describes a revocation procedure, not automatic removal. No filing or payment follows from this screening.
 
 ## 5. Report bounded findings
+
+Reconcile the planned queries against the selected scope and run the [coverage validator](COVERAGE.md) before claiming complete coverage. Preserve its issues in the report. If it cannot run, perform the same reconciliation manually and label that limitation. Counts, settled state and next-action presence are mechanically checked; legal similarity, source truth and omitted scope still require judgment. Incomplete is a valid report outcome, not a reason to conceal a material finding or loop indefinitely.
 
 Lead with exact candidate, scope/date and preliminary status. Use only bounded language:
 
