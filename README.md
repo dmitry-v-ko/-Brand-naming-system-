@@ -2,160 +2,121 @@
 
 # Brand Naming System
 
-**Find a word worth building a brand around.**
+**Find a name worth building a brand around.**
 
-18 detailed naming methods · unexpected lexical worlds · human-guided exploration
+Turn your AI agent into a naming partner — with 18 creative methods, unexpected word discoveries, and a shortlist you control.
 
 [![Methods: 18](https://img.shields.io/badge/methods-18-345A49?style=flat-square)](docs/METHOD_CATALOG.md)
 [![Format: Markdown](https://img.shields.io/badge/format-Markdown-3B5268?style=flat-square)](SKILL.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-8A633C?style=flat-square)](LICENSE)
 
-[**Use in Claude Code, Codex or Pi**](docs/INSTALL.md) · [**Explore the methods**](docs/METHOD_CATALOG.md) · [**See examples**](examples/METHOD_SHOWCASE.md)
+[**Start naming →**](#quick-start) · [**Explore all 18 methods**](#all-18-naming-methods) · [**See examples**](examples/METHOD_SHOWCASE.md)
+
+For **Claude Code, Codex and Pi** · Open source · No library build or package install
 
 </div>
 
----
+## Your next brand starts with a better search
 
-A creative naming library for Claude Code, Codex, Pi and other file-reading agents. Discover an overlooked word, invent a new one, or follow an unexpected association. Explore the directions you like, revisit earlier branches, and build a shortlist with the origins intact.
+Naming a startup, product or service? Start with your idea. Brand Naming System guides your AI agent from a rough brief through contrasting creative directions to names you can compare, refine and shortlist.
 
-**Converse in any language. Create English-language names.** Start with a few useful options; ask for deeper research when a direction deserves it. Verified rare words can be used unchanged.
+Discover a word in old navigation. Borrow a construction from literature. Build a new name around its sound. Follow the direction that feels right — and keep the others for later.
 
-## A taste of the methods
+- **Explore different ways to name the same idea.** Compare three suitable methods or run all 18 with dedicated subagents.
+- **Understand each candidate.** See why it fits, how it was formed, and where pronunciation, meaning or associations may let it down.
+- **Find vocabulary beyond your industry.** Explore worlds such as bookbinding, sailing, cloud forms and historical language, with sources for researched meanings.
+- **Keep creative control.** Deepen a promising branch, combine methods, revisit earlier ideas and save only the names you explicitly choose.
+- **Know what still needs checking.** Preliminary screening separates market findings, possible conflicts and gaps in the evidence.
 
-| Approach | Example | What happens |
-|---|---|---|
-| [Whole-word compounding](skills/intact-word-compounding/SKILL.md) | **Open Bench** | Join two intact words: open + bench. |
-| [Fragment blending](skills/fragment-blending/SKILL.md) | **Weavora** | Keep weav from weave and ora from agora; cut both inputs. |
-| [Overlap telescoping](skills/overlap-telescoping/SKILL.md) | **Gleamber** | Share the am in gleam + amber once. |
-| [Historical word discovery](skills/historical-lexical-archaeology/SKILL.md) | **Gloaming** | Recover a supported twilight sense; use the word unchanged. |
-| [Phonetic invention](skills/phonetic-invention/SKILL.md) | **Telo** | Build a two-syllable sound shape without inventing an etymology. |
-| [Respelling](skills/respelling/SKILL.md) | **Kove** | Change cove's initial letter while targeting the same pronunciation. |
+Speak in your own language; create **English-language brand names**. You do not need to know naming terminology to begin.
 
-Constructed names and briefs are illustrative, with no availability claim. Gloaming's lexical basis is recorded in the [historical evidence](docs/research/HISTORICAL_METHODS_EVIDENCE.md). [See the exact transformations, drawbacks and next steps →](examples/METHOD_SHOWCASE.md)
+## Quick start
 
-## Start with a local client
-
-The complete Git checkout is the distribution: no archive, package install or build is needed for this library. Install and sign in to your chosen client separately; its model access and research tools remain host requirements.
-
-### Claude Code
-
-With Git and Claude Code installed, run in a macOS/Linux terminal:
-
-```bash
-mkdir -p "$HOME/.claude/skills"
-git clone https://github.com/dmitry-v-ko/-Brand-naming-system-.git "$HOME/.claude/skills/brand-naming"
-```
-
-Open a new Claude Code session in your working project and type:
-
-```text
-/brand-naming Name a calm, practical repair service for kitchen tools.
-Start with three contrasting directions. Speak in my language; names in English.
-```
-
-One installed entry point routes to all eighteen reference methods. No library API key, package install or build is required.
-
-You can also open an ordinary checkout in Claude Code and ask for naming help; [CLAUDE.md](CLAUDE.md) imports the conductor. [Installation and updates →](docs/INSTALL.md#claude-code)
-
-### Codex or another file-reading agent
-
-Clone the repository if you do not already have a checkout:
+With Git and your preferred local AI client installed:
 
 ```bash
 git clone https://github.com/dmitry-v-ko/-Brand-naming-system-.git brand-naming
+cd brand-naming
 ```
 
-Open the local `brand-naming` folder as your Codex project and start a chat in that project. Paste this prompt; replace the dinner-service sentence with your idea in any language:
+Open this folder in **Codex or Claude Code**, then send:
 
 ```text
 Read AGENTS.md in this repository and use Brand Naming System.
 I want to name a ready-made dinner delivery service. I do not know where to start.
 ```
 
-This file-reading route needs no `/brand-naming` command, package installation or server. Expect a few relevant questions with examples when your brief is incomplete, then two or three contrasting names with reasons, drawbacks and a recommendation. The agent should respond in your language; customer-facing examples use the audience's language, which it will infer explicitly or clarify. If it gives a repository review instead, ask it to use AGENTS.md for an actual naming session.
+Replace the second sentence with your idea, in any language. The agent introduces all 18 methods, asks any necessary brief questions, then offers a few contrasting names with reasons, drawbacks and a recommendation. Let it choose the methods or request your own.
 
-The agent creates session records outside this library and gives you a link or resolved path to `SHORTLIST.md`. A typical location is a sibling `naming-sessions/<session-id>/SHORTLIST.md`; the exact writable location depends on the host. Only names you explicitly select are saved. Ask “Show my shortlist and its file location” to find it. Without file-writing tools, ask for a Markdown export in chat.
+**Using Pi?** Run `pi --skill ./SKILL.md` from the checkout, then enter `/skill:brand-naming` followed by your brief.
 
-Claude Code users opening the checkout directly also get the shared conductor through [CLAUDE.md](CLAUDE.md).
+**Want it available across projects?** Follow the [installation guide](docs/INSTALL.md) for personal skill setup, updates and the separate manual Claude browser workflow. Keep the complete repository folder: the entry point loads the methods and supporting documents. Your client supplies model access; research and parallel work depend on its available tools.
 
-### Pi
+## Choose how far to explore
 
-From the cloned `brand-naming` folder, run:
+| Mode | Ask for | What happens |
+|---|---|---|
+| **Focused: 3 methods** | “Use three suitable methods and compare the strongest names.” | Three methods address the same brief from different angles. |
+| **Broad: all 18** | “Run all 18 methods, one subagent per method.” | Each method gets a dedicated worker and the same brief; the conductor brings the results together for comparison. |
+| **Go deeper** | “Explore sailing, weaving and watchmaking.” | Develop selected word worlds, with one worker per world when parallel execution is available. |
 
-```bash
-pi --skill ./SKILL.md
-```
+Limited concurrency queues the workers. Hosts without subagents, including stock Pi, offer a clearly stated sequential alternative. Broader exploration uses more time and model work; it does not guarantee a better name.
 
-Then enter:
+You can keep developing a direction without choosing another mode. Names are assessed for their form and product fit before their origin stories; promising candidates are compared in the same customer context.
 
-```text
-/skill:brand-naming I want to name a ready-made dinner delivery service. I do not know where to start.
-```
+## All 18 naming methods
 
-Pi reads the same conductor and methods. Stock Pi has no built-in subagents: wider exploration is offered sequentially in the same chat, with that limitation stated before you choose. Research depends on enabled tools; unavailable sources remain unverified. [Other skill-folder locations and client checks →](docs/INSTALL.md#pi)
+Each method includes a step-by-step procedure, worked examples, comparison criteria and ways to recover when a direction runs thin.
 
-### Claude in the browser
+| # | Method | Creative move |
+|---|---|---|
+| 1 | [Whole-word compounding](skills/intact-word-compounding/SKILL.md) | Join complete words into a new idea: **open + bench → Open Bench**. |
+| 2 | [Fragment blending](skills/fragment-blending/SKILL.md) | Cut two words and join their meaning-bearing fragments. |
+| 3 | [Overlap telescoping](skills/overlap-telescoping/SKILL.md) | Fuse words through a shared ending and beginning, using the overlap once. |
+| 4 | [Clipping](skills/clipping/SKILL.md) | Shorten one word by removing its beginning or ending. |
+| 5 | [Prefix attachment](skills/prefix-attachment/SKILL.md) | Add a prefix to change a stem's stance or meaning. |
+| 6 | [Suffix attachment](skills/suffix-attachment/SKILL.md) | Add an ending to shape a stem's role, character or rhythm. |
+| 7 | [Syllable recombination](skills/syllable-recombination/SKILL.md) | Arrange a bank of spoken syllables into new words. |
+| 8 | [Phonetic invention](skills/phonetic-invention/SKILL.md) | Build a name from sounds, syllable structure and stress. |
+| 9 | [Lexical research](skills/lexical-research/SKILL.md) | Find existing words whose supported meanings fit the brief. |
+| 10 | [Cross-language mining](skills/cross-language-mining/SKILL.md) | Explore other languages, verify meanings and assess English adaptation. |
+| 11 | [Metaphor mining](skills/metaphor-mining/SKILL.md) | Turn the brand promise into an image from another domain. |
+| 12 | [Historical lexical archaeology](skills/historical-lexical-archaeology/SKILL.md) | Recover words through dated senses, spellings and historical context. |
+| 13 | [Etymological archaeology](skills/etymological-archaeology/SKILL.md) | Follow documented word histories to meaningful naming ingredients. |
+| 14 | [Literary word formation](skills/literary-word-formation/SKILL.md) | Study how writers construct words, then apply the pattern to new material. |
+| 15 | [Corpus contrast](skills/corpus-contrast/SKILL.md) | Compare two text collections to uncover distinctive vocabulary. |
+| 16 | [Onomatopoeic naming](skills/onomatopoeic-naming/SKILL.md) | Translate a sound event into a spoken name. |
+| 17 | [Reduplication](skills/reduplication/SKILL.md) | Repeat or echo a unit to create rhythm and character. |
+| 18 | [Respelling](skills/respelling/SKILL.md) | Change a word's spelling while keeping its intended pronunciation. |
 
-Claude web is a separate product from local Claude Code. These checkout commands do not give a browser chat access to your local files or install a web skill. A [manual Claude Projects workflow](docs/INSTALL.md#claude-web-and-projects) is available; this repository does not ship an upload archive.
+Methods can work together: discover a word, shorten it, then compare it with an independently invented sound. [The operational catalog](docs/METHOD_CATALOG.md) explains where each technique fits and how neighboring methods differ. [Word worlds](lexical-universes/UNIVERSES.md) supply fresh material without changing the method.
 
-## How exploration feels
+## See the creative range
 
-1. **See what is possible and describe the brand.** The first response shows all 18 methods with short explanations. Ask for any by name, combine them, or let the agent choose; selecting a method is optional. Share the offer, audience, character and what to avoid.
-2. **See a few contrasting names.** Receive short reasons, drawbacks and a recommendation, without a mandatory menu.
-3. **Follow your curiosity.** Deepen a method, discover another source world, combine techniques, or return to a parked branch.
-4. **Save your choices.** Only explicitly selected names enter the shortlist. Export when you are satisfied.
+| Direction | Illustrative name | Why explore it — and what to question |
+|---|---|---|
+| A welcoming maker space | **Open Bench** · compounding | Familiar words suggest an accessible place to work; “bench” may imply a physical workshop. |
+| An evening writing room | **Gloaming** · historical discovery | An attested twilight word creates atmosphere; a “gloom” association may work against warmth. |
+| A precise, welcoming product | **Telo** · phonetic invention | Two open syllables offer a compact sound; an abstract form needs context to carry meaning. |
 
-Before a final recommendation, the agent performs a [preliminary name check](checks/name-screening/SKILL.md): language and brief fit, relevant market context, and scoped trademark searches where tools permit. You can request a check at any stage. The agent asks which [occupancy boundary](checks/name-screening/RISK_BOUNDARY.md) to use: soft, balanced (recommended for a final shortlist), or strict. Existing uses and taken domains are assessed against that explicit choice, not rejected automatically. Unchecked creative previews and requested exports remain clearly labeled; incomplete coverage is never a claim that a name is available. A [tenant profile](templates/TENANT_PROFILE.md) can supply your own filters and stricter check order, loaded only when you explicitly select it.
+These are illustrative briefs and candidates, not cleared brand recommendations. [See their exact origins, transformations and drawbacks →](examples/METHOD_SHOWCASE.md)
 
-For research, the agent proposes worlds such as bookbinding, cloud forms, old navigation, regional vocabulary and literary word formation. It distinguishes verified words from hypotheses and inventions. [Explore the universe cards →](lexical-universes/UNIVERSES.md)
+## From promising name to informed choice
 
-Session records live in your working space, outside the library. If file writing is unavailable, use in-chat records and Markdown exports.
+Ask to deepen a direction, compare favorites or check a candidate at any stage. The agent preserves explored branches and records a name in your shortlist only when you explicitly select it.
 
-## Choose exploration breadth
+Before a development recommendation, it takes a bounded look at relevant market neighbors. Before a final recommendation, it runs [preliminary screening](checks/name-screening/SKILL.md) covering language, brief fit, market context and scoped trademark searches where tools permit. You choose the [occupancy boundary](checks/name-screening/RISK_BOUNDARY.md): soft coexistence, balanced independent brand, or strict high uniqueness. An existing use or taken domain is assessed in that context.
 
-After the brief, ask for **three different directions** for a focused comparison, or **a broad search** for more varied possibilities. The broader search takes longer and uses more work; it does not guarantee a stronger name. The agent selects the techniques and shows useful contrasts. You can also keep developing a direction you already like, without choosing a search mode.
+Session notes and `SHORTLIST.md` live outside the public library. Ask **“Show my shortlist and its file location”** to find them, or request a Markdown export when file writing is unavailable.
 
-Names are compared with the same plain category descriptor and use context in the intended customer language, even when you chat in another language. Actual audience feedback and native-speaker review remain distinct from agent predictions. Methods retain their draft status.
+## Open methods. Visible limits.
 
-<details>
-<summary>How the wider search works</summary>
+All **18 procedures are fully written drafts**, with public [review history and live trials](docs/reviews/README.md). Trials cover both search modes, deeper word exploration and an equal-budget refinement comparison; they do not establish commercial naming success. Researched words, adaptations and inventions remain distinguishable, and missing evidence stays visible.
 
-The focused option uses three suitable methods; broad search covers all 18. Each assigned method gets a dedicated subagent and the same brief; limited concurrency queues workers. Hosts without subagents can offer an explicitly labeled sequential alternative. You can request particular methods or execution details. The [session contract](docs/SESSION_PROTOCOL.md#parallel-exploration-three-or-all-eighteen) defines coverage and comparison.
+Preliminary screening is not legal clearance. Audience response, native-speaker suitability and registration decisions need their own validation.
 
-</details>
+**Explore the system:** [Installation and troubleshooting](docs/INSTALL.md) · [Examples](examples/METHOD_SHOWCASE.md) · [Agent instructions](AGENTS.md) · [Research standards](docs/SOURCES_AND_RESEARCH.md)
 
-Explicitly selected word worlds can also be explored in parallel with the same method, one worker per world. Names are assessed before their origin stories; a promising image with an awkward name can receive one bounded adaptation pass using existing methods. No improvement is a valid outcome. Refinement selects an operation for the actual weakness, compares promising forms with sound-first and prior alternatives where applicable, and checks obvious market neighbors before recommending development.
+**Help improve it:** [Contribute a method](docs/SKILL_SPEC.md) · [Report an issue](https://github.com/dmitry-v-ko/-Brand-naming-system-/issues) · Maintained by [Dmitry](https://github.com/dmitry-v-ko)
 
-## Inside the library
-
-<details>
-<summary><strong>Browse all 18 methods by family</strong></summary>
-
-| Family | Methods |
-|---|---|
-| Word construction | [Compounding](skills/intact-word-compounding/SKILL.md), [fragment blending](skills/fragment-blending/SKILL.md), [overlap](skills/overlap-telescoping/SKILL.md), [clipping](skills/clipping/SKILL.md), [prefixes](skills/prefix-attachment/SKILL.md), [suffixes](skills/suffix-attachment/SKILL.md) |
-| Sound | [Phonetic invention](skills/phonetic-invention/SKILL.md), [syllable recombination](skills/syllable-recombination/SKILL.md), [onomatopoeia](skills/onomatopoeic-naming/SKILL.md), [reduplication](skills/reduplication/SKILL.md) |
-| Word discovery | [Lexical research](skills/lexical-research/SKILL.md), [cross-language search](skills/cross-language-mining/SKILL.md), [historical vocabulary](skills/historical-lexical-archaeology/SKILL.md), [etymology](skills/etymological-archaeology/SKILL.md), [corpus contrast](skills/corpus-contrast/SKILL.md) |
-| Meaning and patterns | [Metaphor](skills/metaphor-mining/SKILL.md), [literary word formation](skills/literary-word-formation/SKILL.md) |
-| Writing | [Respelling](skills/respelling/SKILL.md) |
-
-Each procedure includes its mechanism, research strategy, intermediate artifacts, worked examples, weak-result recovery, assessment and ways to combine it with other methods. Source worlds are separate from methods; changing a genre or field does not add another technique.
-
-</details>
-
-| Read this | For this |
-|---|---|
-| [Method showcase](examples/METHOD_SHOWCASE.md) | Understand six operations through brief examples. |
-| [Operational catalog](docs/METHOD_CATALOG.md) | Choose a method and distinguish neighboring techniques. |
-| [Conductor](AGENTS.md) | Guide a nonlinear, user-directed naming session. |
-| [Session templates](templates/EXPLORATION_LOG.md) · [Shortlist](templates/SHORTLIST.md) | Resume branches and keep explicit favorites. |
-| [Source contract](docs/SOURCES_AND_RESEARCH.md) · [Research evidence](docs/research/EXPANSION_EVIDENCE.md) | Trace meanings, transformations and uncertainty. |
-| [Review history](docs/reviews/README.md) | Inspect independent critiques, execution trials and remaining limits. |
-
-## Status and scope
-
-The collection contains **18 detailed draft methods**. The earlier Cycle 05 repository review scored **9.11/10** under its [documented rubric](docs/reviews/CYCLE_05_CRITIQUE.md); that is a bounded internal quality assessment, not evidence of commercial success or end-to-end acceptance of every method. The [live parallel-mode trial](docs/reviews/PARALLEL_LIVE_TRIAL.md) records newer execution evidence and scoped repairs without changing method maturity. The [universe deepening trial](docs/reviews/UNIVERSE_QUALITY_TRIAL.md) records the later bounded adaptation and form-first checks. The [equal-budget refinement comparison](docs/reviews/DEFECT_ROUTING_COMPARISON.md) records the subsequent old/new trial, actual resource use and its inconclusive quality result.
-
-The library combines creative discovery and shortlisting with a separate preliminary screening stage. The eighteen generation methods are unchanged; screening is not a nineteenth generator or a legal opinion. Registration, filing, payments and domain purchases are outside scope. An unusual word, empty search page or completed limited search does not establish legal availability.
-
-[MIT License](LICENSE) · [Project decisions](docs/context.md) · [Contributing a method](docs/SKILL_SPEC.md)
+[MIT License](LICENSE)

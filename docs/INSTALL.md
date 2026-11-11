@@ -33,7 +33,7 @@ Start a new local Claude Code session in your working project, then enter `/bran
 
 ## Codex
 
-The checkout route above works through `AGENTS.md` and the explicit starter prompt; no slash command is required. The [README](../README.md#codex-or-another-file-reading-agent) gives the expected first response and how to locate the shortlist.
+The checkout route above works through `AGENTS.md` and the explicit starter prompt; no slash command is required. The [README](../README.md#quick-start) gives the expected first response; its [shortlist guide](../README.md#from-promising-name-to-informed-choice) explains how to find saved names.
 
 For a personal skill available across projects:
 
