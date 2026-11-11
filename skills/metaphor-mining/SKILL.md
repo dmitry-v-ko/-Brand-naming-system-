@@ -27,6 +27,9 @@ Required: one credible target promise and one unacceptable implication. Default:
 
 ## Selection and recovery
 
+Apply [form before story](../../docs/SESSION_PROTOCOL.md#form-before-story) when selecting representatives. If a supported image yields weak direct names, use the [bounded adaptation pass](../../docs/SESSION_PROTOCOL.md#one-bounded-adaptation-pass), preserving exact child operators and unresolved screening concerns.
+
+
 Prefer a short, truthful relationship and tolerable unwanted implications. An obscure definition requiring a lecture fails even if technically accurate. If the source's defining property contradicts the promise, change the world or positioning hypothesis; do not amputate the fact from the ledger. If imagery is strong but tone wrong, change object within the same verified property family.
 
 ## Research and evidence

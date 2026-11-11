@@ -124,6 +124,8 @@ The focused option uses three suitable methods; broad search covers all 18. Each
 
 </details>
 
+Explicitly selected word worlds can also be explored in parallel with the same method, one worker per world. Names are assessed before their origin stories; a promising image with an awkward name can receive one bounded adaptation pass using existing methods. No improvement is a valid outcome.
+
 ## Inside the library
 
 <details>
@@ -152,7 +154,7 @@ Each procedure includes its mechanism, research strategy, intermediate artifacts
 
 ## Status and scope
 
-The collection contains **18 detailed draft methods**. The earlier Cycle 05 repository review scored **9.11/10** under its [documented rubric](docs/reviews/CYCLE_05_CRITIQUE.md); that is a bounded internal quality assessment, not evidence of commercial success or end-to-end acceptance of every method. The [live parallel-mode trial](docs/reviews/PARALLEL_LIVE_TRIAL.md) records newer execution evidence and scoped repairs without changing method maturity.
+The collection contains **18 detailed draft methods**. The earlier Cycle 05 repository review scored **9.11/10** under its [documented rubric](docs/reviews/CYCLE_05_CRITIQUE.md); that is a bounded internal quality assessment, not evidence of commercial success or end-to-end acceptance of every method. The [live parallel-mode trial](docs/reviews/PARALLEL_LIVE_TRIAL.md) records newer execution evidence and scoped repairs without changing method maturity. The [universe deepening trial](docs/reviews/UNIVERSE_QUALITY_TRIAL.md) records the later bounded adaptation and form-first checks.
 
 The library combines creative discovery and shortlisting with a separate preliminary screening stage. The eighteen generation methods are unchanged; screening is not a nineteenth generator or a legal opinion. Registration, filing, payments and domain purchases are outside scope. An unusual word, empty search page or completed limited search does not establish legal availability.
 

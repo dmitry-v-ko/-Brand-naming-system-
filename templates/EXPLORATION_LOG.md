@@ -61,10 +61,12 @@ Before confirming persistence, check both files against received turns only. For
 - brief_snapshot: audience; problem; promise; difference; voice; exclusions; countries; conversation_language; customer_language; language_basis; assumptions
 - category_descriptor / shared_comparison_contexts:
 - namescape: sample date, source URLs, observations and hypotheses; or not performed
-- mode: three / all / explicitly agreed sequential fallback
-- expected_method_ids (scoped to run_id + brief_revision):
+- axis: methods / universes
+- mode: three / all / selected universes
+- execution: parallel / queued / explicitly agreed sequential fallback
+- expected_assignments: assignment ID / method ID / universe ID, scoped to run_id + brief_revision
 
-| Method ID | Worker reference | Brief revision | Status | Result/source references | Failure, stale or no-yield reason |
+| Assignment ID + method + universe | Worker reference | Brief revision | Status | Result/source references | Failure, stale or no-yield reason |
 |---|---|---|---|---|---|
 
 Record exact-name duplicate mappings and conflicting lineages in the candidate pool. Keep participant observations separate from agent predictions. Native-speaker review: not performed unless supported by actual feedback. Never infer shortlist consent from worker output.
@@ -72,3 +74,9 @@ Record exact-name duplicate mappings and conflicting lineages in the candidate p
 ### Conductor comparison (only when combining results)
 
 Keep worker assessments in their original records. For each proposed presentation representative record candidate ID, direction/near-variant group, brief fit, reading risk, explanation burden, and conductor decision/reason (present / park / reject). A worker-retained candidate may be parked centrally; this does not erase its valid construction or create a user preference. No representative is owed to any method. Favorites remain governed by explicit user consent.
+
+### Ordered assessment and bounded adaptation
+
+For each representative preserve name-only predictions, shared-context assessment, then origin/story assessment; record hard versus soft constraints and any actual blind-evaluator input boundary. Agent predictions are not audience observations.
+
+For each adaptation pass record parent IDs, defect, required/optional source recognition and its user/agent basis frozen before generation, selected child method, up to two anchors and three variants per anchor, exact maps, comparison against unchanged controls, unresolved inherited concerns and stop decision. No improvement is valid; do not recursively adapt the variants. See the session contract for the owning procedure.

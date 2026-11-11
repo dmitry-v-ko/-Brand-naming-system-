@@ -70,3 +70,7 @@ A sufficiently specified ordinary brief, or a direct or delegated instruction, p
 ## Distribution maintenance
 
 The root `SKILL.md` is the portable entry-point adapter, not another naming method. `CLAUDE.md` imports this conductor for Claude Code checkout use; Codex and Pi can read `AGENTS.md` directly. Follow `docs/INSTALL.md` for host-specific setup and capability limits. Distribute the complete source folder through Git, with no generated skill archive or source-hash manifest. Verify entry-point references and documented loading paths when changing distribution. Keep real session records outside the library. File/loader checks do not establish a successful naming session in every client.
+
+## Focused deepening and name quality
+
+An explicit request for several source worlds uses one worker per world with the same selected method, not the default three-method comparison. Follow the [assignment-axis contract](docs/SESSION_PROTOCOL.md#assignment-axis). Assess name form and shared product context before explaining the source story; when useful source words make weak names, use the [one bounded adaptation pass](docs/SESSION_PROTOCOL.md#one-bounded-adaptation-pass). These are orchestration rules, not new methods or audience validation.

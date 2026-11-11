@@ -27,6 +27,9 @@ Required: one desired property plus at least one exclusion. Infer two distant un
 
 ## Selection and recovery
 
+Apply [form before story](../../docs/SESSION_PROTOCOL.md#form-before-story) when selecting representatives. If a supported image yields weak direct names, use the [bounded adaptation pass](../../docs/SESSION_PROTOCOL.md#one-bounded-adaptation-pass), preserving exact child operators and unresolved screening concerns.
+
+
 Select by supported sense, useful relevance with little explanation, English-facing decoding and balanced implications. Rare is not inherently distinctive or good. If a source is insufficient, record it, switch to another reference and inspect the actual entry. If meaning conflicts, reject or move to a brief that honestly fits; never rewrite the definition to rescue a name.
 
 ## Research and evidence
