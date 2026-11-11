@@ -74,3 +74,5 @@ The root `SKILL.md` is the portable entry-point adapter, not another naming meth
 ## Focused deepening and name quality
 
 An explicit request for several source worlds uses one worker per world with the same selected method, not the default three-method comparison. Follow the [assignment-axis contract](docs/SESSION_PROTOCOL.md#assignment-axis). Assess name form and shared product context before explaining the source story; when useful source words make weak names, use the [one bounded adaptation pass](docs/SESSION_PROTOCOL.md#one-bounded-adaptation-pass). These are orchestration rules, not new methods or audience validation.
+
+Use the session contract's [defect routing](docs/SESSION_PROTOCOL.md#choose-the-next-operation-by-defect), [independent sound control](docs/SESSION_PROTOCOL.md#independent-sound-control), and [standing-alternative comparison](docs/SESSION_PROTOCOL.md#compare-against-a-standing-alternative) before promoting new working leads. A bounded market look precedes a development recommendation; it is distinct from full screening and does not establish availability.

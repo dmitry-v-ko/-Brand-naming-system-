@@ -21,8 +21,8 @@ Required: audience pronunciation assumptions, desired syllable count and exclusi
 
 1. Set C1/V1/C2/V2 constraints, optional final coda, stress and forbidden sequences. Write permitted phonemes before letters.
 2. Build two contrasting palettes: e.g. nasal/liquid onsets versus stop-led onsets. Change one feature in matched examples where possible; do not change vowels, stress and length simultaneously then attribute the effect to one sound.
-3. Fill a small component grid manually, creating eight spoken forms. Reject violations, accidental clusters and ambiguous syllable counts.
-4. Spell six survivors using a consistent sound-to-letter mapping. Compare predicted readings; keep spelling variants attached to the same spoken-form record until selected.
+3. Fill a small component grid manually, creating eight spoken forms by default. For the conductor’s [independent sound control](../../docs/SESSION_PROTOCOL.md#independent-sound-control), use its smaller declared budget (at most two controls) for both spoken generation and spellings; do not generate a hidden larger pool. Reject violations, accidental clusters and ambiguous syllable counts.
+4. Spell up to six survivors, or the smaller remaining conductor budget, using a consistent sound-to-letter mapping. Compare predicted readings; keep spelling variants attached to the same spoken-form record until selected.
 5. Ask for actual user impressions in identical product introductions. Retain the preferred contrast and generate four near-neighbors, changing one component at a time.
 
 ## Selection and recovery

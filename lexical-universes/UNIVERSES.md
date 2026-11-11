@@ -46,7 +46,7 @@ These are **source worlds**, not separate methods. Agents should proactively off
 2. Ordinarily infer two distant worlds and develop 2–3 useful contrasts. Offer 6–12 disparate worlds when the user requests breadth or real uncertainty warrants it; include worlds outside the brand’s sector.
 3. Offer vivid *preview words or naming patterns* and why each may yield interesting candidates. Mark unsourced previews as illustrative.
 4. Recommend a provisional branch and let the user redirect or request more; no invented delegation or mandatory selection gate. Do not pretend all worlds were researched already.
-5. Explore the provisionally chosen or user-selected world in depth; record agent choices separately from user preferences in the session log.
+5. Explore the provisionally chosen or user-selected world through the object/action/outcome lenses owned by [lexical-research](../skills/lexical-research/SKILL.md); record agent choices separately from user preferences in the session log.
 6. When a world stalls, propose adjacent and maximally distant alternatives, and preserve the parked branch.
 
 ## Research integrity

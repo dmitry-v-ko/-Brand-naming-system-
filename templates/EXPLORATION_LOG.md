@@ -79,4 +79,13 @@ Keep worker assessments in their original records. For each proposed presentatio
 
 For each representative preserve name-only predictions, shared-context assessment, then origin/story assessment; record hard versus soft constraints and any actual blind-evaluator input boundary. Agent predictions are not audience observations.
 
-For each adaptation pass record parent IDs, defect, required/optional source recognition and its user/agent basis frozen before generation, selected child method, up to two anchors and three variants per anchor, exact maps, comparison against unchanged controls, unresolved inherited concerns and stop decision. No improvement is valid; do not recursively adapt the variants. See the session contract for the owning procedure.
+For each adaptation pass record parent IDs, defect, required/optional source recognition and its user/agent basis frozen before generation, selected child method, up to two initial anchors/branches and three variants per anchor (a replacement stays in its branch and counts against the same budget), exact maps, comparison against unchanged controls, unresolved inherited concerns and stop decision. No improvement is valid; do not recursively adapt the variants. See the session contract for the owning procedure.
+
+### Quality refinement and comparison
+
+- source_lenses: object / action / outcome ingredient bank or gaps; not a candidate quota
+- defect_route: anchor, observed defect, selected operator or replacement/stop, reason before generation
+- control_budget: total candidate cap, reserved independent sound controls, reused branch or not performed
+- standing_alternatives: actual session IDs, prior judgments and concerns; not inferred favorites
+- comparison: improvement / tradeoff / observation that could change preference / tie or no improvement
+- market_look: proposed leads, planned query/page limits, actual usage, dated sources/access gaps, close-category / other-category / unverified signal, next action; separate from registry coverage
