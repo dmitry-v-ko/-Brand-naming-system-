@@ -15,6 +15,7 @@ Template only. Keep real profiles outside this repository. Load only on explicit
 - reference_brands / partners / similarity_target / comparison_rules / explicit_exceptions:
 - excluded_methods_or_exhausted_routes / open_routes:
 - display_form / customer_contexts:
+- risk_boundary_preference / key_domain_and_market_constraints: proposal only; record the user's explicit screening choice in the session
 - screening_order: ordinary labeled previews or explicitly stricter registry-before-preview/acceptance
 - response_conventions / ambiguous_candidate_or_command_handling:
 - document_update_convention: tenant-only authorization, if any; never a global naming gate

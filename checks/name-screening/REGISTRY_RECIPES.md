@@ -74,12 +74,16 @@ For a German lead, open [DPMAregister basic trademark search](https://register.d
 
 ## Completion and the next action
 
+Apply the user-selected [occupancy boundary](RISK_BOUNDARY.md) to each finding. Record confirmed facts separately from unknowns, and explain the effect on rights, market distinguishability and practicality in that mode. A hit or taken domain alone never selects Do not recommend; an unanswered boundary choice stays pending.
+
 Use [COVERAGE.md](COVERAGE.md) for query states, counts and the executable ledger check. Once a material neighbor is found, complete one compact finding card before expanding more searches:
 
-> **Finding:** exact mark, office/number, current status and primary link.  
-> **Why it matters:** concrete similarity and actual related goods/services.  
-> **Unknown:** the one missing fact that most affects the decision.  
-> **Next action:** one recommended action, its owner and completion condition.  
+> **Finding:** exact mark, office/number, current status and primary link.\
+> **Why it matters:** concrete similarity and actual related goods/services.\
+> **Confirmed:** verified facts with source/date, distinct from assumptions.\
+> **Unknown:** the one missing fact that most affects the decision.\
+> **Effect in selected mode:** rights, market and practical implications, or pending choice.\
+> **Next action:** one recommended action, its owner and completion condition.\
 > **Coverage:** completed work and remaining scope; finding and completeness are independent.
 
 | Observed condition | Recommended next action |

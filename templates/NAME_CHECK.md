@@ -10,17 +10,25 @@ Template only. Actual records belong outside this library. This is a dated scree
 - requested_territories / languages:
 - exact_forms_and_search_variants / normalization_notes:
 - assumptions / missing_inputs:
-- overall_preliminary_status: not performed / incomplete / potential conflict / no material match found in checked scope
+- risk_boundary: soft / balanced / strict / pending; see [boundary policy](../checks/name-screening/RISK_BOUNDARY.md)
+- boundary_user_selection_turn / exact_user_words / key_domain_and_market_constraints:
+- decision_status: continue / clarify / do_not_recommend / not_checked (translate labels for the user)
+- decision_reason / confirmed_basis_if_do_not_recommend: material finding record_id with confirmed primary evidence
+- potential_conflict: evidence flag, not an automatic rejection
 - coverage_complete: yes / no, with scope-specific gaps
 - lexical_lineage_status: separate from screening status
 - coverage_ledger_path / validator_result / validation_mode: automated or manual; see [coverage contract](../checks/name-screening/COVERAGE.md)
 - recommended_next_action / owner / completion_condition:
 
-## Most important finding and next action
+## Findings and next actions
 
-- Finding: exact mark, office/number, current status, primary link (or explicitly unverified lead).
-- Why it matters: concrete similarity and actual goods/services relationship.
+Repeat this card for each finding; lead with the most important one.
+
+- Finding: stable record_id; exact name/business/domain and source; office/number/status for registry records (or explicitly unverified lead).
+- Why it matters: concrete connection to our product, audience and territory; actual goods/services relationship for rights findings.
+- Confirmed: verified facts and source/date, separate from assumptions.
 - Unknown: the missing fact most likely to change the assessment.
+- Effect in selected mode: rights / market distinguishability / practicality; or pending user choice.
 - Next action: one recommended action, its owner and completion condition; no unauthorized third-party contact.
 - Coverage: completed work and remaining scope, separate from risk status.
 
@@ -59,4 +67,4 @@ Record any evidenced fame/reputation concern and its jurisdiction-specific speci
 | Date / received turn | Decision or correction | Type and reason | Prior record preserved / new argument | Effect on shortlist and scope |
 |---|---|---|---|---|
 
-State what changed since any earlier conclusion. Changing the name, goods/services, territories, languages or material profile rule makes the old conclusion stale for the new scope. Preserve history, identify required rechecks, and export the status/date/scope/report link beside the name. Unchecked export is allowed when requested; no filings, purchases or payments are performed.
+State what changed since any earlier conclusion. Changing the name, goods/services, territories, languages, risk boundary/constraints or material profile rule makes the old conclusion stale for the new scope. Preserve history, identify required rechecks, and export the status/date/scope/report link beside the name. Unchecked export is allowed when requested; no filings, purchases or payments are performed.

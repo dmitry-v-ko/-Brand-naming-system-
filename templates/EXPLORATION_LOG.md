@@ -13,7 +13,8 @@ Template only. Copy for a new session outside the checkout; never overwrite an e
 - language_basis: received user turn or provisional assumption; unresolved choices remain unknown
 - category_descriptor: shared customer-language descriptor; see the session language contract
 - active_tenant_profile: none unless explicitly selected; path / revision / selection turn
-- name_checks: candidate ID → check ID / scope revision / preliminary status / date / report path; unknown is not cleared
+- name_checks: candidate ID → check ID / scope revision / selected boundary / decision status / coverage / date / report path; unknown is not cleared
+- onboarding_methods_shown: displayed active method IDs / response turn; unknown means not recorded, not proof of prior display
 - current_stage: BRIEF
 - active_branch: none
 - active_method: none

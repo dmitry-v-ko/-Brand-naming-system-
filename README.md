@@ -100,12 +100,12 @@ Claude web is a separate product from local Claude Code. These checkout commands
 
 ## How exploration feels
 
-1. **Describe the brand.** Offer, audience, character and what to avoid. The agent asks only questions that affect the creative direction.
+1. **See what is possible and describe the brand.** The first response shows all 18 methods with short explanations. Ask for any by name, combine them, or let the agent choose; selecting a method is optional. Share the offer, audience, character and what to avoid.
 2. **See a few contrasting names.** Receive short reasons, drawbacks and a recommendation, without a mandatory menu.
 3. **Follow your curiosity.** Deepen a method, discover another source world, combine techniques, or return to a parked branch.
 4. **Save your choices.** Only explicitly selected names enter the shortlist. Export when you are satisfied.
 
-Before a final recommendation, the agent performs a [preliminary name check](checks/name-screening/SKILL.md): language and brief fit, relevant market context, and scoped trademark searches where tools permit. You can request a check at any stage. Unchecked creative previews and requested exports remain clearly labeled; incomplete coverage is never a claim that a name is available. A [tenant profile](templates/TENANT_PROFILE.md) can supply your own filters and stricter check order, loaded only when you explicitly select it.
+Before a final recommendation, the agent performs a [preliminary name check](checks/name-screening/SKILL.md): language and brief fit, relevant market context, and scoped trademark searches where tools permit. You can request a check at any stage. The agent asks which [occupancy boundary](checks/name-screening/RISK_BOUNDARY.md) to use: soft, balanced (recommended for a final shortlist), or strict. Existing uses and taken domains are assessed against that explicit choice, not rejected automatically. Unchecked creative previews and requested exports remain clearly labeled; incomplete coverage is never a claim that a name is available. A [tenant profile](templates/TENANT_PROFILE.md) can supply your own filters and stricter check order, loaded only when you explicitly select it.
 
 For research, the agent proposes worlds such as bookbinding, cloud forms, old navigation, regional vocabulary and literary word formation. It distinguishes verified words from hypotheses and inventions. [Explore the universe cards →](lexical-universes/UNIVERSES.md)
 

@@ -16,6 +16,8 @@ Minimal synthetic example (not a live search):
 {
   "check_id": "example-01",
   "scope_revision": "1",
+  "risk_boundary": {"mode": null, "user_selection_turn": null},
+  "decision": {"status": "clarify", "reason": "Boundary not chosen and research incomplete.", "next_action": "User: choose soft, balanced or strict; agent: complete planned research."},
   "planned_query_ids": ["UK-exact", "UK-similar"],
   "scope_gaps": ["Language and market checks not performed"],
   "queries": [
@@ -51,6 +53,10 @@ Run from the library root when Python 3 is available:
 python3 checks/name-screening/validate_coverage.py /absolute/session/path/SCREENING_LEDGER.json
 ```
 
-Exit 0: entered evidence is internally complete for the declared plan and scope gaps. Exit 1: incomplete/inconsistent ledger; read the listed issues. Exit 2: file/JSON/usage error. A positive `potential_conflict` remains independent of `coverage_complete`. Exit 0 is neither legal clearance nor proof that the agent actually visited sources. The validator cannot discover omitted scope, verify UI facts or decide similarity. The agent must reconcile the plan with the selected scope and recipes before relying on its output.
+Exit 0: entered evidence is internally complete for the declared plan/scope gaps and the decision contract is valid. Exit 1: incomplete/inconsistent coverage or invalid decision; read `issues` and `decision_issues` separately. Exit 2: file/JSON/usage error. A positive `potential_conflict` remains independent of `coverage_complete`. Exit 0 is neither legal clearance nor proof that the agent actually visited sources. The validator cannot discover omitted scope, verify UI facts or decide similarity. The agent must reconcile the plan with the selected scope and recipes before relying on its output.
+
+Every new ledger records `risk_boundary` and `decision` as above. A selected mode is `soft`, `balanced` or `strict` with a nonempty `user_selection_turn`; pending selection uses null. Decision `status` is one of the four IDs in the [boundary policy](RISK_BOUNDARY.md#findings-and-decisions), with `reason` and `next_action`; `do_not_recommend` additionally needs `confirmed_basis` equal to the `record_id` of a material finding with verified primary evidence and a source URL. Explain its significance in `reason`. For market/domain findings, use a stable session finding ID (e.g. `MARKET-1`) and let `primary_verified` mean direct verification of that source, not legal verification. Query page IDs still require office:number format. `continue` requires complete coverage. Strict-mode Continue additionally requires nonempty `risk_boundary.priority_markets`, `categories` (main and adjacent), and `key_domains` arrays, plus `domain_strategy` describing availability or a realistic acquisition path; missing constraints lead to Clarify. `continue` and `do_not_recommend` require a user-selected boundary. Clarify/Not checked remain available while selection or evidence is pending. `decision_valid` validates this structure, not the truth of a selection turn, sufficient search scope or the merits of the judgment.
+
+Old ledgers still receive coverage results but no valid new decision until these fields are added from an actual user choice and current assessment. Do not rewrite historical conclusions automatically or invent a selection turn. This changes the CLI success condition: consumers must inspect coverage and decision fields separately.
 
 Without Python or file tools, keep the same fields and arithmetic in the report, label validation **manual**, and state that the automated check was not run. Do not require a software installation to conduct naming in Claude, Codex or Pi. Never infer that all required work is done merely because every opened tab has finished.

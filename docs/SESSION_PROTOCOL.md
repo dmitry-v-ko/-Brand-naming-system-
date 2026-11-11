@@ -8,12 +8,20 @@ On resume, read both records, summarize the active branch and latest decision, a
 
 For review evidence, distinguish a same-agent read-back from a fresh-context resume. A fresh reader receives only library instructions and the two current session files, without the executor's transcript, future scenario or expected answers. Record the actual input boundary and reader output outside the library; a disk read by an already informed agent does not demonstrate context isolation.
 
+## Onboarding method overview
+
+In the first response of a new naming exploration, show **every active generation method** from the [operational catalog](METHOD_CATALOG.md#operator-and-neighbor-audit), currently eighteen. Render the overview directly in the conversation, in the user's language: a readable name for each method plus one short explanation of what it does, grouped by family or in a compact table. The operator table is the source of the full set; do not substitute only recommended methods, a link, a collapsed section or “and others”. Exclude archived methods, deprecated routers and lexical universes. Present screening separately as a later check, not a nineteenth generation method. Label the methods collectively as draft procedures available to try, not individually accepted methods.
+
+Say explicitly: “You can ask for any method by name, combine methods, or leave the choice to me. You do not need to choose one to start.” For example: “Use metaphor mining”, “Try etymology”, or “Combine clipping and respelling”, translated naturally. Showing the catalog does not authorize running all methods or require loading all eighteen skill files.
+
+Continue in the same response: with a sufficient brief, offer useful contrasting directions under the ordinary start rule; otherwise ask the most useful brief question. Record `onboarding_methods_shown` with the displayed method IDs and response turn in the exploration log, or equivalent in-chat state. On resume, reuse that record instead of repeating the full overview. Show it again on request; if older state lacks it, provide the overview once when creative exploration resumes. A standalone screening request follows screening intake, not a forced creative onboarding.
+
 ## States and transitions
 
 | State | Action | Exit condition |
 |---|---|---|
 | BRIEF | Establish offer, audience, character, exclusions; ask only questions affecting direction | Enough information for contrasting previews; mark assumptions |
-| METHOD_MENU (optional) | Explain 3–6 operators when the user explicitly asks about methods; ordinary breadth/uncertainty uses outcome-based choices | Technical question answered |
+| METHOD_MENU (optional navigation) | All methods are shown once at onboarding; later explain selected methods in depth or redisplay all on request | User can request any named method without choosing one to start |
 | UNIVERSE_MENU (optional) | Ordinarily infer two distant worlds; expand to 6–12 on request or useful uncertainty | Develop a provisional branch or user choice |
 | DEEP_EXPLORE | Follow the skill, preserve sources, generate diverse clusters | Useful batch or research dead end |
 | REFINE / NAVIGATE | Deepen, switch, combine, revisit, shortlist, review research, or stop | User selects next action |
@@ -48,7 +56,7 @@ The [name-screening skill](../checks/name-screening/SKILL.md) is a review stage 
 
 Record `active_tenant_profile` as path/revision/selection turn, or none. Load only the explicitly selected profile and its decision history; do not scan for other tenants. A stricter selected profile can require registry-before-preview/acceptance and local document-change conventions. These are not global defaults. No default territories, Nice classes, reference names or sound filters are inherited.
 
-Keep session-owned check reports using [NAME_CHECK.md](../templates/NAME_CHECK.md); `name_checks` maps candidate IDs to check ID, scope revision, status, date and report path. Search keys never replace the exact display name. Changing the name, goods/services, territory, language or material profile rule marks the old conclusion stale for the new scope; preserve the old report, create a revision and state required rechecks. Decision records keep date, reason, source, decision type and any new argument or correction. Do not re-propose a rejected variant without a new argument or explicit request, and do not remove a favorite automatically because a check raises a concern.
+Keep session-owned check reports using [NAME_CHECK.md](../templates/NAME_CHECK.md); `name_checks` maps candidate IDs to check ID, scope revision, selected boundary, decision status, coverage, date and report path under the [boundary policy](../checks/name-screening/RISK_BOUNDARY.md). Ask for an explicit boundary choice at screening intake unless already recorded; ordinary creative assumptions do not authorize this choice. Search keys never replace the exact display name. Changing the name, goods/services, territory, language, risk boundary/constraints or material profile rule marks the old conclusion stale for the new scope; preserve the old report, create a revision and state required rechecks. Decision records keep date, reason, source, decision type and any new argument or correction. Do not re-propose a rejected variant without a new argument or explicit request, and do not remove a favorite automatically because a check raises a concern.
 
 
 ## Concrete evidence and reconciliation rules
@@ -107,7 +115,7 @@ An adaptation never clears an existing market or registry concern. Carry that co
 | Spoken form fits; spelling creates friction | respelling, preserving target sound | A sound change belongs to phonetic-invention, not hidden respelling |
 | Source image fits; the word itself is awkward | replace the anchor with another object, action or outcome from the same verified property family using lexical-research | Record the retired anchor, new source and reason; only one replacement in this pass, occupying the same branch and research budget; count its selectable name in the candidate cap, no replacement chain |
 | Desired sound character matters; lexical origin adds little | an independent phonetic-invention branch | No invented etymology; do not claim a sound-only control derives from the rejected anchor |
-| Material close-market concern | use a different source or sound direction | Cosmetic edits do not resolve the concern; keep it recorded and screen new candidates separately |
+| Material close-market concern under the selected occupancy boundary (ask if unknown) | use a different source or sound direction | Cosmetic edits do not resolve the concern; keep it recorded and screen new candidates separately |
 | No material defect or useful operator | keep the direct word or park the branch | No obligation to adapt, fill slots or contribute a winner |
 
 Choose by the defect, not a quota of different operators. Record the reason before constructing names. Do not default every world to clipping; choosing the same operator is valid when independently justified. Replacement and sound routes are alternative uses of the bounded pass, not extra rounds. Source-recognition requirements may rule out sound invention; do not silently relax them to obtain a result.

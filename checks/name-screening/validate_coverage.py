@@ -10,7 +10,8 @@ from urllib.parse import urlsplit
 def validate(data):
     issues, summaries = [], []
     result = {'coverage_complete': False, 'potential_conflict': False,
-              'issues': issues, 'queries': summaries}
+              'issues': issues, 'queries': summaries,
+              'decision_valid': False, 'decision_issues': []}
 
     def require(condition, message):
         if not condition:
@@ -98,6 +99,44 @@ def validate(data):
         result['coverage_complete'] = not issues
     except (ValueError, TypeError, KeyError) as error:
         issues.append(f'Invalid ledger: {error}')
+    try:
+        require(isinstance(data, dict), 'Ledger must be an object')
+        boundary = data.get('risk_boundary')
+        require(isinstance(boundary, dict), 'Record the risk boundary or explicit pending selection')
+        require('mode' in boundary and 'user_selection_turn' in boundary, 'Record boundary mode and user_selection_turn explicitly')
+        mode = boundary['mode']
+        require(mode in (None, 'soft', 'balanced', 'strict'), 'Invalid risk boundary')
+        if mode is not None:
+            require(text(boundary.get('user_selection_turn')), 'Boundary needs an explicit user selection turn')
+        else:
+            require(boundary['user_selection_turn'] is None, 'Pending boundary needs a null selection turn')
+        decision = data.get('decision')
+        require(isinstance(decision, dict), 'Missing decision')
+        status = decision.get('status')
+        require(status in ('continue', 'clarify', 'do_not_recommend', 'not_checked'), 'Invalid decision status')
+        for field in ('reason', 'next_action'):
+            require(text(decision.get(field)), f'Decision needs {field}')
+        if status in ('continue', 'do_not_recommend'):
+            require(mode is not None, 'Ask the user to select a boundary before a mode-dependent decision')
+        if status == 'continue':
+            require(result['coverage_complete'], 'Incomplete coverage cannot authorize continue; clarify or not_checked')
+            if mode == 'strict':
+                for field in ('priority_markets', 'categories', 'key_domains'):
+                    value = boundary.get(field)
+                    require(strings(value) and len(value) > 0, f'Strict continue needs {field}')
+                require(text(boundary.get('domain_strategy')), 'Strict continue needs domain_strategy')
+        if status == 'do_not_recommend':
+            basis = decision.get('confirmed_basis')
+            require(text(basis), 'A negative decision needs a confirmed material basis')
+            findings = data.get('findings')
+            require(isinstance(findings, list) and any(
+                isinstance(finding, dict) and finding.get('record_id') == basis
+                and finding.get('material') is True and finding.get('primary_verified') is True
+                and url(finding.get('source_url')) for finding in findings),
+                'Negative basis must reference a confirmed material finding by record_id')
+        result['decision_valid'] = True
+    except (ValueError, TypeError, KeyError) as error:
+        result['decision_issues'].append(str(error))
     return result
 
 
@@ -112,7 +151,7 @@ def main():
         print(f'Cannot read ledger: {error}', file=sys.stderr)
         return 2
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    return 0 if result['coverage_complete'] else 1
+    return 0 if result['coverage_complete'] and result['decision_valid'] else 1
 
 
 if __name__ == '__main__':

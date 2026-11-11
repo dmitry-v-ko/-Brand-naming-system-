@@ -20,7 +20,7 @@ Use the host's actual tools. Some clients, including stock Pi, do not provide su
 
 ## Start with useful names
 
-If the brief is sufficient, begin with 2–3 contrasting directions or names, short reasons, concrete drawbacks and a recommendation. Ask only questions that materially change the creative direction. Offer broader menus and detailed research when useful or requested. An agent's provisional choice is not user delegation.
+Show the complete [onboarding method overview](docs/SESSION_PROTOCOL.md#onboarding-method-overview) once in a new exploration. If the brief is sufficient, continue with 2–3 contrasting directions or names, short reasons, concrete drawbacks and a recommendation. Ask only questions that materially change the creative direction. Offer broader menus and detailed research when useful or requested. An agent's provisional choice is not user delegation.
 
 Research-enabled methods require actual accessible sources. Separate attested words, adapted forms and inventions from the evidence supporting their ingredients. Preserve citations and uncertainty internally; show a concise source story by default. A verified rare word may be used unchanged. Do not invent etymologies, historic attestations, author intent, audio observations or audience responses.
 

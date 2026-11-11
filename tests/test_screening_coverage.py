@@ -111,5 +111,80 @@ class CoverageTests(unittest.TestCase):
         self.assertFalse(coverage.validate(data)['coverage_complete'])
 
 
+class DecisionTests(unittest.TestCase):
+    def decision_ledger(self, status='continue'):
+        data = ledger()
+        data['risk_boundary'] = {'mode': 'balanced', 'user_selection_turn': 'user-4'}
+        data['decision'] = {'status': status, 'reason': 'No substantial obstacle in the checked scope.',
+                            'next_action': 'User: compare the screened shortlist.'}
+        return data
+
+    def test_legacy_coverage_does_not_authorize_a_decision(self):
+        result = coverage.validate(ledger())
+        self.assertTrue(result['coverage_complete'])
+        self.assertFalse(result['decision_valid'])
+
+    def test_continue_requires_user_selected_boundary(self):
+        data = self.decision_ledger()
+        self.assertTrue(coverage.validate(data)['decision_valid'])
+        for boundary in ({'mode': 'balanced'}, {'mode': None, 'user_selection_turn': None},
+                         {'mode': 'invented', 'user_selection_turn': 'user-4'}):
+            data['risk_boundary'] = boundary
+            self.assertFalse(coverage.validate(data)['decision_valid'])
+
+    def test_pending_boundary_allows_clarification_without_approval(self):
+        data = self.decision_ledger('clarify')
+        data['risk_boundary'] = {'mode': None, 'user_selection_turn': None}
+        data['decision'].update(reason='Boundary not chosen.', next_action='User: select a risk boundary.')
+        self.assertTrue(coverage.validate(data)['decision_valid'])
+        data['decision']['next_action'] = ''
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+        data['decision']['next_action'] = 'User: select a boundary.'
+        data['risk_boundary'] = {}
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+
+    def test_continue_cannot_hide_incomplete_coverage(self):
+        data = self.decision_ledger()
+        data['scope_gaps'] = ['Market use not checked']
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+        data['decision']['status'] = 'not_checked'
+        self.assertTrue(coverage.validate(data)['decision_valid'])
+
+    def test_negative_decision_requires_confirmed_basis_but_not_complete_coverage(self):
+        data = self.decision_ledger('do_not_recommend')
+        data['scope_gaps'] = ['Other territories not checked']
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+        data['decision']['confirmed_basis'] = 'UKIPO:UK1'
+        data['findings'] = [{'record_id': 'UKIPO:UK1', 'material': True,
+            'primary_verified': True, 'source_url': 'https://example.org/record',
+            'next_action': 'User: consider another shortlisted candidate.'}]
+        result = coverage.validate(data)
+        self.assertTrue(result['decision_valid'])
+        self.assertFalse(result['coverage_complete'])
+
+    def test_negative_basis_must_reference_confirmed_material_finding(self):
+        data = self.decision_ledger('do_not_recommend')
+        data['decision']['confirmed_basis'] = 'UKIPO:UK1'
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+        data['findings'] = [{'record_id': 'UKIPO:UK1', 'material': True,
+            'primary_verified': False, 'source_url': 'https://example.org/record',
+            'next_action': 'Agent: inspect primary source.'}]
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+
+    def test_strict_continue_requires_defined_constraints(self):
+        data = self.decision_ledger()
+        data['risk_boundary']['mode'] = 'strict'
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+        data['risk_boundary'].update(priority_markets=['UK'], categories=['financial services', 'financial software'],
+            key_domains=['example.org'], domain_strategy='Available key domain; source in report.')
+        self.assertTrue(coverage.validate(data)['decision_valid'])
+
+    def test_no_legacy_verdict_or_empty_reason(self):
+        data = self.decision_ledger('potential conflict')
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+        data['decision'].update(status='clarify', reason='')
+        self.assertFalse(coverage.validate(data)['decision_valid'])
+
+
 if __name__ == '__main__':
     unittest.main()
