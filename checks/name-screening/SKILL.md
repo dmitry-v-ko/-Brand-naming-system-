@@ -57,6 +57,8 @@ Age or possible non-use is a **question for counsel**, not automatic availabilit
 
 ## 5. Report bounded findings
 
+Write report headings, findings and recommendations in the session's `conversation_language`, even though this library/template is English. Preserve exact names and source quotes; customer-facing examples use `customer_language`. Before delivery, run the [report language check](../session/README.md#report-language) and review actual prose/examples as specified there. A correctly labeled English report is still invalid in a Russian conversation unless the user requested that language change.
+
 Reconcile the planned queries against the selected scope and run the [coverage validator](COVERAGE.md) before claiming complete coverage. Preserve its issues in the report. If it cannot run, perform the same reconciliation manually and label that limitation. Counts, settled state and next-action presence are mechanically checked; legal similarity, source truth and omitted scope still require judgment. Incomplete is a valid report outcome, not a reason to conceal a material finding or loop indefinitely.
 
 Lead with exact candidate, scope/date, selected boundary (or pending) and one of the four [decision statuses](RISK_BOUNDARY.md#findings-and-decisions): **Continue**, **Clarify**, **Do not recommend**, **Not checked**. Use the conversation-language labels. Show rights, market distinguishability and practicality separately. Coverage completeness and potential-conflict evidence are separate fields, not competing final statuses. Validate both coverage and the decision contract; missing user selection cannot silently become balanced mode. A confirmed material obstacle can support a negative decision despite incomplete coverage, while an isolated hit cannot.
@@ -68,6 +70,8 @@ Summarize significant exact matches and neighbors, per-territory findings/limita
 Creative previews may be unchecked if clearly labeled. Before a final recommendation, screen the candidate/shortlist or explicitly report incomplete/unperformed checks and limit the recommendation to a creative working choice. A directly requested unchecked export is allowed with gaps beside the names; do not invent a permission gate. A selected profile may require stricter registry-before-preview/acceptance ordering; honor it and withhold unscreened recommendations when that profile requires it.
 
 Persist check ID, scope revision, selected boundary, decision status, coverage, date and report link alongside each candidate in the shortlist/export. Keep lexical evidence status separate. Never remove a favorite without user instruction merely because its check found a concern; record the concern and options. Offer decision-history updates with reasons/dates; apply any document-change convention only inside the explicitly selected tenant, not globally.
+
+Refresh both current state blocks and run the [state check](../session/README.md#current-state) before confirming the write; appending this report's result to the journal alone leaves the current header stale.
 
 ## Source limits
 

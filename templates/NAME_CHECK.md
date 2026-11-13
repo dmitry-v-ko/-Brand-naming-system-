@@ -2,6 +2,12 @@
 
 Template only. Actual records belong outside this library. This is a dated screening report, not legal clearance.
 
+Translate all narrative headings, findings and recommendations into the session's conversation language. Keep names and exact quotes unchanged; customer examples use the customer language. Fill this metadata from current state and run the [report language check](../checks/session/README.md#report-language) before delivery; stable keys are not translated.
+
+```report-language
+{"narrative": null, "customer_examples": null}
+```
+
 - check_id / candidate_id / exact_display_form:
 - checked_at / scope_revision / current_or_stale:
 - selected_profile_path_and_revision / selection_turn: none unless explicitly selected

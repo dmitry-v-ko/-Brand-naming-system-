@@ -4,29 +4,38 @@ Template only. Copy for a new session outside the checkout; never overwrite an e
 
 ## Session and active state
 
-- session_id:
-- session_directory: (absolute path outside library)
-- received_through: latest actually received user turn ID; no future fixture access
-- brand_brief: offer; audience; voice; exclusions; pronunciation; assumptions
-- conversation_language:
-- customer_language:
-- language_basis: received user turn or provisional assumption; unresolved choices remain unknown
-- category_descriptor: shared customer-language descriptor; see the session language contract
-- active_tenant_profile: none unless explicitly selected; path / revision / selection turn
-- name_checks: candidate ID → check ID / scope revision / selected boundary / decision status / coverage / date / report path; unknown is not cleared
-- onboarding_methods_shown: displayed active method IDs / response turn; unknown means not recorded, not proof of prior display
-- current_stage: BRIEF
-- active_branch: none
-- active_method: none
-- active_universe: none
-- latest_user_decision: received turn ID; original-language exact quote; separately labeled summary if useful
-- delegated_choices: received delegation turn ID and scope, if any; unknown/none is valid
-- agent_provisional_choices: inferred branch/method/universe, reason and assumptions; never label as user preference or delegation
-- candidate_pool_summary: unique IDs; total = conforming (retained + parked + rejected) + diagnostics; by branch/form/evidence; label worker/conductor assessment layer; saved subset
-- favorites: candidate IDs; shortlist is authoritative for saved details
-- rejected_directions: direction, reason, user turn ID or explicitly agent assessment
-- unexplored_ideas: concrete pending leads, not previously executed claims
-- next_options: deepen; new universe; switch; combine; revisit; shortlist; stop
+Replace this current block after every meaningful write and copy it identically to the other session file. Fill known facts from received turns; `null` means unknown. Keep an inline brief with offer, audience, scope, voice, exclusions and assumptions. See the [state schema and check](../checks/session/README.md#current-state). Historical decisions belong below, not in another current block.
+
+```session-state
+{
+  "session_id": null,
+  "session_directory": null,
+  "received_through": null,
+  "brand_brief": null,
+  "conversation_language": null,
+  "customer_language": null,
+  "language_basis": null,
+  "category_descriptor": null,
+  "active_tenant_profile": null,
+  "name_checks": {},
+  "onboarding_methods_shown": null,
+  "current_stage": "BRIEF",
+  "active_branch": null,
+  "active_method": null,
+  "active_universe": null,
+  "latest_user_decision": {
+    "turn": null,
+    "quote": null
+  },
+  "delegated_choices": null,
+  "agent_provisional_choices": [],
+  "candidate_pool_summary": null,
+  "favorites": [],
+  "rejected_directions": [],
+  "unexplored_ideas": [],
+  "next_options": []
+}
+```
 
 ## Branch tree / explored paths
 
