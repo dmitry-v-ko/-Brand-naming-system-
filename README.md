@@ -6,6 +6,10 @@
 
 Turn your AI agent into a naming partner — with 18 creative methods, unexpected word discoveries, and a shortlist you control.
 
+**Create names. Explore available domains. Screen for potential trademark conflicts.**
+
+[Preliminary trademark and domain checks →](#preliminary-trademark-and-domain-checks)
+
 [![Methods: 18](https://img.shields.io/badge/methods-18-345A49?style=flat-square)](docs/METHOD_CATALOG.md)
 [![Format: Markdown](https://img.shields.io/badge/format-Markdown-3B5268?style=flat-square)](SKILL.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-8A633C?style=flat-square)](LICENSE)
@@ -23,10 +27,10 @@ Naming a startup, product or service? Start with your idea. Brand Naming System 
 Discover a word in old navigation. Borrow a construction from literature. Build a new name around its sound. Follow the direction that feels right — and keep the others for later.
 
 - **Explore different ways to name the same idea.** Compare three suitable methods or run all 18 with dedicated subagents.
+- **Check trademarks and explore available domains.** Request preliminary searches for potential trademark conflicts in your target markets and domain availability for your preferred extensions, where research tools permit. See dated findings and unchecked gaps before committing to a name.
 - **Understand each candidate.** See why it fits, how it was formed, and where pronunciation, meaning or associations may let it down.
 - **Find vocabulary beyond your industry.** Explore worlds such as bookbinding, sailing, cloud forms and historical language, with sources for researched meanings.
 - **Keep creative control.** Deepen a promising branch, combine methods, revisit earlier ideas and save only the names you explicitly choose.
-- **Know what still needs checking.** Preliminary screening separates market findings, possible conflicts and gaps in the evidence.
 
 Speak in your own language; create **English-language brand names**. You do not need to know naming terminology to begin.
 
@@ -105,7 +109,17 @@ These are illustrative briefs and candidates, not cleared brand recommendations.
 
 Ask to deepen a direction, compare favorites or check a candidate at any stage. The agent preserves explored branches and records a name in your shortlist only when you explicitly select it.
 
-Before a development recommendation, it takes a bounded look at relevant market neighbors. Before a final recommendation, it runs [preliminary screening](checks/name-screening/SKILL.md) covering language, brief fit, market context and scoped trademark searches where tools permit. You choose the [occupancy boundary](checks/name-screening/RISK_BOUNDARY.md): soft coexistence, balanced independent brand, or strict high uniqueness. An existing use or taken domain is assessed in that context.
+### Preliminary trademark and domain checks
+
+**Build your shortlist with a clearer view of potential conflicts and domain options.** Before a final recommendation, the agent runs [preliminary screening](checks/name-screening/SKILL.md), where research tools permit:
+
+- **Trademarks:** search relevant registries for exact and similar marks within the agreed markets and goods/services scope; flag potential conflicts for further review.
+- **Domains:** check availability of requested names and extensions, distinguish taken domains from unverified ones, and assess options against your domain requirements.
+- **A traceable result:** report sources, check dates, scope and missing coverage alongside language, brief-fit and market findings. Unchecked items stay explicitly marked.
+
+You choose the [occupancy boundary](checks/name-screening/RISK_BOUNDARY.md): soft coexistence, balanced independent brand, or strict high uniqueness. An existing use or taken domain is assessed in that context. A lighter market look also precedes a development recommendation.
+
+Domain availability can change and does not establish trademark rights. These are preliminary checks, not legal clearance; the workflow does not register trademarks or buy domains.
 
 Session notes and `SHORTLIST.md` live outside the public library. Ask **“Show my shortlist and its file location”** to find them, or request a Markdown export when file writing is unavailable.
 
