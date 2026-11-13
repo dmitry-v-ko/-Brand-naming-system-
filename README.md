@@ -1,5 +1,7 @@
 <div align="center">
 
+![Brand Naming System — editorial collage in GxG colors, with 18 creative methods](assets/brand-naming-cover.jpg)
+
 # Brand Naming System
 
 **Find a name worth building a brand around.**
@@ -58,11 +60,23 @@ Replace the second sentence with your idea, in any language. The agent introduce
 
 ## Choose how far to explore
 
-| Mode | Ask for | What happens |
-|---|---|---|
-| **Focused: 3 methods** | “Use three suitable methods and compare the strongest names.” | Three methods address the same brief from different angles. |
-| **Broad: all 18** | “Run all 18 methods, one subagent per method.” | Each method gets a dedicated worker and the same brief; the conductor brings the results together for comparison. |
-| **Go deeper** | “Explore sailing, weaving and watchmaking.” | Develop selected word worlds, with one worker per world when parallel execution is available. |
+### Focused: 3 methods
+
+Ask: **“Use three suitable methods and compare the strongest names.”**
+
+Three methods address the same brief from different angles.
+
+### Broad: all 18
+
+Ask: **“Run all 18 methods, one subagent per method.”**
+
+Each method gets a dedicated worker and the same brief; the conductor brings the results together for comparison.
+
+### Go deeper
+
+Ask: **“Explore sailing, weaving and watchmaking.”**
+
+Develop selected word worlds, with one worker per world when parallel execution is available.
 
 Limited concurrency queues the workers. Hosts without subagents, including stock Pi, offer a clearly stated sequential alternative. Broader exploration uses more time and model work; it does not guarantee a better name.
 
@@ -72,36 +86,40 @@ You can keep developing a direction without choosing another mode. Names are ass
 
 Each method includes a step-by-step procedure, worked examples, comparison criteria and ways to recover when a direction runs thin.
 
-| # | Method | Creative move |
-|---|---|---|
-| 1 | [Whole-word compounding](skills/intact-word-compounding/SKILL.md) | Join complete words into a new idea: **open + bench → Open Bench**. |
-| 2 | [Fragment blending](skills/fragment-blending/SKILL.md) | Cut two words and join their meaning-bearing fragments. |
-| 3 | [Overlap telescoping](skills/overlap-telescoping/SKILL.md) | Fuse words through a shared ending and beginning, using the overlap once. |
-| 4 | [Clipping](skills/clipping/SKILL.md) | Shorten one word by removing its beginning or ending. |
-| 5 | [Prefix attachment](skills/prefix-attachment/SKILL.md) | Add a prefix to change a stem's stance or meaning. |
-| 6 | [Suffix attachment](skills/suffix-attachment/SKILL.md) | Add an ending to shape a stem's role, character or rhythm. |
-| 7 | [Syllable recombination](skills/syllable-recombination/SKILL.md) | Arrange a bank of spoken syllables into new words. |
-| 8 | [Phonetic invention](skills/phonetic-invention/SKILL.md) | Build a name from sounds, syllable structure and stress. |
-| 9 | [Lexical research](skills/lexical-research/SKILL.md) | Find existing words whose supported meanings fit the brief. |
-| 10 | [Cross-language mining](skills/cross-language-mining/SKILL.md) | Explore other languages, verify meanings and assess English adaptation. |
-| 11 | [Metaphor mining](skills/metaphor-mining/SKILL.md) | Turn the brand promise into an image from another domain. |
-| 12 | [Historical lexical archaeology](skills/historical-lexical-archaeology/SKILL.md) | Recover words through dated senses, spellings and historical context. |
-| 13 | [Etymological archaeology](skills/etymological-archaeology/SKILL.md) | Follow documented word histories to meaningful naming ingredients. |
-| 14 | [Literary word formation](skills/literary-word-formation/SKILL.md) | Study how writers construct words, then apply the pattern to new material. |
-| 15 | [Corpus contrast](skills/corpus-contrast/SKILL.md) | Compare two text collections to uncover distinctive vocabulary. |
-| 16 | [Onomatopoeic naming](skills/onomatopoeic-naming/SKILL.md) | Translate a sound event into a spoken name. |
-| 17 | [Reduplication](skills/reduplication/SKILL.md) | Repeat or echo a unit to create rhythm and character. |
-| 18 | [Respelling](skills/respelling/SKILL.md) | Change a word's spelling while keeping its intended pronunciation. |
+1. **[Whole-word compounding](skills/intact-word-compounding/SKILL.md).** Join complete words into a new idea: **open + bench → Open Bench**.
+2. **[Fragment blending](skills/fragment-blending/SKILL.md).** Cut two words and join their meaning-bearing fragments.
+3. **[Overlap telescoping](skills/overlap-telescoping/SKILL.md).** Fuse words through a shared ending and beginning, using the overlap once.
+4. **[Clipping](skills/clipping/SKILL.md).** Shorten one word by removing its beginning or ending.
+5. **[Prefix attachment](skills/prefix-attachment/SKILL.md).** Add a prefix to change a stem's stance or meaning.
+6. **[Suffix attachment](skills/suffix-attachment/SKILL.md).** Add an ending to shape a stem's role, character or rhythm.
+7. **[Syllable recombination](skills/syllable-recombination/SKILL.md).** Arrange a bank of spoken syllables into new words.
+8. **[Phonetic invention](skills/phonetic-invention/SKILL.md).** Build a name from sounds, syllable structure and stress.
+9. **[Lexical research](skills/lexical-research/SKILL.md).** Find existing words whose supported meanings fit the brief.
+10. **[Cross-language mining](skills/cross-language-mining/SKILL.md).** Explore other languages, verify meanings and assess English adaptation.
+11. **[Metaphor mining](skills/metaphor-mining/SKILL.md).** Turn the brand promise into an image from another domain.
+12. **[Historical lexical archaeology](skills/historical-lexical-archaeology/SKILL.md).** Recover words through dated senses, spellings and historical context.
+13. **[Etymological archaeology](skills/etymological-archaeology/SKILL.md).** Follow documented word histories to meaningful naming ingredients.
+14. **[Literary word formation](skills/literary-word-formation/SKILL.md).** Study how writers construct words, then apply the pattern to new material.
+15. **[Corpus contrast](skills/corpus-contrast/SKILL.md).** Compare two text collections to uncover distinctive vocabulary.
+16. **[Onomatopoeic naming](skills/onomatopoeic-naming/SKILL.md).** Translate a sound event into a spoken name.
+17. **[Reduplication](skills/reduplication/SKILL.md).** Repeat or echo a unit to create rhythm and character.
+18. **[Respelling](skills/respelling/SKILL.md).** Change a word's spelling while keeping its intended pronunciation.
 
 Methods can work together: discover a word, shorten it, then compare it with an independently invented sound. [The operational catalog](docs/METHOD_CATALOG.md) explains where each technique fits and how neighboring methods differ. [Word worlds](lexical-universes/UNIVERSES.md) supply fresh material without changing the method.
 
 ## See the creative range
 
-| Direction | Illustrative name | Why explore it — and what to question |
-|---|---|---|
-| A welcoming maker space | **Open Bench** · compounding | Familiar words suggest an accessible place to work; “bench” may imply a physical workshop. |
-| An evening writing room | **Gloaming** · historical discovery | An attested twilight word creates atmosphere; a “gloom” association may work against warmth. |
-| A precise, welcoming product | **Telo** · phonetic invention | Two open syllables offer a compact sound; an abstract form needs context to carry meaning. |
+**Open Bench — a welcoming maker space**
+
+*Compounding.* Familiar words suggest an accessible place to work; “bench” may imply a physical workshop.
+
+**Gloaming — an evening writing room**
+
+*Historical discovery.* An attested twilight word creates atmosphere; a “gloom” association may work against warmth.
+
+**Telo — a precise, welcoming product**
+
+*Phonetic invention.* Two open syllables offer a compact sound; an abstract form needs context to carry meaning.
 
 These are illustrative briefs and candidates, not cleared brand recommendations. [See their exact origins, transformations and drawbacks →](examples/METHOD_SHOWCASE.md)
 
