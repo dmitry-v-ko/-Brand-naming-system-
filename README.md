@@ -1,6 +1,6 @@
 <div align="center">
 
-![Brand Naming System — editorial collage in GxG colors, with 18 creative methods](assets/brand-naming-cover.jpg)
+![Brand Naming System — typographic multitool with NAMING engraved on the handle](assets/brand-naming-cover.png)
 
 # Brand Naming System
 
